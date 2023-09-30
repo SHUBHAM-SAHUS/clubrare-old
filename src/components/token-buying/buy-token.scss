@@ -1,0 +1,567 @@
+.buytoken_wrp {
+  background-color: #fafafa;
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+  font-family: 'Rubik';
+  h1 {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 700;
+  }
+  .mpwr_icon_wrp {
+    margin-top: 12px;
+    img {
+      margin: 0 auto;
+    }
+    p {
+      font-size: 12px;
+      line-height: 15px;
+      color: #4c4d4c;
+    }
+  }
+  .but_token_input_btn_wrp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 18px;
+    .btn_token_input_wrp {
+      position: relative;
+      .btn_token_input {
+        background-color: #ffffff;
+        border-radius: 40px;
+        border: 1px solid #b2b2b0;
+        padding: 8px 65px 8px 16px;
+      }
+      .btn_token_input::placeholder {
+        color: #202020;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .btn_token_input:focus {
+        width: unset;
+      }
+      p {
+        color: #202020;
+        font-size: 16px;
+        line-height: 24px;
+        position: absolute;
+        right: 6%;
+        top: 15%;
+      }
+      span {
+        color: #b2b2b0;
+        font-size: 15px;
+        line-height: 15px;
+        display: block;
+        text-align: left;
+        margin-top: 4px;
+      }
+    }
+    button {
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 500;
+      color: #ffffff;
+      background-color: #202020;
+      padding: 8px 38px 8px;
+      border-radius: 24px;
+      margin-left: 16px;
+      word-break: break-word;
+    }
+
+    .disable_buy_btn {
+      pointer-events: none !important;
+      opacity: 0.5;
+    }
+  }
+}
+.token_launch_right {
+  .whitelist_search {
+    min-height: 291.78px;
+    span {
+      color: #4c4d4c;
+    }
+    .reward_btn_wrp {
+      margin-bottom: unset;
+    }
+  }
+  .reward_stack_inn {
+    .club_token_search {
+      input {
+        width: 100%;
+        border-radius: 40px;
+        padding: 8px 16px !important;
+        border: 2px solid #b2b3b0;
+        outline: none;
+        background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/images/search.svg');
+        background-position: right 20px center;
+        background-repeat: no-repeat;
+        background-size: 17px 17px;
+        font-weight: 400;
+
+        &::placeholder {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #b2b2b0;
+        }
+      }
+    }
+
+    .disablebtn {
+      pointer-events: none !important;
+      opacity: 0.5;
+    }
+  }
+}
+.token_launch_left {
+  .reward_col_inner {
+    margin-top: unset;
+  }
+}
+.harvest_modal {
+  .modal-content {
+    .modal-header {
+      button.btn-close {
+        background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/images/hamburger_close.svg');
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 30px;
+        background-position: right center;
+      }
+    }
+    border: unset;
+    border-radius: 24px;
+    .modal-body {
+      min-height: unset;
+      padding: 10px 30px 15px;
+    }
+    .modal-footer {
+      .blkfull_btn {
+        width: unset;
+      }
+    }
+  }
+}
+
+.fnt_size_lbl {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.fnt_size_errmsg {
+  font-size: 14px;
+  // font-weight:600;
+}
+
+//reward scss
+
+.ilo_page_wrp .reward_col_inner {
+  width: 425px !important;
+  margin: 0 auto;
+}
+.reward_stack_wrp {
+  h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #202020;
+  }
+  .reward_col_inner {
+    background-color: #fafafa;
+    border-radius: 16px;
+    padding: 30px 20px 20px;
+  }
+  .reward_stack_inn {
+    label {
+      display: block;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+      display: block;
+      margin-top: 4px;
+      color: #202020;
+    }
+    .reward_input_wrp {
+      input {
+        border-radius: 40px;
+        border: 1px solid #b2b2b0;
+        padding: 8px 70px 8px 16px;
+        width: 100%;
+        // background-image: url(../../assets/images/ETH.svg);
+        background-repeat: no-repeat;
+        background-position: right 16px center;
+        &::placeholder {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #202020;
+        }
+      }
+      .mpwr {
+        position: absolute;
+        right: 15px;
+        top: 12%;
+        font-size: 16px;
+        line-height: 21px;
+        color: #202020;
+        font-weight: 400;
+      }
+    }
+    .reward_btn_wrp {
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 8px;
+      width: 29%;
+      word-break: break-word;
+      text-align: right;
+      .crtbtn {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 500;
+        background-color: #202020;
+        color: #fff;
+        cursor: pointer;
+        margin-left: 5px;
+        text-align: center;
+        padding: 8px 15px;
+        border-radius: 24px;
+        text-decoration: none;
+        border: none;
+        width: 100%;
+      }
+    }
+    .mrg_unset {
+      margin-bottom: unset;
+    }
+    span {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 120%;
+      color: #b2b3b0;
+      display: block;
+      margin-top: 4px;
+    }
+  }
+}
+.reward_coll_wrp {
+  .reward_coll_inn {
+    h2 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 33px;
+    }
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 33px;
+    }
+    .earn_text {
+      font-size: 16px;
+      line-height: 22px;
+      margin: 6px 0 5px;
+    }
+    .collreward_btn_wrp {
+      .col-lg-7.col-md-7,
+      .col-lg-5.col-md-5 {
+        .rew_text {
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 18px;
+          color: #4c4d4c;
+        }
+        h4 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          margin-bottom: 3px;
+        }
+      }
+      .collreward_btn {
+        margin-bottom: 20px;
+        button {
+          font-size: 14px;
+          line-height: 21px;
+          font-weight: 500;
+          background-color: #202020;
+          color: #fff;
+          cursor: pointer;
+          text-align: center;
+          padding: 8px 15px;
+          border-radius: 24px;
+          text-decoration: none;
+          border: none;
+          width: 100%;
+        }
+        .tred_text {
+          font-size: 12px;
+          line-height: 15px;
+          font-weight: bold;
+          margin-top: 5px;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+.stack_club_token .reward_col_inner {
+  margin-top: 30px;
+}
+.Polltoken_stack_wrp .reward_col_inner {
+  min-height: 565px;
+}
+.Polltoken_stack_wrp .reward_col_inner.liquidity_ilo {
+  min-height: unset;
+}
+.token_launch_right.Polltoken_stack_wrp .reward_col_inner {
+  min-height: unset;
+}
+.tvl_wrp {
+  h6 {
+    word-break: break-word;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    display: block;
+    margin-top: 4px;
+    color: #202020;
+  }
+  h6:nth-child(2) {
+    text-align: right;
+  }
+}
+.reward_liquidity_wrp {
+  margin-top: 20px;
+  .col-4.col-8 {
+    align-items: center;
+  }
+  .col-4 {
+    text-align: right;
+  }
+  a {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    background-color: #202020;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    padding: 2px 16px;
+    border-radius: 24px;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    word-break: break-word;
+    display: inline-block;
+  }
+}
+.polling_stack_wrp .single_switch_wrp,
+.polling_stack_wrp .reward_input_wrp,
+.polling_stack_wrp .reedemable-section,
+.tvl_wrp,
+.reedemable-section {
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin: 4px 0 0;
+    color: #202020;
+    word-break: break-word;
+  }
+  h2,
+  h6 {
+    color: #b2b3b0;
+    font-size: 14px;
+    line-height: 20px;
+    word-break: break-word;
+  }
+}
+.polling_stack_wrp .reward_input_wrp {
+  .select-nft-dropdown-menu-align-right {
+    button {
+      font-size: 16px;
+      line-height: 18px;
+      border: 1px solid #202020 !important;
+      padding: 1px 6px;
+      word-break: break-word;
+    }
+  }
+}
+.reedemable-section {
+  display: block;
+  h3 {
+    text-align: left;
+  }
+  span {
+    display: block;
+    border: 1px solid #202020;
+    border-radius: 16px;
+    margin: 5px 0;
+    text-align: center;
+    label {
+      margin: 0;
+      width: 100%;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+}
+.stack_btn_wrp {
+  text-align: center;
+}
+.reward_input_wrp.row {
+  margin: 40px 0;
+}
+// responsive
+@media only screen and (max-width: 1199px) {
+  .reward_stack_wrp {
+    .col-6 {
+    }
+    .reward_col_inner {
+      h2 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        padding-left: 10px;
+      }
+    }
+  }
+  .reward_coll_inn {
+    .col-6 {
+      margin-bottom: 0;
+    }
+  }
+  .Polltoken_stack_wrp {
+    .col-lg-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  .token_launch_right .whitelist_search {
+    margin-bottom: 30px;
+  }
+  .reward_input_wrp.row {
+    margin: 0;
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+  .reward_stack_wrp {
+    .reward_col_inner {
+      h2 {
+        padding-left: unset;
+        font-size: 23px;
+        line-height: 28px;
+      }
+    }
+  }
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .reward_stack_wrp {
+    .reward_col_inner {
+      .reward_input_wrp {
+      }
+      .reward_btn_wrp {
+        margin-left: unset;
+        width: 33%;
+        .crtbtn {
+          padding: 8px 10px;
+        }
+      }
+    }
+  }
+  .token_launch_right .reward_col_inner .reward_btn_wrp {
+    margin-left: 9px;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .reward_stack_wrp {
+    .reward_col_inner {
+      .reward_input_wrp {
+      }
+      .reward_btn_wrp {
+        margin-left: 10px;
+        width: 32%;
+        .crtbtn {
+        }
+      }
+    }
+  }
+  .collreward_btn_wrp .col-lg-5.col-md-5.text-right {
+    text-align: left !important;
+    margin: 4px 0;
+  }
+  .reward_stack_wrp {
+    .reward_stack_inn {
+      .reward_input_wrp {
+        width: 100%;
+      }
+      .reward_btn_wrp {
+        margin-left: unset;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 4px;
+        .crtbtn {
+          margin-left: unset;
+        }
+      }
+    }
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .ilo_page_wrp .reward_col_inner {
+    width: unset !important;
+  }
+  .reward_coll_wrp {
+    .collreward_btn_wrp {
+      flex: unset;
+      max-width: 100%;
+      text-align: left;
+    }
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .reward_stack_wrp {
+    .reward_col_inner {
+      .reward_input_wrp {
+        width: 100%;
+      }
+      .reward_btn_wrp {
+        .crtbtn {
+          padding: 8px 10px;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  .reward_liquidity_wrp,
+  .reward_coll_wrp,
+  .reward_input_wrp {
+    .col-8 {
+      margin-bottom: 5px;
+    }
+    .col-8,
+    .col-4,
+    .collreward_btn_wrp,
+    .col-6 {
+      flex: unset;
+      max-width: 100%;
+      text-align: left !important;
+    }
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+} /* 320 */
+
+.disablebtn {
+  pointer-events: none !important;
+  opacity: 0.5;
+}

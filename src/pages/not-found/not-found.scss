@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Helvetica Neue LT Pro 97 Black Condensed';
+  src: url('../../assets/fonts/620491a9813db417e6c08825173c562b.eot'); /* IE9*/
+  src: url('../../assets/fonts/620491a9813db417e6c08825173c562b.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.woff2')
+      format('woff2'),
+    /* chrome、firefox */
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.woff')
+      format('woff'),
+    /* chrome、firefox */
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.ttf')
+      format('truetype'),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.svg#Helvetica Neue LT Pro 97 Black Condensed')
+      format('svg'); /* iOS 4.1- */
+}
+.not_found_page_wrp
+  main.main-container.w-full.pb-40.lg\:pb-4.lg\:pt-10.connact_wallet_wrp.home_page_wrp {
+  padding: unset;
+}
+.not_found_page_wrp {
+  user-select: none;
+  .not_found_wrp {
+    background-color: #f6f6f6;
+    padding: 175px 0;
+    .not_found {
+      text-align: center;
+      img {
+        margin: 0 auto;
+      }
+      h1 {
+        font-family: 'Helvetica Neue LT Pro 97 Black Condensed' !important;
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 34px;
+        margin-top: 40px;
+        text-transform: uppercase;
+      }
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 15px 0 11px;
+      }
+      .not_found_btn {
+        a {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: #f6f6f6;
+          background-color: #141414;
+          padding: 8px 24px;
+          border-radius: 24px;
+          text-decoration: none;
+          display: inline-block;
+          vertical-align: middle;
+          max-width: 300px;
+          word-break: break-word;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+}
+// responsive
+@media only screen and (max-width: 1199px) {
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+  .not_found_page_wrp
+    main.main-container.w-full.pb-40.lg\:pb-4.lg\:pt-10.connact_wallet_wrp.home_page_wrp {
+    margin-top: 70px !important ;
+  }
+  .not_found_page_wrp .not_found_wrp {
+    padding: 140px 0;
+  }
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .not_found_page_wrp
+    main.main-container.w-full.pb-40.lg\:pb-4.lg\:pt-10.connact_wallet_wrp.home_page_wrp {
+    margin-top: unset !important ;
+  }
+  .not_found_page_wrp .not_found_wrp {
+    padding: 100px 0;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .not_found_page_wrp .not_found_wrp .not_found h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 25px;
+  }
+  .not_found_page_wrp .not_found_wrp .not_found img {
+    width: 40px;
+  }
+  .not_found_page_wrp .not_found_wrp {
+    padding: 80px 0;
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .not_found_page_wrp .not_found_wrp {
+    padding: 60px 0;
+  }
+} /* 375 */

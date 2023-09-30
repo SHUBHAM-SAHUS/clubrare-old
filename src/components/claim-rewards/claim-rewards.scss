@@ -1,0 +1,92 @@
+@import '../../global-color.scss';
+
+.clr {
+  color: $ClrRed;
+}
+
+.claim_rewards_wrp {
+  background-color: #fffae5;
+  border-radius: 16px;
+  padding: 32px;
+
+  .claim_rewards_inner {
+    .img_wrp {
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 38px;
+    }
+    .claim_btn_wrp {
+      button {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        border-radius: 24px;
+        padding: 8px 24px;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 500;
+        border: 2px solid #202020;
+      }
+      a {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        &:hover {
+          color: #202020;
+        }
+        color: #007bff !important;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+// responsive
+@media only screen and (max-width: 1199px) {
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+  .claim_rewards_wrp {
+    .claim_rewards_inner {
+      h2 {
+        font-size: 28px;
+        line-height: 32px;
+        padding-left: 10px;
+      }
+    }
+  }
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .claim_rewards_wrp {
+    .claim_rewards_inner {
+      h2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-left: 10px;
+      }
+    }
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .reward_coll_wrp .reward_col_inner,
+  .reward_coll_wrp .reward_coll_inn .collreward_btn_wrp .col-lg-5.col-md-5 h4 {
+    text-align: center;
+    margin: 0;
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .claim_rewards_wrp {
+    padding: 32px 24px;
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+  .claim_rewards_wrp .claim_rewards_inner h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+} /* 320 */

@@ -1,0 +1,406 @@
+.stake_admin_page_wrp {
+  padding: 20px 0 0;
+  font-family: 'Rubik';
+  .stake_admin_wrp {
+    width: 90%;
+    margin: 0 auto;
+    .text-danger.errfnt {
+      font-size: 12px;
+      text-align: left;
+    }
+  }
+  .reward_card .reward_admin_sale,
+  .liquidity_wrp .reward_admin_sale {
+    border-top: 0 !important;
+    margin-top: 0 !important;
+    padding-top: 10px !important;
+  }
+
+  .reward_admin_sale .pool_dropdown_style {
+    border-radius: 50px;
+    padding: 0 31px 0 5px;
+    border: 1px solid #d9d9d6;
+    float: right;
+  }
+  .reward_admin_sale .pool_select_style {
+    padding-bottom: 20px;
+  }
+
+  .reward_admin_sale .pool_text_style{
+    padding-left: 73%;
+  }
+  .reward_admin_card_wrp.reward_card .limit_token_wrp {
+    margin-bottom: 25px;
+  }
+  .reward_admin_sale table th {
+    font-size: 13px;
+    line-height: 15px;
+    background-color: transparent;
+  }
+  .reward_admin_sale table td {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .reward_admin_sale table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .reward_admin_sale table tr {
+    display: block;
+    margin-bottom: 4px;
+    word-break: break-word;
+  }
+ 
+
+  .reward_admin_sale .hide_pool_select:nth-child(1) {
+    display: none;
+  
+  }
+  .reward_admin_sale table tr th,
+  .reward_admin_sale table tr td {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .reward_admin_sale table .locktime {
+    width: 30%;
+  }
+  .reward_admin_sale table .aprvalue {
+    width: 40%;
+    padding: 0 10px;
+  }
+  .reward_admin_sale table .tvlwrp {
+    width: 20%;
+  }
+  .checkboxwrp input[type='checkbox']:hover {
+    cursor: pointer;
+  }
+  .aprvalue span {
+    color: red;
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+    text-align: left;
+  }
+  .aprvalue input {
+    border: 1px solid #b2b3b0;
+    border-radius: 40px;
+    padding: 6px 16px;
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+  }
+  .liquidity_detail_wrp {
+    margin-top: 25px;
+  }
+  .liquidity_detail_wrp span strong {
+    color: #000;
+  }
+  .liquidity_detail_wrp span {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+    line-height: 15px;
+    color: #b2b3b0;
+    margin: 2px 0;
+  }
+  .stake_admin_wrp {
+    .tvl_wrp {
+      margin-bottom: 15px;
+      display: block;
+    }
+    .tvl_wrp span {
+      font-size: 12px;
+      line-height: 15px;
+      font-weight: 400;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .tvl_wrp h4 {
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 500;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 700;
+      color: #202020;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .limit_token_wrp h3 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+      margin: 4px 0;
+    }
+    .limit_token_left_wrp p {
+      margin: 0px 0 6px;
+      font-size: 12px;
+      line-height: 14px;
+      font-weight: 600;
+      text-align: left;
+    }
+    .new_reward_admin {
+      .limit_token_right_wrp {
+        button {
+          margin-top: 0 !important;
+        }
+      }
+    }
+    .reward_admin {
+      text-align: center;
+      .reward_admin_card_wrp {
+        background-color: #fafafa;
+        padding: 24px;
+        border-radius: 16px;
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        margin-bottom: 40px;
+        position: relative;
+      }
+      .reward_admin_card_wrp .accordion-header button::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 15px;
+        background-image: url(https://d1gqvtt7oelrdv.cloudfront.net/assets/images/down-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 15px 9px;
+        width: 15px;
+        height: 9px;
+        margin: 0 auto;
+      }
+      .reward_admin_card_wrp
+        .accordion-header
+        button.accordion-button[aria-expanded='true']::before {
+        transform: rotate(180deg);
+      }
+      .reward_admin_sale {
+        border-top: 1px solid #d9d9d6;
+        padding-top: 20px;
+        .clubarare_loader {
+          padding-top: 0;
+        }
+        .switchlabel.roundswitchlabel {
+          vertical-align: text-top;
+        }
+        .start_sale_wrp {
+          margin-top: 20px;
+          .start_sale_left_wrp {
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              font-weight: 500;
+              color: #202020;
+            }
+          }
+          .start_sale_right_wrp {
+            .radio_btn_status {
+              font-size: 12px;
+              line-height: 18px;
+              font-weight: 500;
+              color: #b2b2b0;
+            }
+            .react-switch {
+              .react-switch-bg {
+                border-radius: 12px !important;
+                outline: 1px solid #b2b3b0;
+              }
+            }
+          }
+        }
+        .limit_token_wrp {
+          h4 {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+            color: #202020;
+          }
+          .limit_token_left_wrp {
+            input {
+              background-color: #ffffff;
+              border-radius: 40px;
+              border: 1px solid #b2b2b0;
+              padding: 8px 16px 8px 16px;
+              width: 100%;
+            }
+            input::placeholder {
+              font-size: 16px;
+              line-height: 24px;
+            }
+            input:focus {
+              border-color: #202020;
+            }
+            input:focus::placeholder {
+              color: transparent;
+            }
+          }
+          .limit_token_right_wrp {
+            button {
+              font-size: 14px;
+              line-height: 21px;
+              font-weight: 500;
+              color: #ffffff;
+              background-color: #202020;
+              padding: 8px 16px 8px;
+              width: 100%;
+              border-radius: 24px;
+              word-break: break-word;
+            }
+          }
+        }
+      }
+      .cmnsubbtn {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 500;
+        color: #ffffff;
+        background-color: #202020;
+        padding: 8px 16px 8px;
+        width: 100%;
+        border-radius: 24px;
+        word-break: break-word;
+      }
+    }
+  }
+  .disablebtn {
+    pointer-events: none !important;
+    opacity: 0.5;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .stake_admin_page_wrp .stake_admin_wrp {
+    padding: 30px 0 10px;
+  }
+  .stake_admin_page_wrp .stake_admin_wrp {
+    width: 100%;
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .stake_admin_page_wrp {
+    .stake_admin_wrp {
+      .reward_admin {
+        flex-wrap: wrap;
+      }
+      .reward_admin_card_wrp {
+        width: 100% !important;
+      }
+      .reward_admin_sale {
+        min-height: unset !important;
+      }
+    }
+  }
+  .participant_table_wrp {
+    .table-responsive {
+      overflow: auto;
+      white-space: nowrap;
+    }
+  }
+  .stake_admin_page_wrp .stake_admin_wrp {
+    padding: 0px;
+  }
+  // .reward_admin_card_wrp:nth-child(2) {
+  //   margin-top: 30px;
+  // }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .stake_admin_page_wrp .stake_admin_wrp .reward_admin {
+    display: block;
+  }
+  .reward_admin_card_wrp {
+    width: unset;
+  }
+  .stake_admin_page_wrp .stake_admin_wrp .reward_admin .reward_admin_sale {
+    min-height: unset;
+  }
+  .limit_token .limit_token_right_wrp {
+    padding-left: 15px !important;
+    button {
+      width: 100% !important ;
+      margin-top: 10px;
+    }
+  }
+  .stake_admin_page_wrp
+    .stake_admin_wrp
+    .reward_admin
+    .reward_admin_sale
+    .limit_token_wrp
+    .limit_token_right_wrp
+    button {
+    margin-top: 20px;
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .whitelist_modal .modal-dialog {
+    margin: 0 auto;
+    width: 88%;
+  }
+  .whitelist_modal .modal-dialog .modal-content .modal-body p {
+    width: unset;
+    padding-left: 0;
+    max-height: 200px;
+  }
+  .whitelist_modal .modal-dialog .modal-content {
+    padding: 15px 24px;
+  }
+  .whitelist_modal .modal-dialog .modal-content .modal-header {
+    margin-bottom: 10px;
+  }
+  .whitelist_modal .modal-dialog .modal-content .modal-footer {
+    margin-top: 10px;
+  }
+  .whitelist_modal .modal-dialog .modal-content .modal-footer button {
+    padding: 8px 35px;
+  }
+  .stake_admin_page_wrp .stake_admin_wrp .reward_admin .reward_admin_card_wrp {
+    padding: 24px 15px;
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .stake_admin_page_wrp
+    .stake_admin_wrp
+    .reward_admin
+    .reward_admin_sale
+    .limit_token_wrp
+    .limit_token_right_wrp
+    button {
+    padding: 8px 10px 8px;
+    width: 85px;
+  }
+  .whitelist_modal .modal-dialog .modal-content .modal-body {
+    min-width: unset;
+  }
+  .stake_admin_page_wrp
+    .stake_admin_wrp
+    .reward_admin
+    .reward_admin_sale
+    .limit_token_wrp,
+  .stake_admin_page_wrp
+    .stake_admin_wrp
+    .reward_admin
+    .reward_admin_sale
+    .wallet_address_wrp
+    button {
+    margin-top: 15px;
+  }
+  .stake_admin_page_wrp
+    .stake_admin_wrp
+    .reward_admin
+    .reward_admin_sale
+    .start_sale_wrp {
+    margin-bottom: 15px;
+  }
+  .wallet_address_wrp .frmsubbtnwrp {
+    display: block;
+  }
+
+ 
+} /* 375 */
+@media only screen and (max-width: 374px) {
+} /* 320 */

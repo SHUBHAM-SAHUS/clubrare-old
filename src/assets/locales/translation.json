@@ -1,0 +1,778 @@
+{
+  "en": {
+    "translation": {
+      "errors": {
+        "uploadFailed": "File upload was failed, please try again later.",
+        "default": "An Error was occurred, Please try again."
+      },
+      "header": {
+        "logo": {
+          "part1": "Club",
+          "part2": "Rare"
+        },
+        "rewards": "Rewards",
+        "explore": "Explore",
+        "liveAuctions": "Live Auctions",
+        "home": "Home",
+        "myItem": "My Items",
+        "selectedLang": "",
+        "langOption1": "English",
+        "langOption2": "Korean",
+        "notifications": "Notifications",
+        "offered": "offered",
+        "seeAll": "See All",
+        "WalletBalance": "Wallet Balance",
+        "Balance": "Balance",
+        "DisconnectWallet": "Disconnect Wallet",
+        "connect": "Connect",
+        "ConnectWallet": "Connect Wallet",
+        "search": "Search",
+        "guide": "Guide",
+        "lazyLeo": "Lazy Leo Club"
+      },
+      "sidebar": {
+        "home": {
+          "title": "Home",
+          "alt": "home icon"
+        },
+        "myItems": {
+          "title": "My Items",
+          "alt": "my items icon"
+        },
+        "create": {
+          "title": "Create",
+          "alt": "create icon"
+        }
+      },
+      "home": {
+        "banner": {
+          "logo": {
+            "part1": "Club",
+            "part2": "Rare"
+          },
+          "text": "In this box you promote artists’ artworks",
+          "viewArtwork": "View Artwork"
+        },
+        "topMembers": {
+          "top": "Top",
+          "sellers": "Sellers",
+          "buyers": "Buyers"
+        },
+        "explore": {
+          "title": "Explore",
+          "title1": "Upcoming Drops",
+          "title2": "Recent Drops",
+          "sortItems": {
+            "all": "All",
+            "FanArt": "FanArt",
+            "Photography": "Photography",
+            "FineArt": "FineArt",
+            "Food": "Food",
+            "Memes": "Memes"
+          },
+          "filterItems": {
+            "MostRecent": "Most Recent",
+            "Cheapest": "Cheapest",
+            "HighestPrice": "Highest Price",
+            "Sold": "Sold"
+          }
+        },
+        "LiveAuctions": "Live Auctions"
+      },
+      "connectWallet": {
+        "title": "Connect your wallet",
+        "text": "Connect with one of available wallet providers",
+        "signMessage": "Please sign nonce to complete your sign in process"
+      },
+      "create": {
+        "CreateACollectible": "Create a collectible",
+        "UploadYourArtwork": "Upload Your Artwork",
+        "Max30mb": "(Max 30mb)",
+        "ChooseFile": "Choose File",
+        "ChooseYourSalesModel": "Choose Your Sales Model",
+        "Price": "Price",
+        "PleaseEnterPrice": "Please Enter Price",
+        "MinimumBid": "Minimum Bid",
+        "StartingDate": "Starting Date",
+        "ExpirationDate": "Expiration Date",
+        "Title": "Title",
+        "28Characters": "28 Characters",
+        "PleaseEnterTitle": "Please Enter Title",
+        "Description": "Description",
+        "PleaseEnterDescription": "Please Enter Description",
+        "PleaseEnterCategory": "Please Enter Category",
+        "Category": "Category",
+        "Royalties": "Royalties",
+        "PleaseEnterRoyalties": "Please Enter Royalties",
+        "Properties": "Properties",
+        "Optional": "(Optional)",
+        "Size": "Size",
+        "PleaseEnterProperties": "Please Enter Properties",
+        "CreateItem": "Create item",
+        "Preview": "Preview",
+        "UploadFileToPreview": "Upload file to preview your brand new NFT",
+        "FixedPrice": "Fixed Price",
+        "Auction": "Auction",
+        "RightAfterListing": "Right after listing",
+        "1Day": "1 Day",
+        "Photography": "Photography",
+        "category2": "category2",
+        "chooseCollection": "Choose Collection"
+      },
+      "productPage": {
+        "auctionSummary": {
+          "sunlight": "Sunlight",
+          "TillEnd": "Till End",
+          "AuctionEnded": "Auction Ended",
+          "CurrentBid": "Current Bid",
+          "SoldFor": "Sold For",
+          "Price": "Price",
+          "MinimumBid": "Minimum Bid",
+          "currentBidText": "You must at least bis 1% higher than current bid.",
+          "minimumBidText": "You must at least bis 1% higher than minimum bid.",
+          "PleaseEnterAnAmount": "Please Enter An Amount",
+          "PlaceABid": "Place a Bid",
+          "BuyNow": "Buy Now"
+        },
+        "history": {
+          "BidPlacedBby": "Bid Placed by",
+          "SoldFor": "Sold for"
+        },
+        "Information": {
+          "CreatedBy": "Created by",
+          "Information": "Information",
+          "Edition": "Edition",
+          "of": "of",
+          "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.” Detail of a forgotten relic, broken off from the source and lost from memory. Featuring original sound and visual design by The Weeknd & Strangeloop Studios.",
+          "ViewOnopenSea": "View On openSea"
+        },
+        "PutOnSale": {
+          "FixedPrice": "Fixed Price",
+          "Auction": "Auction",
+          "rightAfterListing": "rightAfterListing",
+          "1Day": "1Day",
+          "ChooseYourSalesModel": "Choose Your Sales Model",
+          "Price": "Price",
+          "28Characters": "28 Characters",
+          "PleaseEnterPrice": "Please Enter Price",
+          "MinimumBid": "Minimum Bid",
+          "StartingDate": "Starting Date",
+          "ExpirationDate": "Expiration Date",
+          "Title": "Title",
+          "PleaseEnterTitle": "Please Enter Title",
+          "Description": "Description",
+          "PleaseEnterDescription": "Please Enter Description",
+          "PutOnSale": "Put On Sale"
+        },
+        "bidModal": {
+          "PlaceABid": "Place a Bid",
+          "Item": "Item",
+          "comissionFee.": "$$comission fee.",
+          "TermsOfService": "Terms of Service",
+          "Submit": "Submit"
+        }
+      },
+      "profile": {
+        "summary": {
+          "paragraph": "Emilie Butler is the publisher of Whitehot Magazine of Contemporar Art. Emilie paintings have been exhibited around the world in museums and galleries.",
+          "report": {
+            "title": "Report",
+            "submitAReport": "Submit a report",
+            "text": "If you believe there's been a violation of Clubrare's Terms of Service or Community Guidelines, please complete this report.\nFor all cases related to potential copyright infringement, please email support@clubrare.xyz directly with a formal DMCA Takedown Request.",
+            "email": {
+              "title": "Email Address",
+              "placeholder": "Email",
+              "pleaseEnterValidEmail": "Please Enter Valid Email",
+              "emailIsRequired": "Email Is Required"
+            },
+            "description": {
+              "title": "Description",
+              "placeholder": "Description",
+              "descriptionIsRequired": "Description Is Required"
+            },
+            "submit": "Submit"
+          },
+          "addCover": "Add/Update Cover",
+          "share": {
+            "title": "Share link to this page"
+          },
+          "updateCover": "Update Cover",
+          "coverText": "We recommend you upload an image of 1280 x 280 resolution. Max file 20MB",
+          "chooseImage": "Select Image",
+          "reccomandImage": "We recommend an image of at least 400*400."
+        },
+        "categories": {
+          "created": "Created",
+          "onSale": "On Sale",
+          "collectibles": "Collectibles",
+          "faviourate": "Favorite",
+          "myCollection": "Collections",
+          "Pending Collectibles": "Approved NFTs"
+        },
+        "bid": {
+          "highestBid": "Highest Bid",
+          "placeABid": "Place a Bid"
+        }
+      },
+      "upvote": {
+        "giveUpvote": "Give this profile an upvote so they can receive early access to Foundation’s creator tools.",
+        "text": "Emilie butler collection is empty."
+      },
+      "editProfile": {
+        "editPicture": "Edit picture",
+        "name": "Name",
+        "pleaseEnterName": "Please Enter Name",
+        "customURl": "Custom URL",
+        "customURlPlaceholder": "Title",
+        "pleaseEnterCustomURl": "Please Enter Custom URl",
+        "bio": "Bio",
+        "bioPlaceholder": "Description",
+        "pleaseEnterBio": "Please Enter Bio",
+        "email": "Email",
+        "emailPlaceholder": "Size",
+        "pleaseEnterEmail": "Please Enter Email",
+        "verifiedTwitter": "Verified Twitter",
+        "updateProfile": "Save Profile",
+        "updatedSuccessfully": "Profile updated successfully!",
+        "getVerified": "Get Verified"
+      },
+      "communityUpvote": {
+        "title": {
+          "part1": "Join the community",
+          "part2": "Upvote",
+          "part3": "to access creator tools."
+        },
+        "text1": "With the community Upvote, artists are encouraged to support other artists and to set the stage for a modet of community-led curation that puts power in the hands of creator",
+        "text2": "In the new creative economy, we all rise up together",
+        "verifyProfile": "Verify profile to join"
+      },
+      "verifyProfile": {
+        "title": "Please verify your profile",
+        "text1": "Verify profile via at least one social media account tp prove the authenticitly of your profile on Club Rare",
+        "verifyViaTwitter": "Verify via twitter"
+      },
+      "verifyProfileViaTwitter": {
+        "title": "Post a public tweet",
+        "text1": "Post a public tweet that contains your wallet adsress (0xyfhhvje836e45tdbcmwiruhfnbvmvj)",
+        "postTweet": "Post tweet",
+        "text2": "Paste the URL of the tweet to verify your profile",
+        "twitterUrlErrorMsg": "twitter url is required",
+        "submit": "Submit"
+      },
+      "claimingNFT": {
+        "title": "You Won!",
+        "text": {
+          "part1": "Congratulations, you won the auction for this artwork .Now,",
+          "part2": "claim your NFT and add it to your collection."
+        },
+        "sunlight": "Sunlight",
+        "auctionEnded": "Auction Ended",
+        "winningBid": "Winning Bid",
+        "claimYourNFT": "Claim Your NFT",
+        "sunlightCreated": "Sunlight Created by"
+      },
+      "claimingNFTSuccess": {
+        "title": "Your NFT is on the way!",
+        "text": {
+          "part1": "Congratulations, you claimed your NFT successfully. Its",
+          "part2": "currently being transferred to your wallet"
+        },
+        "continue": "Continue"
+      },
+      "footer": {
+        "footerText": "ClubRare - The premiere NFT marketplace for physical collectibles, connecting the metaverse the real world."
+      },
+      "about": {
+        "firstHeading": {
+          "heading1": "BUILDING A PHYGITAL WORLD",
+          "buildText1": "The ClubRare mission is to build a collector-centered marketplace for physical",
+          "buildText2": "goods on web3, become the bridge from the metaverse to the real world, and ",
+          "buildText3": "empower individuals to shape their destinies both on and offline."
+        },
+        "middleHeading": "Re-centering the shopping experience",
+        "middleText1": "ClubRare is developing the future of commerce and physical distribution, centered on the collectors. Native to web3, ClubRare is empowering the individual by connecting them directly to creators, connecting creators directly to the metaverse, and connecting the metaverse to the physical world.",
+        "middleText2": "At ClubRare, collectors can communicate directly with each other and the creators they support. With innovative governance protocols, community members shape the evolution of the ecosystem, earn unique physical and digital rewards, and build their presence in the metaverse.",
+        "endHeading": {
+          "text1": "More than physical. More than digital. ClubRare is the",
+          "text2": "premiere ",
+          "text3": "phygital ",
+          "text4": "marketplace."
+        },
+        "endTitile": {
+          "title1": "Fair Start, Fair Development",
+          "text1": "ClubRare will never have private token sales. The development team and community all receive a transparent and fair distribution of tokens according to their contributions and support. The long-term goal is full decentralization.",
+          "title2": "Shared Profit and Governance",
+          "text2": "ClubRare is committed to sharing both profit and governance with the community. The community determines ClubRare’s operating policies, steers the development of ClubRare products, and gets rewarded for their participation.",
+          "title3": "Sustainable Economy",
+          "text3": "ClubRare is committed to never using unsustainable rewards or gimmicks to capture market share. Contrary to other projects that offer huge promises but fail to deliver over time, ClubRare is building long-term economies within the ecosystem."
+        },
+        "EMPOWERING": {
+          "EMPOWERING1": "The future of the distribution economy is EMPOWERING,",
+          "EMPOWERING2": "REWARDING, and community-owned"
+        }
+      },
+      "careers": {
+        "heading1": "Building a collector-centered METAVERSE",
+        "text1": "Join us as we innovate commerce in web3",
+        "heading2": "mission",
+        "text2": "The ClubRare mission is to build a collector-centered marketplace for physical goods on web3, become the bridge from the metaverse to the real world, and empower individuals to shape their destinies both on               and offline.",
+        "heading3": "FROM WEB3 to web-me",
+        "text3": "At ClubRare, we are building platforms that empower individuals to express themselves. We’re bridging the real world to the digital with a revolutionary logistics system for NFT-backed physical goods.",
+        "heading4": "ClubRare Values",
+        "text": {
+          "text1": "resilience",
+          "text2": "problem-solving",
+          "text3": "critical optimism",
+          "text4": "self-regulation",
+          "text5": "mutual respect",
+          "text6": "transparency",
+          "text7": "metacognition",
+          "text8": "flexibility"
+        },
+        "heading5": "Life at ClubRare"
+      },
+      "homeClub": {
+        "heading": {
+          "heading1": "sync your fit ",
+          "heading2": "from irl to the ",
+          "heading3": "metaverse"
+        },
+        "text": {
+          "text1": "Trade real-world collectibles and earn huge rewards ",
+          "text2": "on the community-owned ",
+          "text3": "physical digital",
+          "text4": " phygital ",
+          "text5": "marketplace"
+        },
+        "heading2": "latest drops",
+        "text2": "List your NFTs and claim your free $MPWR tokens - the currency of the metaverse",
+        "heading3": "BUY, STAKE, EARN",
+        "text3": "Earn 180% reward with LP NFT staking"
+      },
+      "reward-stack": {
+        "heading": "Rewards to Collect",
+        "text": "Earn one third of our market fee by staking $MPWR",
+        "Listing-Rewards": "Listing Rewards",
+        "Phygital-Item": "Earn $MPWR by listing your Phygital Item",
+        "Trading-Rewards": "Trading Rewards",
+        "Earn-trading-rewards": "Earn trading rewards when you buy or sell any NFT on ClubRare (private listings excluded). Rewards distributed once daily. Claim period not available between 10:00AM - 12:00PM EST"
+      },
+      "token-lunch": {
+        "heading": "ClubRare’s ILO has ended",
+        "heading1": "We have raised",
+        "text1": "Thank you to our community who participated",
+        "heading2": "Proposal Offer",
+        "Total": "Total",
+        "Price-per-Position": "Price per Position",
+        "Reward": "Reward",
+        "Claimed": "Total MPWR Claimed",
+        "Unclaimed": "Total MPWR Unclaimed"
+      },
+      "token-buying": {
+        "heading": "Initial Liquidity Offer (ILO)",
+        "participated": "You have already participated in ILO!",
+        "Withdraw": "Withdraw",
+        "text": "You will now participate in ClubRare Intial Liquidity Offering for 1ETH, Rewards will be distributed linearly for 360 Days. Please confirm to continue with this transaction."
+      },
+      "frequently-asking": {
+        "Asked-Questions": "Frequently Asked Questions"
+      },
+      "transffer-assets": {
+        "heading": "You are not eligible for MPWR airdrop"
+      },
+      "collection-approval": {
+        "Collection": "Collection",
+        "Approval": "Approval",
+        "OpenSea": "OpenSea",
+        "Not-Listed": "Not Listed",
+        "ClubRare": "ClubRare",
+        "notAvailable": "No Items Available"
+      },
+      "select-nfts": {
+        "heading": "Select your NFTs",
+        "text1": "No NFT collections currently approved",
+        "text2": "Get started by selecting & approving any of your NFT collections"
+      },
+      "main-layout": {
+        "modal-footer": {
+          "heading": "Rate 1 ETH = 1 WETH",
+          "text": "You will receive same amount WETH after the swap. No fee is charged and the only cost is transaction gas"
+        }
+      }
+    }
+  },
+  "kr": {
+    "translation": {
+      "errors": {
+        "uploadFailed": "File upload was failed, please try again later.",
+        "default": "An Error was occurred, Please try again."
+      },
+      "header": {
+        "logo": {
+          "part1": "Club",
+          "part2": "Rare"
+        },
+        "explore": "Explore",
+        "liveAuctions": "Live Auctions",
+        "selectedLang": "",
+        "langOption1": "english",
+        "langOption2": "korean",
+        "notifications": "Notifications",
+        "offered": "offered",
+        "seeAll": "See All",
+        "WalletBalance": "Wallet Balance",
+        "Balance": "Balance",
+        "DisconnectWallet": "Disconnect Wallet",
+        "connect": "Connect",
+        "ConnectWallet": "Connect Wallet",
+        "search": "Search"
+      },
+      "sidebar": {
+        "home": {
+          "title": "Home",
+          "alt": "home icon"
+        },
+        "myItems": {
+          "title": "My Items",
+          "alt": "my items icon"
+        },
+        "create": {
+          "title": "Create",
+          "alt": "create icon"
+        }
+      },
+      "home": {
+        "banner": {
+          "logo": {
+            "part1": "Club",
+            "part2": "Rare"
+          },
+          "text": "i sangja-eseo atiseuteuui jagpum-eul hongbohabnida.",
+          "viewArtwork": "sabhwabogi"
+        },
+        "topMembers": {
+          "top": "TOP",
+          "sellers": "Sellers",
+          "buyers": "Buyers"
+        },
+        "explore": {
+          "title": "Explore",
+          "sortItems": {
+            "all": "All",
+            "Handbags": "Handbags",
+            "Watches": "Watches",
+            "Jewelry": "Jewelry",
+            "Art": "Art",
+            "Food": "Food"
+          },
+          "filterItems": {
+            "MostRecent": "Most Recent",
+            "Cheapest": "Cheapest",
+            "HighestPrice": "Highest Price",
+            "Sold": "Sold"
+          }
+        },
+        "LiveAuctions": "Live Auctions"
+      },
+      "connectWallet": {
+        "title": "Connect your wallet",
+        "text": "Connect with one of available wallet providers",
+        "signMessage": "Please sign nonce to complete your sign in process"
+      },
+      "create": {
+        "CreateACollectible": "Create a collectible",
+        "UploadYourArtwork": "Upload Your Artwork",
+        "Max30mb": "(Max 30mb)",
+        "ChooseFile": "Choose File",
+        "ChooseYourSalesModel": "Choose Your Sales Model",
+        "Price": "Price",
+        "PleaseEnterPrice": "Please Enter Price",
+        "MinimumBid": "Minimum Bid",
+        "StartingDate": "Starting Date",
+        "ExpirationDate": "Expiration Date",
+        "Title": "Title",
+        "28Characters": "28Characters",
+        "PleaseEnterTitle": "Please Enter Title",
+        "Description": "Description",
+        "PleaseEnterDescription": "Please Enter Description",
+        "PleaseEnterCategory": "Please Enter Category",
+        "Category": "Category",
+        "Royalties": "Royalties",
+        "PleaseEnterRoyalties": "Please Enter Royalties",
+        "Properties": "Properties",
+        "Optional": "(Optional)",
+        "Size": "Size",
+        "PleaseEnterProperties": "Please Enter Properties",
+        "CreateItem": "Create item",
+        "Preview": "Preview",
+        "UploadFileToPreview": "Upload file to preview your brand new NFT",
+        "FixedPrice": "Fixed Price",
+        "Auction": "Auction",
+        "RightAfterListing": "Right after listing",
+        "1Day": "1 Day",
+        "Photography": "Photography",
+        "category2": "category2"
+      },
+      "productPage": {
+        "auctionSummary": {
+          "sunlight": "Sunlight",
+          "TillEnd": "Till End",
+          "AuctionEnded": "Auction Ended",
+          "CurrentBid": "Current Bid",
+          "SoldFor": "Sold For",
+          "Price": "Price",
+          "MinimumBid": "Minimum Bid",
+          "currentBidText": "You must at least bis 1% higher than current bid.",
+          "minimumBidText": "You must at least bis 1% higher than minimum bid.",
+          "PleaseEnterAnAmount": "Please Enter An Amount",
+          "PlaceABid": "Place a Bid",
+          "BuyNow": "Buy Now"
+        },
+        "history": {
+          "BidPlacedBby": "Bid Placed by",
+          "SoldFor": "Sold for"
+        },
+        "Information": {
+          "CreatedBy": "Created by",
+          "Information": "Information",
+          "Edition": "Edition",
+          "of": "of",
+          "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.” Detail of a forgotten relic, broken off from the source and lost from memory. Featuring original sound and visual design by The Weeknd & Strangeloop Studios.",
+          "ViewOnopenSea": "View On openSea"
+        },
+        "PutOnSale": {
+          "FixedPrice": "Fixed Price",
+          "Auction": "Auction",
+          "rightAfterListing": "rightAfterListing",
+          "1Day": "1Day",
+          "ChooseYourSalesModel": "Choose Your Sales Model",
+          "Price": "Price",
+          "28Characters": "28 Characters",
+          "PleaseEnterPrice": "Please Enter Price",
+          "MinimumBid": "Minimum Bid",
+          "StartingDate": "Starting Date",
+          "ExpirationDate": "Expiration Date",
+          "Title": "Title",
+          "PleaseEnterTitle": "Please Enter Title",
+          "Description": "Description",
+          "PleaseEnterDescription": "Please Enter Description",
+          "PutOnSale": "Put On Sale"
+        },
+        "bidModal": {
+          "PlaceABid": "Place a Bid",
+          "Item": "Item",
+          "comission": "$$comission fee.",
+          "TermsOfService": "Terms of Service",
+          "TermsOfServiceErrMsg": "Please Accept Terms Of Service",
+          "Submit": "Submit"
+        }
+      },
+      "profile": {
+        "summary": {
+          "paragraph": "Emilie Butler is the publisher of Whitehot Magazine of Contemporar Art. Emilie paintings have been exhibited around the world in museums and galleries.",
+          "report": {
+            "title": "Report",
+            "submitAReport": "Submit a report",
+            "text": "If you believe there's been a violation of Clubrare's Terms of Service or Community Guidelines, please complete this report.\nFor all cases related to potential copyright infringement, please email support@clubrare.xyz directly with a formal DMCA Takedown Request.",
+            "email": {
+              "title": "Email Address",
+              "placeholder": "Email",
+              "pleaseEnterValidEmail": "Please Enter Valid Email",
+              "emailIsRequired": "Email Is Required"
+            },
+            "description": {
+              "title": "Description",
+              "placeholder": "Description",
+              "descriptionIsRequired": "Description Is Required"
+            },
+            "submit": "Submit"
+          }
+        },
+        "categories": {
+          "created": "Created",
+          "onSale": "On Sale",
+          "collectibles": "Collectibles"
+        },
+        "bid": {
+          "highestBid": "Highest Bid",
+          "placeABid": "Place a Bid"
+        }
+      },
+      "editProfile": {
+        "editPicture": "Edit picture",
+        "addPicture": "Add Picture",
+        "name": "Name",
+        "pleaseEnterName": "Please Enter Name",
+        "customURl": "Custom URl",
+        "customURlPlaceholder": "Title",
+        "pleaseEnterCustomURl": "Please Enter Custom URl",
+        "bio": "Bio",
+        "bioPlaceholder": "Description",
+        "pleaseEnterBio": "Please Enter Bio",
+        "email": "Email",
+        "emailPlaceholder": "Size",
+        "pleaseEnterEmail": "Please Enter Email",
+        "verifiedTwitter": "Verified Twitter",
+        "updateProfile": "Save Profile",
+        "updatedSuccessfully": "Profile updated successfully!"
+      },
+      "communityUpvote": {
+        "title": {
+          "part1": "Join the community",
+          "part2": "Upvote",
+          "part3": "to access creator tools."
+        },
+        "text1": "With the community Upvote, artists are encouraged to support other artists and to set the stage for a modet of community-led curation that puts power in the hands of creator",
+        "text2": "In the new creative economy, we all rise up together",
+        "verifyProfile": "Verify profile to join"
+      },
+      "verifyProfile": {
+        "title": "Please verify your profile",
+        "text1": "Verify profile via at least one social media account tp prove the authenticitly of your profile on Club Rare",
+        "verifyViaTwitter": "Verify via twitter"
+      },
+      "verifyProfileViaTwitter": {
+        "title": "Post a public tweet",
+        "text1": "Post a public tweet that contains your wallet adsress (0xyfhhvje836e45tdbcmwiruhfnbvmvj)",
+        "postTweet": "Post tweet",
+        "text2": "Paste the URL of the tweet to verify your profile",
+        "twitterUrlErrorMsg": "twitter url is required",
+        "submit": "Submit"
+      },
+      "claimingNFT": {
+        "title": "You Won!",
+        "text": {
+          "part1": "Congratulations, you won the auction for this artwork .Now,",
+          "part2": "claim your NFT and add it to your collection."
+        },
+        "sunlight": "Sunlight",
+        "auctionEnded": "Auction Ended",
+        "winningBid": "Winning Bid",
+        "claimYourNFT": "Claim Your NFT:",
+        "sunlightCreated": "Sunlight Created by"
+      },
+      "claimingNFTSuccess": {
+        "title": "Your NFT is on the way!",
+        "text": {
+          "part1": "Congratulations, you claimed your NFT successfully. Its",
+          "part2": "currently being transferred to your wallet"
+        },
+        "continue": "Continue"
+      },
+      "footer": {
+        "footerText": "ClubRare - The premiere NFT marketplace for physical collectibles, connecting the metaverse the real world."
+      },
+      "about": {
+        "firstHeading": {
+          "heading1": "BUILDING A PHYGITAL WORLD",
+          "buildText1": "The ClubRare mission is to build a collector-centered marketplace for physical",
+          "buildText2": "goods on web3, become the bridge from the metaverse to the real world, and ",
+          "buildText3": "empower individuals to shape their destinies both on and offline."
+        },
+        "middleHeading": "Re-centering the shopping experience",
+        "middleText1": "ClubRare is developing the future of commerce and physical distribution, centered on the collectors. Native to web3, ClubRare is empowering the individual by connecting them directly to creators, connecting creators directly to the metaverse, and connecting the metaverse to the physical world.",
+        "middleText2": "At ClubRare, collectors can communicate directly with each other and the creators they support. With innovative governance protocols, community members shape the evolution of the ecosystem, earn unique physical and digital rewards, and build their presence in the metaverse.",
+        "endHeading": {
+          "text1": "More than physical. More than digital. ClubRare is the",
+          "text2": "premiere ",
+          "text3": "phygital ",
+          "text4": "marketplace."
+        },
+        "endTitile": {
+          "title1": "Fair Start, Fair Development",
+          "text1": "ClubRare will never have private token sales. The development team and community all receive a transparent and fair distribution of tokens according to their contributions and support. The long-term goal is full decentralization.",
+          "title2": "Shared Profit and Governance",
+          "text2": "ClubRare is committed to sharing both profit and governance with the community. The community determines ClubRare’s operating policies, steers the development of ClubRare products, and gets rewarded for their participation.",
+          "title3": "Sustainable Economy",
+          "text3": "ClubRare is committed to never using unsustainable rewards or gimmicks to capture market share. Contrary to other projects that offer huge promises but fail to deliver over time, ClubRare is building long-term economies within the ecosystem."
+        },
+        "EMPOWERING": {
+          "EMPOWERING1": "The future of the distribution economy is EMPOWERING,",
+          "EMPOWERING2": "REWARDING, and community-owned"
+        }
+      },
+      "careers": {
+        "heading1": "Building a collector-centered METAVERSE",
+        "text1": "Join us as we innovate commerce in web3",
+        "heading2": "mission",
+        "text2": "The ClubRare mission is to build a collector-centered marketplace for physical goods on web3, become the bridge from the metaverse to the real world, and empower individuals to shape their destinies both on               and offline.",
+        "heading3": "FROM WEB3 to web-me",
+        "text3": "At ClubRare, we are building platforms that empower individuals to express themselves. We’re bridging the real world to the digital with a revolutionary logistics system for NFT-backed physical goods.",
+        "heading4": "ClubRare Values",
+        "text": {
+          "text1": "resilience",
+          "text2": "problem-solving",
+          "text3": "critical optimism",
+          "text4": "self-regulation",
+          "text5": "mutual respect",
+          "text6": "transparency",
+          "text7": "metacognition",
+          "text8": "flexibility"
+        },
+        "heading5": "Life at ClubRare"
+      },
+      "homeClub": {
+        "heading": {
+          "heading1": "sync your fit",
+          "heading2": "from irl to the",
+          "heading3": "metaverse"
+        },
+        "text": {
+          "text1": "Trade real-world collectibles and earn huge rewards",
+          "text2": "on the community-owned ",
+          "text3": "physical digital",
+          "text4": " phygital ",
+          "text5": "marketplace"
+        },
+        "heading2": "opensea user airdrop",
+        "text2": "List your NFTs and claim your free $MPWR tokens - the currency of the metaverse",
+        "heading3": "BUY, STAKE, EARN",
+        "text3": "Put your crypto to work, and earn by supporting the collector economy"
+      },
+      "reward-stack": {
+        "heading": "Rewards to Collect",
+        "text": "Earn one third of our market fee by staking $MPWR",
+        "Listing-Rewards": "Listing Rewards",
+        "Phygital-Item": "Earn $MPWR by listing your Phygital Item",
+        "Trading-Rewards": "Trading Rewards",
+        "Earn-trading-rewards": "Earn trading rewards when you buy or sell any NFT on ClubRare (private listings excluded). Rewards distributed once daily. Claim period not available between 10:00AM - 12:00PM EST"
+      },
+      "token-lunch": {
+        "heading": "ClubRare’s ILO has ended",
+        "heading1": "We have raised",
+        "text1": "Thank you to our community who participated",
+        "heading2": "Proposal Offer",
+        "Total": "Total",
+        "Price-per-Position": "Price per Position",
+        "Reward": "Reward",
+        "Claimed": "Total MPWR Claimed",
+        "Unclaimed": "Total MPWR Unclaimed"
+      },
+      "token-buying": {
+        "heading": "Initial Liquidity Offer (ILO)",
+        "participated": "You have already participated in ILO!",
+        "Withdraw": "Withdraw",
+        "text": "You will now participate in ClubRare Intial Liquidity Offering for 1ETH, Rewards will be distributed linearly for 360 Days. Please confirm to continue with this transaction."
+      },
+      "frequently-asking": {
+        "Asked-Questions": "Frequently Asked Questions"
+      },
+      "transffer-assets": {
+        "heading": "You are not eligible for MPWR airdrop"
+      },
+      "collection-approval": {
+        "Collection": "Collection",
+        "Approval": "Approval",
+        "OpenSea": "OpenSea",
+        "Not-Listed": "Not Listed",
+        "ClubRare": "ClubRare",
+        "notAvailable": "No Items Available"
+      },
+      "select-nfts": {
+        "heading": "Select your NFTs",
+        "text1": "No NFT collections currently approved",
+        "text2": "Get started by selecting & approving any of your NFT collections"
+      }
+    }
+  }
+}

@@ -1,0 +1,511 @@
+.item-card {
+  width: 3793px;
+  height: 560px;
+  margin-bottom: 100px;
+}
+.item-card .redeemable {
+  position: absolute;
+  left: 0px;
+  bottom: -18px;
+  font-size: 14px;
+  background: #ffffff;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px 18px;
+  border: 1px solid white;
+}
+.item-card .img-wrapper {
+  position: relative;
+  width: 335px;
+  height: 335px;
+  //   width: 335px;
+}
+.item-card .approved {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: #43a22b;
+  position: absolute;
+  right: 0;
+}
+.item-card .rejected {
+  background: #ff0606;
+}
+
+.item-card .approved:before {
+  content: '✓';
+  width: 8px;
+  height: 8px;
+  color: white;
+  position: absolute;
+  left: 4px;
+}
+.item-card .rejected:before {
+  content: 'x';
+  width: 10px;
+  height: 10px;
+  left: 5px;
+  bottom: 12px;
+}
+.item-card .img-wrapper img {
+  margin: 0 auto;
+}
+.approve-img {
+  z-index: 999;
+  position: absolute;
+  right: 24px;
+  bottom: 0px;
+  margin-bottom: 3px;
+}
+.imgs-collection {
+  display: inline-flex;
+  align-items: center;
+  float: right;
+}
+.collection-images {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.overlape-first {
+  right: -15px;
+  position: relative;
+}
+.overlape-second {
+  right: -8px;
+  position: relative;
+}
+.collection-images:hover {
+  transition: transform 0.2s ease;
+  transform: translateY(-8px);
+}
+// card design
+.card_text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 0;
+  margin-left: 28px;
+  width: 330px;
+}
+.card_text > div > h1 {
+  text-align: left;
+  font: normal normal 600 16px/30px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #090909;
+  opacity: 1;
+  font-size: 16px;
+}
+.card_name {
+  display: flex;
+  margin-right: 20px;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card_name > img {
+  margin-right: 20px;
+}
+.card_name > span > h1 {
+  text-align: left;
+  font: normal normal normal 13px/30px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #090909;
+  font-size: 13px;
+  opacity: 1;
+}
+.card_name > span > h2 {
+  text-align: left;
+  font: normal normal 600 14px/30px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #090909;
+  opacity: 1;
+  font-size: 14px;
+
+  font-weight: 800;
+}
+.card_value {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font: normal normal bold 14px/30px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: 800;
+}
+.aution_slider_sect .slick-slide > div {
+  padding: 0px;
+}
+.aution_slider_sect .slick-slide {
+  // box-shadow: 0px 20px 50px #00000008;
+  border-radius: 20px;
+  // background-color: #fff;
+  padding: 20px;
+  min-height: 427px;
+}
+.aution_slider_sect .slick-slide:nth-child(2) {
+  margin: 0 22px;
+}
+.aution_slider_sect {
+  padding: 20px !important;
+}
+.live_auct_img {
+  position: relative;
+}
+.liveauctimg_top.row {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.liveauctimg_top .card_like_wrap {
+  width: 30px;
+  height: 30px;
+  background: #dcdcda;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.live_auction_slider {
+  border-radius: 20px;
+  opacity: 1;
+  cursor: pointer;
+  // box-shadow: 0px 20px 50px #00000008;
+  box-shadow: none;
+  min-height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  // height: 450px;
+  border: 1px solid transparent;
+}
+.club_pending_card .live_auction_slider:hover {
+  border-color: #eff0ed;
+}
+
+.card_place_bid_btns .card_place_bid_btn {
+  padding: 1px 8px 2px !important;
+  height: unset;
+  width: unset;
+  background: #4c4d4c;
+  border: 1px solid #4c4d4c;
+  box-sizing: border-box;
+  border-radius: 24px;
+  color: #fafafa;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.card_place_bid_btns {
+  display: flex;
+  justify-content: space-between;
+  // width: 90px;
+  // height: 38px;
+  // color: white;
+  // background: #000000 0% 0% no-repeat padding-box;
+  // font-size: 12px;
+  // padding: 3px;
+  // margin: 20px;
+  // border-radius: 10px;
+}
+
+.live_auct_img span {
+  border-radius: 20px;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  background-color: #dcdcda;
+  color: #000;
+  font-size: 11px;
+  line-height: 20px;
+  padding: 2px 10px;
+  display: inline-block;
+  text-align: center;
+  text-transform: capitalize;
+}
+.liveauctimg_bottom {
+  position: absolute;
+  bottom: 5px;
+  // left: 15px;
+}
+.liveauctimg_top .live_auct_img .lazyload-wrapper img {
+  width: 15px;
+}
+
+.liveauctimg_top .lazyload-wrapper {
+  background-color: #dcdcda;
+  float: right;
+  border-radius: 20px;
+  opacity: 1;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  padding: 5px;
+}
+.liveauctimg_top .category_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.live_auct_cont h3 {
+  color: #090909;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.live_auct_tit img {
+  width: 4px;
+  float: right;
+}
+.row.live_auct_tit {
+  margin-top: 15px;
+}
+.row.live_auct_prof {
+  // margin-top: 10px;
+}
+.live_auct_cont span {
+  color: #090909;
+  font-size: 12px;
+  display: block;
+  line-height: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.live_auct_prof > .col-3 img {
+  width: 18px;
+  float: right;
+  margin-top: 8px;
+}
+.row.live_auct_bottom {
+  margin-top: 10px;
+}
+
+.card_creator_heading {
+  font-weight: 500;
+  font: normal normal normal 13px IBM Plex Sans;
+}
+.card_price_heading {
+  font-weight: 500;
+  font: normal normal normal 13px IBM Plex Sans;
+}
+
+.live_auct_img .lazyload-wrapper img {
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.live_auct_img .lazyload-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 258px;
+  line-height: 258px;
+  // -moz-box-shadow: 0px 0px 6px 4px #f9f9f9;
+  // -webkit-box-shadow: 0px 0px 6px 4px #f9f9f9;
+  // box-shadow: 0px 0px 6px 4px #f9f9f9;
+}
+.aution_slider_sect ul.slick-dots {
+  // display: none !important;
+}
+.aution_slider_sect .slick-slide:nth-child(3n + 2) {
+  margin: 0 20px !important;
+}
+.liveauctionpage_wrp .live_auct_img .lazyload-wrapper,
+.exploreitem_page_wrp .live_auct_img .lazyload-wrapper,
+.clubraredrop_page_wrp .live_auct_img .lazyload-wrapper {
+  height: 283px;
+  line-height: 382px;
+}
+
+.liveauctionpage_wrp .explore_col_wrp > div,
+.exploreitem_page_wrp .explore_col_wrp > div,
+.clubraredrop_page_wrp .explore_col_wrp > div {
+  min-height: 571px;
+}
+
+.live_auct_scroll > h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font: normal normal 700 14px/30px IBM Plex Sans;
+}
+
+// .live_auct_scroll::-webkit-scrollbar {
+//   // display: none;
+//   margin-top: 5px ;
+//   height: 5px;
+//   // width: 5px;
+// }
+.more_items_popup {
+  box-shadow: 0px 0px 16px 6px #ffab914d;
+  padding: 16px 20px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 20px;
+  width: 160px;
+  top: 35px;
+  right: 10px;
+  text-align: center;
+  z-index: 1;
+  display: none;
+}
+.more_items_popup::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 85%;
+  height: 6px;
+  background-color: black;
+  bottom: -4px;
+  margin: 0 auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.more_items_popup .more_list {
+  list-style: none;
+}
+.more_items_popup .more_list a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.more_items_popup .more_list {
+  text-align: left;
+  list-style: none;
+}
+.more_items_popup .more_list li {
+  margin: 4px 0;
+}
+// .clubraredroplist_wrp {
+//   width: 100%;
+// }
+
+/* 09/03/2022 */
+.club_pending_card .new_pending_card_wrp {
+  padding: 7px !important;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: unset !important;
+  word-break: break-word;
+  height: unset !important;
+  min-height: 360px !important;
+}
+.club_pending_card .new_pending_card_wrp:hover {
+  border-color: #eff0ed;
+}
+.new_pending_card_wrp .liveauctimg_top span {
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #dcdcda;
+  color: #000;
+  font-size: 11px;
+  line-height: 16px;
+}
+.new_pending_card_wrp .row.live_auct_prof {
+  padding-bottom: 10px;
+}
+.new_pending_card_wrp .live_auct_cont {
+  padding-bottom: 0;
+}
+.viewprof_pendcard_wrp {
+  margin-top: 30px;
+}
+.club_pending_card .pendcardimg figure img {
+  width: 27px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  height: 27px;
+  min-height: 27px;
+  min-width: 27px;
+  max-height: 27px;
+  max-width: 27px;
+}
+.new_pending_card_wrp:hover {
+  cursor: pointer;
+}
+img.preview_img {
+  margin: auto;
+}
+/* Responsive CSS */
+@media only screen and (max-width: 1199px) {
+  .liveauctionpage_wrp .live_auct_img .lazyload-wrapper,
+  .exploreitem_page_wrp .live_auct_img .lazyload-wrapper,
+  .clubraredrop_page_wrp .live_auct_img .lazyload-wrapper {
+    height: 255px;
+    line-height: 255px;
+  }
+  .liveauctionpage_wrp .explore_col_wrp > div,
+  .exploreitem_page_wrp .explore_col_wrp > div,
+  .clubraredrop_page_wrp .explore_col_wrp > div {
+    min-height: 430px;
+  }
+  .clubraredrop_page_wrp .row.explore_filter_row {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 1618px) {
+  .live_auction_slider .live_auct_img > div > figure > img {
+    height: 179px !important;
+    margin: 0 auto !important;
+  }
+}
+@media only screen and (min-width: 1718px) {
+  .live_auction_slider .live_auct_img > div > figure > img {
+    //  height: 168px !important;
+    //  margin: 0 auto !important;
+  }
+}
+@media only screen and (min-width: 1818px) {
+  .live_auction_slider .live_auct_img > div > figure > img {
+    height: 168px !important;
+    margin: 0 auto !important;
+  }
+}
+@media only screen and (max-width: 979px) {
+  .grid.clubraredroplist_wrp {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .clubraredrop_page_wrp .flex.items-center.clubrareallmobile {
+    display: none;
+  }
+  .live_auction_slider {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 887px) {
+  .live_auction_slider {
+    height: auto;
+  }
+}
+
+.main_bdr_crd {
+  border: 2px solid #cfcfcf;
+  border-radius: 15px;
+}
+
+.img_rdsius {
+  border-radius: 15px;
+}
+
+.approvalStatus {
+  float: right;
+}
+@media only screen and (max-width: 767px) {
+  .pending_collection .editmodal .sliderimg_wrp {
+    min-width: 200px !important;
+  }
+}

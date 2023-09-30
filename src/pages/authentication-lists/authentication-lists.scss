@@ -1,0 +1,73 @@
+body {
+  background-color: #fff;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container .user_list_tabel {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0 15px;
+}
+.user_list_tabel tr {
+  background-color: transparent;
+}
+
+table {
+  border-collapse: collapse;
+}
+.user_list_tabel tr td:last-child,
+.user_list_tabel tr th:last-child {
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+}
+.user_list_tabel tr td:first-child,
+.user_list_tabel tr th:first-child {
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+  padding: 20px 25px 20px 40px;
+}
+
+.user_list_tabel thead tr {
+  background-color: #fff;
+}
+
+.report_page_btn:first-child {
+  margin-right: 10px;
+}
+.container.user_list_sec {
+  margin-bottom: 40px;
+}
+.button-container {
+  margin: 10px;
+  float: right;
+}
+.pagi-btn {
+  margin-left: 10px;
+  background-color: #1b3142;
+  box-sizing: border-box;
+  border-radius: 7px;
+  width: 70px;
+  color: #fff;
+  height: 25px;
+}
+.pagi-btn:disabled {
+  opacity: 0.7;
+  pointer-events: none;
+}
+.search-box {
+  display: flex;
+}
+
+button.addAuthenticationBtn {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #202020;
+    padding: 8px 25px;
+    border-radius: 24px;
+    word-break: break-word;
+    display: inline-block;
+    margin-top: 5px;
+  }

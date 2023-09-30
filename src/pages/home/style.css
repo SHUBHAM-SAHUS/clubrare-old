@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+.banner_main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #e6e6e6;
+  opacity: 20;
+  border-radius: 50px;
+  height: 310px;
+  min-width: 165px;
+}
+.banner_col1 {
+  /* background-color: brown; */
+}
+.banner_col2 {
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: rgb(127, 127, 145); */
+  height: 310px;
+  width: 349px;
+  padding-left: 40px;
+}
+
+.banner_col2_row1 {
+  width: 349px;
+  height: 40px;
+
+  padding-top: 48px;
+  text-align: left;
+  font: normal normal 600 28px/30px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #090909;
+  opacity: 1;
+  /* background-color: aqua; */
+}
+.banner_col2_div {
+  border-radius: 20px;
+  border-style: solid black;
+}
+.banner_col2_row2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* background-color: beige; */
+  width: 350px;
+  height: 134px;
+  padding-top: 26px;
+}
+.banner_row2_1 > h1 {
+  font: normal normal normal 14px/30px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #090909;
+  opacity: 1;
+}
+.banner_row2_1 > h2 {
+  font: normal normal 600 24px/30px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 24px;
+}
+.banner_row2_1 > h3 {
+  font: normal normal medium 14px/30px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #090909;
+  opacity: 1;
+}
+.banner_row2_2 > h2 {
+  font: normal normal 600 24px/30px IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 24px;
+}
+
+.banner_row2_1 {
+  display: flex;
+  flex-direction: column;
+  /* background-color: burlywood; */
+  height: 134px;
+  width: 150px;
+}
+.banner_row2_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: rgb(105, 94, 78); */
+  height: 134px;
+  width: 200px;
+}
+.banner_col2_div {
+  display: flex;
+  margin-top: 47px;
+}
+.banner_col2_row3 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: blueviolet; */
+  height: 132px;
+  width: 350px;
+}
+.banner_col2_row3_btn1 {
+  width: 174px;
+  height: 50px;
+  margin-top: 30px;
+}
+.banner_col2_row3_btn1 > button {
+  border-radius: 10px 10px 50px 10px;
+  opacity: 1;
+  width: 174px;
+  height: 50px;
+  background-color: gray;
+  font-size: 16px;
+  font: normal normal medium 16px/20px IBM Plex Sans;
+  letter-spacing: 0px;
+}
+.banner_col2_row3_btn2 {
+  margin-top: 30px;
+}
+.banner_col2_row3_btn2 > button {
+  background-color: black;
+  color: #e6e6e6;
+  width: 161px;
+  height: 50px;
+  border-radius: 50px 10px 10px 10px;
+}
+.auctionfilter button {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  width: 35px;
+}
+button.exploremoewbtn {
+  border-radius: 10px 50px 10px 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 10px 30px 10px 25px;
+}
+
+.explore_col_wrp > div:nth-child(3n + 2) {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.explore_col_wrp > div {
+  margin: 20px 0;
+  box-shadow: 0px 20px 50px #00000008;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  min-height: 427px;
+}
+.explorefilterbtn {
+  background-color: #dcdcda;
+  color: #000;
+  padding: 8px 15px !important;
+  font-size: 13px;
+  line-height: 20px;
+  min-width: 95px;
+  font-weight: 500;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px 10px;
+  cursor: pointer;
+}
+.explorefilterbtn.selected {
+  background-color: black !important;
+  color: white !important;
+}
+.home_page_wrp .container-fluid {
+  padding: 0 25px;
+}
+.connectaftericon .profile_popup_wrp {
+  padding: 25px 0 !important;
+  right: -30px;
+  left: unset;
+  box-shadow: inset 10px 10px 15px #0909090f, 0px 0px 50px #09090912 !important;
+  width: 250px !important;
+}
+.copycodewrp img.copyicon {
+  width: 15px;
+  height: 15px;
+}
+.profile_balance_wrp span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  display: block;
+}
+.profile_balance_wrp h5 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.col-4.balanceimgwrp figure {
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.balanceimgwrp figure img {
+  width: 12px;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+.newhome_page_wrp .col-md-9 .home_buy_sell {
+  display: none;
+}
+.temp-container {
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+}
+
+.days-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+
+.info {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.gradient-color {
+  background: -webkit-linear-gradient(#ec7873, #ecaede);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  width: 25%;
+  background: #ededf0;
+  min-height: 300px;
+  border-radius: 45px;
+}
+
+.card-info-container {
+  background: white;
+  height: 75px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  margin-top: 11px;
+  box-shadow: 0px 3px 2px -3px;
+}
+
+.card-info-container p {
+  text-align: center;
+  width: 100%;
+}
+.center-align p {
+  text-align: center;
+  font-weight: bolder;
+}
+.newhome_page_wrp .mt-14 {
+  margin-top: 3.5rem !important;
+}
+main.main-container.w-full.pb-40.lg\:pb-4.lg\:pt-10.newhome_page_wrp.connact_wallet_wrp.home_page_wrp {
+  padding-top: 0;
+}
+.newhome_page_wrp .leaderboard_slider .slick-track {
+  width: fit-content !important;
+}
+.newhome_page_wrp .cmn_club_card_wrp .slick-slide.slick-active {
+  padding: 0 21px;
+}
+.homenew main.main-container {
+  margin-top: 0 !important;
+}
+/* responsive  */
+@media only screen and (max-width: 1199px) {
+  .card-container {
+    width: 35%;
+  }
+  .footer .container {
+    max-width: 96%;
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+  /*.footer {
+      margin-bottom: 75px;
+  }*/
+  .main-container {
+    padding-bottom: 2rem;
+  }
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .footer .container .terms img {
+    margin-right: 10px;
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+  }
+  .footer .container {
+    display: block;
+  }
+  .footer {
+    padding: 25px 0px;
+  }
+  .footer a {
+    display: block;
+    padding-bottom: 10px;
+  }
+  .lists a:first-child {
+    margin-left: 0;
+  }
+  .newhome_page_wrp .clubarare_loader.flex.justify-center.pt-10 {
+    display: flex;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .temp-container .card-info-container {
+    padding: 20px;
+  }
+  .temp-container .card-container {
+    width: 50%;
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .temp-container .card-container {
+    width: 60%;
+  }
+  .footer a {
+    padding-bottom: 10px;
+    font-size: 13px;
+  }
+  .temp-container {
+    padding: 25px;
+  }
+  .footer .lists {
+    margin-top: 8px;
+  }
+  .footer .container .terms img {
+    width: 12px;
+    height: 12px;
+  }
+  .footer .lists {
+    margin-top: 8px;
+  }
+  .explore_col_wrp > div,
+  .clubraredroplist_wrp > div {
+    margin: 0 !important;
+  }
+}
+/* 480 */
+@media only screen and (max-width: 479px) {
+  .temp-container {
+    padding: 40px 25px;
+  }
+  .grid.grid-cols-5 {
+    display: unset;
+  }
+  .temp-container .card-container {
+    width: 80%;
+  }
+  .days-container {
+    margin-bottom: 10px;
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+  .temp-container .card-container {
+    width: 95%;
+  }
+} /* 320 */
+/* Responsive CSS */
+@media only screen and (max-width: 1199px) {
+  .newhome_page_wrp .col-md-9 {
+    max-width: 100%;
+    flex: unset;
+    padding: 0 !important;
+  }
+  .col-md-3.desktoptopmemb_wrp {
+    display: none;
+  }
+  .newhome_page_wrp .col-md-9 .home_buy_sell {
+    display: block;
+    padding: 0;
+    margin-top: 60px;
+  }
+  .topseller_row .col-2.membnumbwrp {
+    max-width: 50px;
+  }
+  .topseller_row .col-9.memberdetailrightwrp {
+    flex: 0 0 90%;
+    max-width: 90% !important;
+  }
+  .memberdetailrightwrp .row {
+    margin: 0;
+  }
+  .memberdetailrightwrp .col-3.pl-0.pr-2 {
+    max-width: 50px;
+  }
+}
+@media only screen and (max-width: 979px) {
+  /* Explore  Section */
+  .clubraredroplist_wrp > div {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .explore_col_wrp > div,
+  .clubraredroplist_wrp > div {
+    width: 100%;
+    margin: 15px !important;
+  }
+  .explore_filter_wrp.text-right {
+    text-align: left !important;
+  }
+  .explore_filter_row .col-2,
+  .explore_filter_row .col-10 {
+    max-width: 100%;
+    flex: unset;
+    padding: 0 !important;
+  }
+  .explorefilterbtn {
+    margin: 5px;
+    padding: 8px !important;
+    font-size: 12px;
+  }
+  .aution_slider_sect {
+    margin-top: 0 !important;
+  }
+}
+@media only screen and (max-width: 649px) {
+  /* Explore  Section */
+  /* .explore_col_wrp > div, .clubraredroplist_wrp>div {
+      width: 270px;
+      margin: 20px auto !important;
+  } */
+  .explore_col_wrp {
+    text-align: center;
+  }
+  .aution_slider_sect .slick-slide,
+  .aution_slider_sect .slick-slide:nth-child(3n + 2) {
+    margin: 0 !important;
+  }
+}

@@ -1,0 +1,200 @@
+// .stack_main_wrp {
+//     .stack_left{
+//         padding: 0 0 0 30px;
+//     }
+//     .stack_right{
+//         padding: 0 0 0 30px;
+//     }
+// }
+.earn_lp_pool_staking .img_height {
+  max-height: 210px !important;
+}
+.lpstack_table_wrp {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .table {
+    text-align: center;
+    tr {
+      display: block;
+    }
+    tr td,
+    tr th {
+      display: inline-block;
+      vertical-align: middle;
+      word-break: break-word;
+      padding: 5px !important;
+    }
+    .firstclmn {
+      width: 11%;
+      padding: 5px 0 !important;
+    }
+    .secclmn {
+      width: 12%;
+    }
+    .thirdclmn {
+      width: 9%;
+    }
+    .fourthclmn {
+      width: 8%;
+    }
+    .fifthclmn {
+      width: 10%;
+    }
+    .sixthclmn {
+      width: 8%;
+    }
+    .sevenclmn {
+      width: 11%;
+    }
+    .eightclmn {
+      width: 9%;
+    }
+    .nineclmn {
+      width: 9%;
+    }
+    .tenclmn {
+      width: 13%;
+    }
+    thead {
+      display: block;
+      tr {
+        th {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+          padding: 6px;
+          background-color: unset;
+          border: unset;
+        }
+      }
+    }
+
+    /* Track */
+
+    tbody::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px #d9d9d6;
+      border-radius: 8px;
+    }
+    tbody::-webkit-scrollbar-thumb {
+      background: #000;
+      border-radius: 8px;
+    }
+    tbody {
+      border: unset;
+      height: 250px;
+      overflow: auto;
+      overflow-y: auto;
+      display: block;
+
+      tr {
+        td {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          background-color: unset;
+          border-top: unset !important;
+          .table_btn {
+            button {
+              font-size: 12px;
+              line-height: 18px;
+              font-weight: 500;
+              background-color: #202020;
+              color: #fff;
+              cursor: pointer;
+              margin-left: 5px;
+              text-align: center;
+              padding: 2px 8px;
+              border: 1px solid #202020 !important;
+              border-radius: 24px;
+              text-decoration: none;
+              border: none;
+            }
+            .deposit_btn {
+              background-color: #202020;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.stack_right .lpstack_table_wrp .lpstack_table {
+  overflow: auto;
+  overflow-y: auto;
+  max-height: 250px;
+  .table tbody {
+    height: unset;
+  }
+}
+.notify_wrp p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.notify_wrp {
+  background-color: #ecf962;
+  padding: 8px 45px;
+  border-radius: 8px;
+  background-image: url('../../assets/images/ThumbsUp.svg');
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: left 10px top 8px;
+  position: relative;
+  margin: 14px 0;
+  .closenotewrp {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+  }
+}
+.notify_wrp.notwhitelistnote {
+  background-image: url('../../assets/images/Info.svg');
+}
+.notify_wrp.hidenote {
+  display: none;
+}
+.reward_cardskeleton_inner{
+    width: 100%;
+    position: relative;
+    padding: 1px 13px 0px 11px;
+    .reward_cardskeleton{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 30px;
+    &:nth-child(1){
+      width: 40%;
+    }
+    &:nth-child(2){
+      width: 60%;
+    }
+    .skeleton-wrapper{
+      .skeleton{
+        .text-lg{
+          min-height: 30px;
+          width: 85%;
+        }
+      }
+    }
+    }
+}
+@media only screen and (max-width: 1199px) {
+  .stake_reward_page_wrp {
+    .container-fluid {
+      width: 96%;
+      .col-4.stack_left {
+        max-width: 100%;
+        flex: unset;
+      }
+      .col-8.stack_right {
+        max-width: 100%;
+        flex: unset;
+        margin-top: 24px;
+      }
+    }
+  }
+} /* 1024 */
+@media only screen and (max-width: 979px) {
+} /* 768 */

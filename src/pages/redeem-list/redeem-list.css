@@ -1,0 +1,196 @@
+.burn-button {
+  padding: 6px 25px;
+  border: 1px solid #1b3142;
+  border-radius: 25px;
+}
+.status-dwn {
+  background-color: #fafafa;
+}
+.redeem_list_cmn_wrp table {
+  width: 100%;
+  position: relative;
+  min-height: 200px;
+}
+.reports-modal.reasonreportmodal .modal-content {
+  padding-top: 0;
+  word-break: break-word;
+}
+.itemapproval_modal .modal-content {
+  padding: 0 0 20px !important;
+}
+.user_list_tabel {
+  text-align: center;
+}
+.user_list_tabel td {
+  word-break: break-word;
+  padding: 10px;
+}
+
+.user_list_tabel {
+  text-align: center;
+}
+.user_list_tabel td {
+  word-break: break-word;
+  padding: 10px;
+}
+.user_list_tabel .eye-img-rep-wrp img {
+  cursor: pointer;
+  margin: 0 auto;
+}
+tbody.redeem_notfound_wrp p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+tbody.redeem_notfound_wrp {
+  position: relative;
+  height: 110px;
+}
+
+.colone {
+  width: 10% !important;
+}
+.coltwo {
+  width: 10% !important;
+}
+.colthree {
+  width: 10% !important;
+}
+.colfour {
+  width: 10% !important;
+}
+.colfive {
+  width: 10% !important;
+}
+.colsix {
+  width: 10% !important;
+}
+.colseven {
+  width: 5% !important;
+}
+.coleight {
+  width: 11% !important;
+}
+.colnine {
+  width: 12% !important;
+}
+.colten {
+  width: 12% !important;
+}
+.coleleven {
+  width: 8% !important;
+}
+
+.csv_style_redeem {
+  display: inline-block;
+}
+
+.spinner-style-table-redeem {
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 300px;
+  position: absolute;
+}
+/* Responsive CSS */
+@media only screen and (max-width: 1199px) {
+  .redeem_list_cmn_wrp .user_list_sec {
+    overflow: auto;
+  }
+  .redeem_list_cmn_wrp .user_list_sec table {
+    width: 1200px;
+  }
+  main.connact_wallet_wrp.home_page_wrp.redeem_list_cmn_wrp {
+    min-height: unset;
+    padding: 50px 0;
+  }
+}
+
+.select-dropdown-style {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  background-image: url('../../assets/images/downarrow.png');
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: right 5px center;
+  padding-right: 15px;
+}
+
+.select-dropdown-style.pending-style {
+  color: #b2b2b0;
+}
+
+.select-dropdown-style.refund-style {
+  color: #db303f;
+  background-image: url('../../assets/images/pandingDownArrow.png');
+}
+.select-dropdown-style.fullfill-style {
+  color: #7fc008;
+  background-image: url('../../assets/images/fullfillArrow.png');
+}
+
+select.select-dropdown-style option {
+  color: black;
+}
+
+.id-tooltip-style {
+  left: 0 !important;
+  -webkit-transform: unset !important;
+  -ms-transform: unset !important;
+  transform: unset !important;
+}
+.item-approve-table-style span.cardtooltip {
+  padding-left: 0;
+  width: 120px;
+  min-width: unset;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+.item-approve-table-style td.club_card_price_wrp {
+  white-space: unset;
+  overflow: unset;
+  text-overflow: unset;
+}
+@media only screen and (max-width: 649px) {
+  .reports-modal.reasonreportmodal .modal-content {
+    padding: 0 20px 10px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .reports-modal h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 25px 0px 15px;
+  }
+  .reasonreportmodal .redeem-modal-inner button {
+    display: block;
+    margin: 5px auto 10px;
+  }
+  .reasonreportmodal .redeem-modal-inner {
+    padding-bottom: 20px;
+  }
+  .itemapproval_modal button {
+    display: block;
+    margin: 10px auto !important;
+  }
+  .itemapproval_modal .modal-content {
+    padding: 0 0 14px !important;
+  }
+  .itemapproval_modal.reports-modal h2 {
+    padding-bottom: 15px;
+  }
+  .itemapproval_modal .redeem-modal-inner {
+    padding-bottom: 25px;
+  }
+}
+
+.view_item {
+  text-decoration: underline !important;
+  color: blue !important;
+  cursor: pointer;
+}

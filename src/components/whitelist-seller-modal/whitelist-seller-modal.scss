@@ -1,0 +1,54 @@
+.whitelist-seller-modal-wrp {
+  button.btn-close {
+    background-image: url(https://d1gqvtt7oelrdv.cloudfront.net/assets/images/Close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+  }
+  .modal-content {
+    box-shadow: 0px 8px 30px rgb(0 0 0 / 12%);
+    border-radius: 16px;
+    padding: 24px;
+    border: 0;
+  }
+  .modal-header {
+    padding: 0;
+    border: 0;
+  }
+  .modal-body {
+    padding: 15px 0;
+    border: 0;
+    min-height: unset;
+    min-width: unset;
+  }
+  .modal-body label.uploadcsvfilewrp input {
+    display: none;
+  }
+  .modal-body button,
+  .modal-body label.uploadcsvfilewrp {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #202020;
+    padding: 8px 16px 8px;
+    width: 100%;
+    border-radius: 24px;
+    word-break: break-word;
+    margin: 0;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .whitelist-seller-modal-wrp .frmsubbtnwrp .col-6 {
+    display: block;
+    max-width: unset;
+    flex: unset;
+    margin: 4px 0;
+  }
+  .whitelist-seller-modal-wrp .modal-body {
+    min-width: 100%;
+  }
+}

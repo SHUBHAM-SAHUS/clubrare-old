@@ -1,0 +1,285 @@
+.readytoearn_modal {
+  font-family: 'Rubik';
+  .modal-dialog {
+    width: 385px;
+  }
+  .modal-content {
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 8px 30px;
+    padding: 24px;
+    border: none;
+    .modal-header {
+      padding: 0;
+      border: none;
+      .modal-title {
+        font-size: 20px;
+        line-height: 33px;
+        font-weight: 700;
+        color: #202020;
+      }
+      button {
+        outline: none;
+        border: none;
+        background-color: transparent !important;
+      }
+    }
+    .modal-body {
+      padding: 0;
+      min-height: unset;
+      .Congratulations_wrp {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 24px;
+        img {
+          min-width: 32px;
+        }
+        .Congratulations {
+          margin-left: 24px;
+          word-break: break-word;
+          h4 {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 700;
+            color: #202020;
+          }
+          p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #202020;
+          }
+        }
+      }
+      .Additional_info_wrp {
+        padding: 24px 0;
+        h4 {
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 600;
+          color: #202020;
+        }
+        .rewards_wrp {
+          background-color: #fffae5;
+          border-radius: 16px;
+          padding: 32px;
+          margin-top: 24px;
+          .rewards_heading {
+            display: flex;
+            align-items: flex-start;
+            word-break: break-word;
+            h4 {
+              font-size: 20px;
+              line-height: 30px;
+              font-weight: 500;
+              color: #202020;
+              margin-left: 8px;
+            }
+          }
+          .rewards_details_wrp {
+            margin-top: 12px;
+            .rewards_details {
+              margin: 4px 0;
+              .rewards_details_left_wrp {
+                p {
+                  font-size: 16px;
+                  line-height: 24px;
+                  color: #202020;
+                  word-break: break-word;
+                }
+              }
+              .rewards_details_right_wrp {
+                text-align: right;
+                span {
+                  font-size: 16px;
+                  line-height: 24px;
+                  color: #202020;
+                  font-weight: 500;
+                  word-break: break-word;
+                }
+              }
+            }
+          }
+        }
+        .headstart_wrp {
+          margin-top: 0;
+          padding: 24px;
+          .headstart_heading {
+          }
+          .headstart_details_wrp {
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              font-weight: 400;
+              color: #202020;
+              span {
+                font-weight: 700;
+              }
+            }
+            .serch_sect_wrp {
+              margin-top: 16px;
+              display: flex;
+              justify-content: space-between;
+              input {
+                width: 100%;
+                border-radius: 40px;
+                padding: 8px 40px 8px 8px !important;
+                border: 2px solid #202020;
+                outline: none;
+                background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/images/Copy.svg');
+                background-position: right 15px center;
+                background-repeat: no-repeat;
+                background-size: 22px 22px;
+                font-weight: 400;
+              }
+              input[value] {
+                font-size: 16px;
+                line-height: 19px;
+                font-weight: 400;
+                color: #34393e;
+              }
+              input[value]:hover {
+                cursor: pointer;
+              }
+              // input:hover {
+              //     border: 2px solid #202020;
+              // }
+              // input:focus {
+              //     background-color: #eff0ed;
+              //     color: #000;
+              // }
+              input:focus::placeholder {
+                color: transparent !important;
+              }
+              button {
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 500;
+                margin-left: 10px;
+                padding: 8px 24px;
+                border: 2px solid #202020;
+                border-radius: 24px;
+              }
+              button:hover {
+                background-color: #202020;
+                color: #ffffff;
+              }
+            }
+            .social_icons_wrp {
+              display: flex;
+              justify-content: space-around;
+              margin-top: 16px;
+              a {
+                padding: 13px;
+                border-radius: 50%;
+              }
+              .facebook_icon {
+                background-color: #e9f1fe;
+              }
+              .twitter_icon {
+                background-color: #e8f7ff;
+              }
+              .reddit_icon {
+                background-color: #ffece8;
+              }
+            }
+          }
+        }
+      }
+    }
+    .modal-footer {
+      border: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      .ready_btn {
+        padding: 8px 24px;
+        background-color: #202020 !important;
+        border-radius: 24px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #ffffff !important;
+        font-weight: 500;
+        border: none;
+        width: 45%;
+        word-break: break-word;
+        white-space: unset;
+      }
+      .ready_btn.tokentometamask_btn {
+        width: 100%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .readytoearn_modal .modal-content .modal-body .Congratulations_wrp {
+    margin-top: 10px;
+  }
+  .readytoearn_modal .modal-content .modal-body .Additional_info_wrp {
+    padding: 15px 0;
+  }
+  .readytoearn_modal
+    .modal-content
+    .modal-body
+    .Additional_info_wrp
+    .headstart_wrp {
+    padding: 15px 24px;
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .readytoearn_modal .modal-dialog {
+    width: 88%;
+  }
+  .readytoearn_modal .modal-dialog {
+    margin: auto;
+  }
+  .readytoearn_modal
+    .modal-content
+    .modal-body
+    .Additional_info_wrp
+    .rewards_wrp {
+    margin-top: 15px;
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .readytoearn_modal
+    .modal-content
+    .modal-body
+    .Additional_info_wrp
+    .rewards_wrp {
+  }
+  .readytoearn_modal .modal-body {
+    min-width: unset;
+  }
+  .readytoearn_modal .modal-content .modal-footer .ready_btn {
+    width: 100%;
+  }
+  .readytoearn_modal
+    .modal-content
+    .modal-body
+    .Additional_info_wrp
+    .rewards_wrp {
+    padding: 15px;
+  }
+  .readytoearn_modal
+    .modal-content
+    .modal-body
+    .Additional_info_wrp
+    .rewards_wrp
+    .rewards_details_wrp
+    .rewards_details
+    .rewards_details_left_wrp
+    p {
+    font-size: 14px;
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+  .readytoearn_modal
+    .modal-content
+    .modal-body
+    .Additional_info_wrp
+    .rewards_wrp
+    .rewards_heading
+    h4 {
+    font-size: 18px;
+  }
+} /* 320 */

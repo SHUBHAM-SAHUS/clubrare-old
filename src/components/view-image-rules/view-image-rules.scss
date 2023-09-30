@@ -1,0 +1,50 @@
+.viewimgrules_modal {
+  .modal-content {
+    width: 650px;
+    .modal-body {
+      padding: 0;
+    }
+    table {
+      thead,
+      tbody {
+        tr {
+          .firstclmn,
+          .secndclmln {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            outline: none;
+          }
+          .firstclmn,
+          .secndclmln,
+          .thirdclmn,
+          .fourthclmn {
+            width: 25%;
+            display: inline-block;
+            vertical-align: middle;
+            background-color: transparent;
+            word-break: break-word;
+            text-align: center;
+          }
+        }
+      }
+      tbody {
+        tr {
+          .firstclmn,
+          .secndclmln,
+          .thirdclmn,
+          .fourthclmn {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 649px) {
+  .viewimgrules_modal {
+    .modal-content {
+      width: 86%;
+    }
+  }
+} /* 480 */

@@ -1,0 +1,91 @@
+.stake-user-list-wrp {
+  /* Track */
+  .stake-user-list-table::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  .stake-user-list-table::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #d9d9d6;
+    border-radius: 8px;
+  }
+  .stake-user-list-table::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 8px;
+  }
+  table {
+    thead,
+    tbody,
+    tr {
+      display: block;
+      word-break: break-word;
+    }
+    th,
+    td {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 14px;
+      padding: 10px 5px;
+      border: 0;
+    }
+    tr {
+      border-top: 2px solid #dee2e6;
+    }
+    .firstclmn {
+      width: 7%;
+    }
+    .secnclmn {
+      width: 32%;
+    }
+    .thirdclmn {
+      width: 8%;
+    }
+    .fourthclmn {
+      width: 8%;
+    }
+    .fifthclmn {
+      width: 9%;
+    }
+    .sixthclmn {
+      width: 10%;
+    }
+    .seventhclmn {
+      width: 9%;
+    }
+    .eightclmn {
+      width: 7%;
+    }
+    .ninthclmn {
+      width: 10%;
+    }
+  }
+}
+/* Responsive */
+@media only screen and (max-width: 1199px) {
+  .stake-user-list-wrp {
+    .stake-user-list-table {
+      overflow: auto;
+      overflow-x: auto;
+    }
+    table {
+      display: block;
+      max-width: 1200px;
+      width: 1200px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .totalstakeusercount_wrp .totalpartcount {
+    text-align: right !important;
+  }
+  .totalstakeusercount_wrp > div {
+    max-width: 100%;
+    flex: unset;
+    display: block;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .stake-user-list-wrp .button-container-part span {
+    display: block;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,115 @@
+.skeleton {
+  margin: 10px 0;
+}
+.skeleton-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.skeleton .thumbnail {
+  width: 100%;
+  min-height: 200px;
+  background: #d2dbe2;
+  border-radius: 7px;
+}
+
+.skeleton .text-lg {
+  width: 100%;
+  margin-top: 10px;
+  background: #d2dbe2;
+  border-radius: 7px;
+  min-height: 10px;
+}
+
+.skeleton .text-md {
+  width: 70%;
+  margin-top: 10px;
+  background: #d2dbe2;
+  border-radius: 7px;
+  min-height: 10px;
+}
+
+.skeleton .text-sm {
+  width: 40%;
+  margin-top: 10px;
+  background: #d2dbe2;
+  border-radius: 7px;
+  min-height: 10px;
+}
+
+.shimmer-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.shimmer {
+  width: 50%;
+  height: 100%;
+  opacity: 0.2;
+  background: rgba(238, 238, 238, 0.966);
+  transform: skewX(-20deg);
+  animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    transform: translateX(-150%);
+  }
+  50% {
+    transform: translateX(-60%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+/* responsive */
+@media only screen and (max-width: 1199px) {
+  .ContentLoader clipPath circle.laptopshow,
+  .ContentLoader clipPath rect.laptopshow {
+    display: block;
+  }
+  .ContentLoader clipPath circle,
+  .ContentLoader clipPath rect {
+    display: none;
+  }
+  /* .ContentLoader clipPath circle.mobileshow, .ContentLoader clipPath rect.mobileshow {
+        display: block;
+    }
+    .ContentLoader clipPath circle, .ContentLoader clipPath rect {
+        display: none;
+    } */
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+} /* 980 */
+@media only screen and (max-width: 979px) {
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .ContentLoader clipPath circle.laptopshow,
+  .ContentLoader clipPath rect.laptopshow {
+    display: none;
+  }
+  .ContentLoader clipPath circle.mobileshow,
+  .ContentLoader clipPath rect.mobileshow,
+  .ContentLoader clipPath circle.mobileshow_480,
+  .ContentLoader clipPath rect.mobileshow_480 {
+    display: block;
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .ContentLoader clipPath circle.mobileshow_480,
+  .ContentLoader clipPath rect.mobileshow_480 {
+    display: none;
+  }
+  .ContentLoader clipPath circle.mobileshow,
+  .ContentLoader clipPath rect.mobileshow {
+    display: block;
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+} /* 320 */

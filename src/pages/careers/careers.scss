@@ -1,0 +1,1040 @@
+@font-face {
+  font-family: 'Helvetica Neue LT Pro 97 Black Condensed';
+  src: url('../../assets/fonts/620491a9813db417e6c08825173c562b.eot'); /* IE9*/
+  src: url('../../assets/fonts/620491a9813db417e6c08825173c562b.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.woff2')
+      format('woff2'),
+    /* chrome、firefox */
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.woff')
+      format('woff'),
+    /* chrome、firefox */
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.ttf')
+      format('truetype'),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.svg#Helvetica Neue LT Pro 97 Black Condensed')
+      format('svg'); /* iOS 4.1- */
+}
+@font-face {
+  font-family: 'HelveticaNeueLTProBd';
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBd.eot');
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBd.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBd.woff2')
+      format('woff2'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBd.woff')
+      format('woff'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Bd.ttf')
+      format('truetype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Bd.svg#Helvetica Neue LT Pro')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTProBdCn';
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBdCn.eot');
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBdCn.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBdCn.woff2')
+      format('woff2'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBdCn.woff')
+      format('woff'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-BdCn.ttf')
+      format('truetype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-BdCn.svg#Helvetica Neue LT Pro')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTProBlkCn';
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBlkCn.eot');
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBlkCn.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBlkCn.woff2')
+      format('woff2'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBlkCn.woff')
+      format('woff'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-BlkCn.ttf')
+      format('truetype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-BlkCn.svg#Helvetica Neue LT Pro')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTProCn';
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProCn.eot');
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProCn.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProCn.woff2')
+      format('woff2'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProCn.woff')
+      format('woff'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Cn.ttf')
+      format('truetype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Cn.svg#Helvetica Neue LT Pro')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTProMd';
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMd.eot');
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMd.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProMd.woff2')
+      format('woff2'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProMd.woff')
+      format('woff'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Md.ttf')
+      format('truetype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Md.svg#Helvetica Neue LT Pro')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTProMdCn';
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMdCn.eot');
+  src: url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMdCn.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProMdCn.woff2')
+      format('woff2'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProMdCn.woff')
+      format('woff'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-MdCn.ttf')
+      format('truetype'),
+    url('../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-MdCn.svg#Helvetica Neue LT Pro')
+      format('svg');
+}
+
+.careers_page_wrp h1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 43px;
+  text-transform: uppercase;
+  font-family: 'Helvetica Neue LT Pro 97 Black Condensed' !important;
+}
+.careers_page_wrp p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  font-family: 'HelveticaNeueLTProBdCn';
+}
+.careers_main_wrp header.header,
+.careers_main_wrp .main_drop_noti .bck_clr svg {
+  background-color: #f6f6f6;
+}
+.careers_main_wrp .footer_wrp {
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+.careers_main_wrp {
+  background-color: #f6f6f6;
+  .careers_comm_btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #141414;
+    padding: 8px 24px;
+    border-radius: 24px;
+    background-color: #eafb06;
+    text-decoration: none;
+    display: inline-block;
+    border: 4px solid #eafb06;
+    &:hover {
+      background-color: #f8ff99;
+      border-color: #f8ff99;
+    }
+    &:active,
+    &:focus {
+      background-color: #f8ff99;
+      border-color: #eafb06;
+    }
+  }
+  .careers_page_wrp {
+    padding-bottom: 0;
+    margin-top: 0 !important;
+    padding-top: 73px;
+    .cardskeleton_wrp {
+      display: block;
+      .cardskeleton_inner {
+        width: 90%;
+        margin: 20px auto 50px;
+        .skeleton-wrapper {
+          .skeleton {
+            .thumbnail {
+              min-height: 300px;
+            }
+            .text-lg {
+              width: 100%;
+              margin-top: 30px;
+              min-height: 50px;
+            }
+            .text-md {
+              width: 100%;
+              margin-top: 30px;
+              min-height: 50px;
+            }
+            .text-sm {
+              width: 100%;
+              margin-top: 30px;
+              min-height: 50px;
+            }
+          }
+        }
+      }
+    }
+    .banner_sect {
+      text-align: center;
+      background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/careers/careers-back-banner.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      width: 100vw;
+      height: 100vh;
+      color: #f6f6f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .banner_contant_wrp {
+        h1 {
+          padding: 0 15%;
+        }
+        p {
+          margin: 11px 0;
+        }
+      }
+    }
+    .careers_brand_sect {
+      .brand_img_wrp {
+        background-color: #eafb06;
+        padding: 6px 0;
+        img {
+          margin: 0 32px;
+          &:nth-child(1) {
+            width: 88px;
+          }
+          &:nth-child(2) {
+            width: 120px;
+          }
+          &:nth-child(3) {
+            width: 183px;
+          }
+          &:nth-child(4) {
+            width: 49px;
+          }
+        }
+      }
+    }
+    .mission_sect {
+      background-color: #f6f6f6;
+      padding: 96px 0;
+      text-align: center;
+      .mission_inner_wrp {
+        img {
+          margin: 0 auto;
+          margin-bottom: 24px;
+        }
+        p {
+          padding: 25px 24% 0;
+          font-size: 20px;
+          line-height: 28px;
+          font-family: 'HelveticaNeueLTProBd';
+          font-weight: 700;
+        }
+      }
+    }
+    .web_sect {
+      .row {
+        align-items: center;
+        background-color: #141414;
+        color: #f6f6f6;
+      }
+      .from_web_left {
+        background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/careers/pitchtemplate.svg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100vh;
+      }
+      .from_web_right {
+        background-color: #141414;
+        color: #f6f6f6;
+        img {
+          margin-bottom: 24px;
+        }
+        p {
+          margin-top: 20px;
+          font-family: 'HelveticaNeueLTProMd';
+          font-weight: 500;
+        }
+      }
+    }
+    .club_values_sect {
+      .container-fluid {
+        .club_values_wrp {
+          margin: 60px 0;
+          .valuestar_img {
+            margin: 0 auto 24px;
+          }
+          h2 {
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 43px;
+            padding: 0 0 40px;
+            font-family: 'Helvetica Neue LT Pro 97 Black Condensed';
+          }
+          .club_values_inner {
+            display: flex;
+            flex-direction: column;
+            gap: 8px 0;
+            .col-lg-3 {
+              padding: 20px 6px 30px 40px;
+              p {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 25.2px;
+                font-family: 'HelveticaNeueLTProBd';
+              }
+            }
+            img {
+              height: 40px;
+              width: 40px;
+              margin-bottom: 8px;
+            }
+
+            h5 {
+              font-weight: 900;
+              font-size: 38px;
+              line-height: 38px;
+              margin-bottom: 15px;
+              text-transform: uppercase;
+              font-family: 'Helvetica Neue LT Pro 97 Black Condensed';
+              word-break: break-all;
+            }
+            span {
+              font-weight: 900;
+              font-size: 48px;
+              line-height: 44px;
+              font-family: 'Helvetica Neue LT Pro 97 Black Condensed' !important;
+              text-transform: uppercase;
+            }
+            .joinus_btn_wrp {
+              text-align: center;
+              box-shadow: 32px 73px 32px rgb(20 20 20 / 1%),
+                18px 41px 27px rgb(20 20 20 / 2%),
+                8px 18px 20px rgb(20 20 20 / 3%),
+                2px 5px 11px rgb(20 20 20 / 4%), 0px 0px 0px rgb(20 20 20 / 4%);
+              border-radius: 32px;
+              padding: 20px;
+              .careers_comm_btn {
+                display: block;
+                padding: 12px 32px;
+                font-size: 18px;
+                line-height: 27px;
+                margin-top: 24px;
+              }
+              h3 {
+                font-weight: 900;
+                font-size: 28px;
+                line-height: 25px;
+                margin-top: 36px;
+                font-family: 'Helvetica Neue LT Pro 97 Black Condensed';
+              }
+            }
+          }
+        }
+      }
+    }
+    .remote_sec {
+      background-color: #141414;
+      padding: 80px 0 60px;
+      .container-fluid {
+        img {
+          width: 42px;
+          height: 42px;
+        }
+        h2 {
+          font-weight: 900;
+          font-size: 38px;
+          line-height: 38px;
+          color: #ffffff;
+          font-family: 'Helvetica Neue LT Pro 97 Black Condensed';
+          padding: 10px 0 15px;
+        }
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 22px;
+          color: #ffffff;
+          padding: 0 26%;
+          font-family: 'HelveticaNeueLTProMd';
+        }
+      }
+      .remote_card_wrp {
+        margin-top: 40px;
+        text-align: left;
+        .remote_card_inn {
+          display: grid;
+          grid-template-columns: repeat(6);
+          grid-template-columns: repeat(6, minmax(0, 1fr));
+          gap: 5px;
+          &.mobile_remote_card_wrp {
+            display: none;
+          }
+          .comm_card.card {
+            figure {
+              width: 100%;
+              margin: 0 auto;
+            }
+            margin: 5px 5px 10px;
+            border-radius: 16px;
+            padding: 4px;
+            text-align: left;
+            .card-body {
+              padding: 16px 5px 2px;
+              img {
+                margin-top: 3px;
+                width: 22.5px;
+                height: 22.5px;
+              }
+            }
+            h5 {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 22px;
+              text-transform: uppercase;
+              font-family: 'HelveticaNeueLTProBdCn';
+            }
+            h3 {
+              font-weight: 700;
+              font-size: 12px;
+              line-height: 120%;
+              font-family: 'HelveticaNeueLTProBdCn';
+              min-height: 29px;
+            }
+            .img.card-img-top {
+              width: 180px;
+            }
+          }
+        }
+      }
+    }
+    .transforming_sec {
+      .row {
+        .transforming_sec_left {
+          .careers_comm_btn {
+            background-color: #141414;
+            border: 4px solid #141414;
+            color: #fff;
+            margin-top: 15px;
+            padding: 6px 28px;
+            &:hover {
+              background-color: #e2e2e1;
+              border-color: #e2e2e1;
+            }
+            &:active,
+            &:focus {
+              background-color: #f6f6f6;
+              border-color: #e2e2e1;
+              color: #141414;
+            }
+          }
+          background-color: #eafb06;
+          display: flex;
+          align-items: center;
+          img {
+            margin: 0 0 24px;
+          }
+          p {
+            margin-top: 20px;
+            font-family: 'HelveticaNeueLTProBd';
+            font-weight: 700;
+          }
+          .star_img {
+            margin: 0 auto 24px;
+          }
+        }
+        .transforming_sec_left.trans_cont {
+          height: 100vh;
+          padding: 0 64px;
+        }
+        .transforming_sec_right {
+          background-color: #141414;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+    .community_sec {
+      .row {
+        .transforming_sec_left {
+          background-color: #f6f6f6;
+          padding: 0 64px;
+          text-align: center;
+          margin-top: 64px;
+          width: 100%;
+        }
+      }
+      .community_sec_right {
+        margin-top: 80px;
+        margin: 80px 0 0;
+        .comm_commiunity_sec {
+          padding: 0;
+          font-family: 'HelveticaNeueLTProMd';
+          text-align: center;
+          margin-bottom: 120px;
+          h2 {
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 25px;
+            font-family: 'HelveticaNeueLTProBlkCn';
+          }
+          .comm_logo_img {
+            margin: 0 auto 20px;
+          }
+        }
+      }
+    }
+    .carreers_btn_wrp {
+      .row {
+        padding-bottom: 80px;
+        .join_team,
+        .become_partner {
+          box-shadow: 32px 73px 32px rgba(20, 20, 20, 0.01),
+            18px 41px 27px rgba(20, 20, 20, 0.02),
+            8px 18px 20px rgba(20, 20, 20, 0.03),
+            2px 5px 11px rgba(20, 20, 20, 0.04),
+            0px 0px 0px rgba(20, 20, 20, 0.04);
+          border-radius: 32px;
+          padding: 20px;
+        }
+        h2 {
+          font-weight: 900;
+          font-size: 28px;
+          line-height: 25px;
+          letter-spacing: -0.5px;
+          text-transform: uppercase;
+          margin-bottom: 24px;
+          font-family: 'HelveticaNeueLTProBlkCn';
+        }
+        .careers_comm_btn {
+          display: block;
+          padding: 8px 32px;
+          font-size: 18px;
+          line-height: 27px;
+        }
+      }
+    }
+  }
+}
+.employee_wrp {
+  width: 100% !important;
+  height: 100% !important;
+}
+.careers_main_wrp {
+  .footer_wrp {
+    margin: 0;
+  }
+}
+
+// responsive
+@media only screen and (max-width: 1199px) {
+  .careers_main_wrp {
+    br {
+      display: none;
+    }
+    .careers_page_wrp {
+      h1 {
+        font-size: 35px;
+        line-height: 38px;
+      }
+      .club_values_sect {
+        .container-fluid {
+          .club_values_wrp {
+            .club_values_inner {
+              .col-md-6 {
+                padding: 15px 15px 30px;
+              }
+              .md-6.join_us_wrp {
+                padding-top: 30px;
+              }
+            }
+          }
+        }
+      }
+      .web_sect {
+        .from_web_left {
+          background-size: cover;
+        }
+      }
+      .transforming_sec {
+        .row {
+          .transforming_sec_left.trans_cont {
+            height: unset;
+            padding: 64px;
+          }
+          .transforming_sec_right {
+            .club_life_vedio_wrp {
+              width: 90%;
+              height: 90%;
+              iframe.club_life_vedio {
+                width: 100%;
+                height: 280px !important;
+              }
+            }
+          }
+        }
+      }
+
+      .remote_sec {
+        .remote_card_wrp {
+          .remote_card_inn {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+          }
+        }
+      }
+    }
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+  .carreers_btn_wrp {
+    .become_partner {
+      margin-top: 30px;
+    }
+  }
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .careers_main_wrp {
+    .careers_page_wrp {
+      padding-top: unset;
+      h1 {
+        font-size: 28px;
+        line-height: 25px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 22px;
+      }
+      .careers_brand_sect {
+        .brand_img_wrp {
+          padding: 20px 0;
+        }
+      }
+      .mission_sect {
+        .mission_inner_wrp {
+          p {
+            font-size: 16px;
+            line-height: 22px;
+            padding: 24px 0 0;
+          }
+        }
+      }
+      .club_values_sect {
+        .container-fluid {
+          .club_values_wrp {
+            h2 {
+              font-size: 28px;
+              line-height: 25px;
+            }
+            .club_values_inner {
+              h5 {
+                font-size: 28px;
+                line-height: 25px;
+              }
+              .col-lg-3 p {
+                font-size: 16px;
+                line-height: 22px;
+              }
+            }
+          }
+        }
+      }
+      .remote_sec {
+        .container-fluid {
+          h2 {
+            font-size: 28px;
+            line-height: 25px;
+          }
+        }
+      }
+      .mission_sect {
+        padding: 56px 0;
+      }
+      .web_sect {
+        .row {
+          .from_web_right {
+            h1 {
+              font-size: 28px;
+              line-height: 25px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+      .careers_brand_sect {
+        .brand_img_wrp {
+          img {
+            margin: 0 16px;
+            &:nth-child(1) {
+              width: 50px;
+            }
+            &:nth-child(2) {
+              width: 70px;
+            }
+            &:nth-child(3) {
+              width: 70px;
+            }
+            &:nth-child(4) {
+              width: 30px;
+            }
+          }
+        }
+      }
+      .transforming_sec {
+        .row {
+          .transforming_sec_left {
+            flex: unset;
+            max-width: 100%;
+            padding: 32px 15px;
+            text-align: left;
+            margin-top: unset;
+            &.trans_cont {
+              padding: 32px;
+            }
+            .star_img {
+              margin: 0 0 24px;
+            }
+          }
+          .comm_commiunity_sec.empowring_img img {
+            width: 100%;
+          }
+          .transforming_sec_right,
+          .community_sec_right {
+            flex: unset;
+            max-width: 100%;
+            padding: 32px 0;
+            .club_life_vedio_wrp {
+              iframe.club_life_vedio {
+                width: 90%;
+                margin: 0 auto;
+              }
+            }
+          }
+          .community_sec_right {
+            padding: unset;
+            text-align: left;
+          }
+        }
+      }
+      .community_sec {
+        .community_sec_right {
+          margin: 10px 0 48px;
+          .comm_commiunity_sec {
+            text-align: left;
+            margin-bottom: 56px;
+            .comm_logo_img {
+              margin: 0 0 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .careers_main_wrp {
+    .careers_page_wrp {
+      .community_sec {
+        .row {
+          .community_sec_right {
+            .empowring_community {
+              padding: 24% 0;
+              flex: unset;
+              max-width: 100%;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              &.empowring_img {
+                img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .careers_main_wrp {
+    .careers_page_wrp {
+      .banner_sect {
+        text-align: left;
+        align-items: flex-start;
+        background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/careers/careers_banner.png');
+        background-position: center top;
+        padding-bottom: 200px;
+        height: unset;
+        width: unset;
+        .banner_contant_wrp {
+          padding-right: 30%;
+          padding-top: 70px;
+          h1 {
+            font-size: 38px;
+            line-height: 35px;
+            padding: unset;
+          }
+          p {
+            font-size: 20px;
+            line-height: 28px;
+          }
+        }
+      }
+      .transforming_sec {
+        .row {
+          .transforming_sec_left {
+            padding: 32px 15px;
+            &.trans_cont {
+              padding: 32px 15px;
+            }
+          }
+        }
+      }
+      .careers_brand_sect {
+        .brand_img_wrp {
+          img {
+            margin: 0 8px;
+            &:nth-child(1) {
+              width: 66px;
+            }
+            &:nth-child(2) {
+              width: 78px;
+            }
+            &:nth-child(3) {
+              width: 119px;
+            }
+            &:nth-child(4) {
+              width: 33px;
+            }
+          }
+        }
+      }
+      .mission_sect {
+        .mission_inner_wrp {
+          p {
+            font-weight: 500;
+          }
+        }
+      }
+      .community_sec {
+        .row {
+          .community_sec_right {
+            .comm_commiunity_sec {
+              .comm_logo_img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+          }
+        }
+      }
+      .transforming_sec {
+        .row {
+          .transforming_sec_left {
+            P {
+              font-weight: 500;
+              font-family: 'HelveticaNeueLTProMd';
+            }
+            .careers_comm_btn {
+              width: 100%;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .remote_sec {
+        .container-fluid {
+          text-align: left;
+          img {
+            margin-left: unset !important;
+          }
+          p {
+            padding: unset;
+          }
+        }
+        .remote_card_wrp {
+          .remote_card_inn {
+            &.desktop_remote_card_wrp {
+              display: none;
+            }
+            &.mobile_remote_card_wrp {
+              display: block;
+            }
+            .comm_card.card {
+              .card-body {
+                min-height: 102px;
+              }
+            }
+            .empowring_community {
+              padding: 14% 0;
+            }
+          }
+        }
+      }
+
+      .web_sect {
+        padding: unset;
+        .from_web_left {
+          height: 500px;
+          background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/careers/web_img.svg');
+        }
+        .from_web_right {
+          padding: 32px 15px;
+        }
+      }
+      .club_values_sect {
+        .container-fluid {
+          .club_values_wrp {
+            margin: 32px 0 55px;
+            .club_values_inner {
+              .col-lg-3 p {
+                font-weight: 500;
+                font-family: 'HelveticaNeueLTProMd';
+              }
+            }
+            .valuestar_img {
+              margin: 0 auto 24px 0;
+            }
+            h2 {
+              text-align: left !important;
+            }
+          }
+        }
+      }
+      .carreers_btn_wrp {
+        .row {
+          .become_partner {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .careers_main_wrp {
+    .careers_page_wrp {
+      .banner_sect {
+        .banner_contant_wrp {
+          padding-right: unset;
+          font-family: 'HelveticaNeueLTProMd';
+        }
+      }
+      .community_sec {
+        .row {
+          .community_sec_right {
+            .comm_commiunity_sec {
+              // height: 200px;
+              &.empowring_img {
+                img {
+                  // height: 200px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .remote_sec {
+        .remote_card_wrp {
+          .remote_card_inn {
+            .comm_card.card {
+            }
+          }
+        }
+      }
+
+      .web_sect {
+        .row {
+          .from_web_left {
+            background-size: contain;
+            height: 300px;
+          }
+          .from_web_right {
+            p {
+              padding-right: 15%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 414px) {
+  .careers_main_wrp {
+    .careers_page_wrp {
+      .web_sect {
+        .from_web_right {
+          padding: 48px 15px;
+        }
+        .row {
+          .from_web_left {
+            height: 320px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 374px) {
+  .careers_main_wrp {
+    .careers_page_wrp {
+      .careers_brand_sect {
+        .brand_img_wrp {
+          img {
+            margin: 0 5px;
+            &:nth-child(1) {
+              width: 56px;
+            }
+            &:nth-child(2) {
+              width: 68px;
+            }
+            &:nth-child(3) {
+              width: 109px;
+            }
+            &:nth-child(4) {
+              width: 23px;
+            }
+          }
+        }
+      }
+      .remote_sec {
+        .remote_card_wrp {
+          .remote_card_inn {
+            .comm_card.card {
+            }
+          }
+        }
+      }
+      .web_sect {
+        .row {
+          .from_web_left {
+            height: 265px;
+          }
+          .from_web_right {
+            p {
+              padding-right: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+} /* 320 */

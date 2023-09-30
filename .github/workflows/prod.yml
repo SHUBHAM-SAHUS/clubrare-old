@@ -1,0 +1,51 @@
+name: Example workflow for S3 Deploy
+on:
+  push:
+    branches:
+      - prod
+      
+env:
+  S3_BUCKET: clubrare-frontend-live
+  CLOUDFRONT_DISTRIBUTION_ID: E337OCO04RLGO1
+  AWS_REGION: ap-southeast-1
+  CI: false
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+#         here will will set node version 14
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+        
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build
+        run: yarn build:prod
+        
+      - uses: jakejarvis/s3-sync-action@master
+        name: Upload App to S3 Bucket
+#         Here we have to upload code with publicly access
+        with:
+          args: --acl public-read
+        env:
+          AWS_S3_BUCKET: ${{ env.S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ env.AWS_REGION }}
+          SOURCE_DIR: 'build'
+          
+      - name: Create CloudFront Cache Invalidation
+        uses: chetan/invalidate-cloudfront-action@master
+        env:
+#         Note: we have to mention region of aws here like this not in as veriable
+          AWS_REGION: ap-southeast-1
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          DISTRIBUTION: ${{ env.CLOUDFRONT_DISTRIBUTION_ID }}
+          PATHS: '/*'

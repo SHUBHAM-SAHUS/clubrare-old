@@ -1,0 +1,328 @@
+.edit_image {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  bottom: 25px;
+  right: 5px;
+  float: right;
+}
+
+.card_place_bid_btn {
+  color: white;
+  background: #000000 0% 0% no-repeat padding-box;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.rect-angle-profile {
+  width: 100%;
+  height: 280px;
+  z-index: 1;
+  border-radius: 16px;
+}
+
+.top-position {
+  bottom: 37px;
+}
+
+.tab-collection {
+  margin: 0px 15px 10px 15px;
+}
+
+.active-tab {
+  border-bottom: solid 4px #000;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.text-input {
+  border: 0.5px solid #c0c0c0;
+  border-radius: 5px;
+  opacity: 1;
+  height: 50px;
+  width: 100%;
+  padding: 15px;
+}
+
+.category-name {
+  cursor: pointer;
+}
+
+.edit-profile-btn {
+  font-weight: 400 !important;
+  margin-left: 15px;
+}
+
+.share_img {
+  margin-top: 10px;
+}
+
+.profile_page_wrp .profile_img {
+  box-shadow: 0px 0px 30px #00000029;
+}
+
+.profile_page_wrp {
+  margin-top: -50px;
+}
+
+.edit_profile_wrp .edit-profile-btn {
+  border-radius: 30px 150px 50px 30px;
+  border: 1px solid #a6a6a6;
+  padding: 8px 30px 8px 25px;
+}
+
+.submitreportheadwrp {
+  padding: 0 0 30px !important;
+}
+
+.subrepdetailwrp p.shorttxt {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.submitreporthead {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.subrepdetailwrp form .user-details {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.subrepdetailwrp form input {
+  font-size: 13px;
+  line-height: 15px;
+  margin: 0 !important;
+}
+
+.subrepbtn button {
+  border-radius: 10px 50px 10px 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.profile_page_wrp .profile_popup_wrp button.balance_btn_wrp {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0;
+  border: 0 !important;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.profile_page_wrp .profile_popup_wrp button.balance_btn_wrp span {
+  padding: 8px;
+  display: block;
+}
+
+.updatecoverhead .flex {
+  padding: 40px 30px 30px;
+}
+
+.updatecoverhead .flex .text-22 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.update_cover_popupwrp .mt-2.text-blue {
+  margin: 0 !important;
+}
+
+.update_cover_popupwrp .mt-2.text-blue p.text-14 {
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+  padding: 0 20px;
+}
+
+.update_cover_popupwrp .mt-2.text-blue .mt-5.mb-4.items-center.text-align {
+  margin: 0 !important;
+}
+
+.update_cover_popupwrp .mt-2.text-blue button.row-start-1 {
+  border-radius: 10px 50px 10px 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.updatecoverhead .position-close {
+  bottom: 30px;
+  position: relative;
+  right: -10px;
+}
+
+.update_cover_popupwrp .bg-white.inline-block.w-full.max-w-570.rounded-32 {
+  max-width: 30%;
+}
+
+.edit_profile_wrp .absolute.right-0.left-0.z-30.top-0 {
+  position: unset !important;
+}
+
+.edit_profile_wrp {
+  align-items: center;
+}
+
+.viewprofile_createdlist {
+  margin-top: 20px !important;
+}
+
+.viewprofilalltabwrp {
+  word-break: break-word;
+  display: block;
+}
+
+.viewprofile_page_wrp .tab-collection {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.flex.edit_profile_imgwrp {
+  margin: 0 !important;
+}
+
+.update_cover_popupwrp
+  .bg-white.inline-block.w-full.max-w-570.rounded-32.report-modal {
+  max-width: 38%;
+}
+
+.collection_list {
+  margin-top: 5px !important;
+}
+
+.collectarricon {
+  width: 8px;
+  height: 15px;
+  margin-top: 3px;
+}
+button.cover_upload_btn {
+  pointer-events: auto !important;
+}
+#collectionmodal .collection_form_wrp .comm_input_wrp {
+  margin-bottom: 10px;
+}
+
+/* Responsive CSS */
+@media only screen and (max-width: 1199px) {
+  .update_cover_popupwrp
+    .bg-white.inline-block.w-full.max-w-570.rounded-32.report-modal {
+    max-width: 485px;
+  }
+  .updatecover_popupinn {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 979px) {
+  .viewprofile_createdlist {
+    margin-top: 0px !important;
+  }
+
+  .viewprofile_page_wrp .tab-collection {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  .rect-angle-profile {
+    height: 230px;
+  }
+
+  .edit_profile_wrp .edit-profile-btn {
+    padding: 5px 20px 5px 15px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 4px;
+  }
+
+  .profile_page_wrp .edit_profile_imgwrp img {
+    width: 15px;
+  }
+
+  .viewprofilalltabwrp {
+    padding: 0 10px !important;
+  }
+
+  .submitreportheadwrp {
+    padding: 0 0 !important;
+  }
+
+  .subrepdetailwrp .text-center.mt-5.mb-3.subrepbtn {
+    margin: 15px 0 0 0 !important;
+  }
+
+  .subrepdetailwrp .text-align.pb-6\.5.mt-2\.5.sm\:mt-0 {
+    padding: 0 !important;
+    text-align: left !important;
+  }
+
+  .edit_profile_wrp > div:first-child .reportimgbtn > div img {
+    width: 4px;
+  }
+
+  .update_cover_popupwrp
+    .bg-white.inline-block.w-full.max-w-570.rounded-32.report-modal {
+    max-width: 100%;
+  }
+
+  .subrepdetailwrp .text-align.px-4\.5 {
+    margin: 0 !important;
+  }
+
+  .update_cover_popupwrp .updatecovercont {
+    margin-top: 0 !important;
+  }
+
+  .updatecover_popupinn {
+    position: relative;
+    padding: 25px 15px;
+  }
+
+  .flex.flex-col-reverse.sm\:flex-row.items-center.justify-between.text-26.font-bold.px-4.sm\:px-11.submitreportheadwrp {
+    align-items: left !important;
+    flex-direction: inherit !important;
+  }
+
+  .updatecover_popupinn
+    .position-close.self-end.sm\:self-center.cursor-pointer {
+    position: absolute;
+    right: 5%;
+    top: 7%;
+  }
+
+  .updatecover_popupinn form.mt-6.text-left {
+    margin-top: 15px;
+  }
+}
+
+.collection_name {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 479px) {
+  .updatecover_popupinn
+    .position-close.self-end.sm\:self-center.cursor-pointer {
+    position: absolute;
+    right: 5%;
+    top: 6%;
+  }
+
+  .updatecover_popupinn {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,345 @@
+@font-face {
+    font-family: "HelveticaNeueLTProBd";
+    src: url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBd.eot");
+    src:
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBd.eot?#iefix") format("embedded-opentype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBd.woff2") format("woff2"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBd.woff") format("woff"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Bd.ttf") format("truetype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Bd.svg#Helvetica Neue LT Pro") format("svg");
+    }
+  
+  @font-face {
+    font-family: "HelveticaNeueLTProBdCn";
+    src: url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBdCn.eot");
+    src:
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBdCn.eot?#iefix") format("embedded-opentype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBdCn.woff2") format("woff2"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBdCn.woff") format("woff"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-BdCn.ttf") format("truetype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-BdCn.svg#Helvetica Neue LT Pro") format("svg");
+  }
+  
+  @font-face {
+    font-family: "HelveticaNeueLTProBlkCn";
+    src: url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBlkCn.eot");
+    src:
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBlkCn.eot?#iefix") format("embedded-opentype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBlkCn.woff2") format("woff2"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBlkCn.woff") format("woff"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-BlkCn.ttf") format("truetype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-BlkCn.svg#Helvetica Neue LT Pro") format("svg");
+  }
+  
+  @font-face {
+    font-family: "HelveticaNeueLTProCn";
+    src: url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProCn.eot");
+    src:
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProCn.eot?#iefix") format("embedded-opentype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProCn.woff2") format("woff2"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProCn.woff") format("woff"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Cn.ttf") format("truetype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Cn.svg#Helvetica Neue LT Pro") format("svg");
+  }
+  
+  @font-face {
+    font-family: "HelveticaNeueLTProMd";
+    src: url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMd.eot");
+    src:
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMd.eot?#iefix") format("embedded-opentype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProMd.woff2") format("woff2"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProMd.woff") format("woff"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Md.ttf") format("truetype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Md.svg#Helvetica Neue LT Pro") format("svg");
+  }
+  
+  @font-face {
+    font-family: "HelveticaNeueLTProMdCn";
+    src: url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMdCn.eot");
+    src:
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMdCn.eot?#iefix") format("embedded-opentype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProMdCn.woff2") format("woff2"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProMdCn.woff") format("woff"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-MdCn.ttf") format("truetype"),
+      url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-MdCn.svg#Helvetica Neue LT Pro") format("svg");
+  }
+
+.agov_dao_lpStaking_wrp {
+    header {
+        background-color: #f6f6f6 !important;
+    }
+    .agov_dao_lpStaking {
+        padding: 0;
+        margin-top: 70px !important;
+        h1,
+        span
+         {
+            font-family: "HelveticaNeueLTProBlkCn";
+            color: #141414;
+        }
+        h6,h2{
+            font-family: 'HelveticaNeueLTProCn';
+            color: #141414;
+        }
+        p {
+            font-family: "HelveticaNeueLTProMdCn";
+            color: #141414;
+        }
+        .agov_dao_wrp {
+            background-color: #f6f6f6;
+            padding: 50px 0 100px;
+            border-bottom: 2px solid #141414;
+            .agov_dao_inner {
+                h6 {
+                    font-size: 12px;
+                    line-height: 15px;
+                    font-weight: 700;
+                    word-break: break-word;
+                }
+                span {
+                    font-size: 22px;
+                    line-height: 22px;
+                    font-weight: 900;
+                    word-break: break-word;
+                    font-family: "HelveticaNeueLTProBlkCn";
+                }
+                .agov_dao_inner_lft_wrp {
+                    .agov_eth_img_wrp {
+                        display: flex;
+
+                        img {
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .klatn_icon {
+                            padding: 0 5px 0 1px;
+                        }
+                    }
+                    h1 {
+                        text-transform: uppercase;
+                        font-weight: 900;
+                        font-size: 38px;
+                        line-height: 34px;
+                        margin: 14px 0 0;
+                    }
+                    p {
+                        font-size: 16px;
+                        line-height: 22px;
+                        font-weight: 500;
+                        word-break: break-word;
+                    }
+                    .stacked_eth_agov_wrp {
+                        width: 32%;
+                        margin-top: 24px;
+                    }
+                }
+                .agov_dao_inner_right_wrp {
+                    text-align: center;
+                    h2 {
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 29px;
+                        word-break: break-word;
+                    }
+                    .rewards_wrp {
+                        margin: 35px 0;
+                        justify-content: space-around;
+                        .rewards {
+                            width: 100%;
+                        }
+                    }
+                    .claim_btn_wrp {
+                        button {
+                            border-radius: 24px;
+                            padding: 8px 24px;
+                            width: 100%;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 21px;
+                            word-break: break-word;
+                            background-color: #EAFB06;
+                            border: 4px solid #EAFB06;
+                            color: #141414;
+                            margin: 0;
+                            box-shadow: unset;
+
+                            &:hover {
+                            background-color: #F8FF99;
+                            border-color: #F8FF99;
+                            }
+
+                            &:active,
+                            &:focus {
+                            background-color: #F8FF99;
+                            border-color: #EAFB06;
+                            }
+
+                            &.disabled {
+                            color: gray;
+                            opacity: 0.5;
+                            
+                            }   
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .agov_dao_lpStaking_modal {
+            margin-top: -55px;
+        }
+        .agov_dao_lpStaking_footer {
+            margin-top: 45px;
+            .lpStaking_footer_wrp {
+                img.rewards {
+                    margin: 0 auto 8px;
+                    width: 40px;
+                    height: 40px;
+                }
+                h1 {
+                    text-align: center;
+                    font-weight: 900;
+                    font-size: 28px;
+                    line-height: 25px;
+                    text-transform: uppercase;
+                    word-break: break-word;
+                }
+
+                .lpStaking_footer {
+                    margin: 48px 15%;
+                    h1 {
+                        text-align: left;
+                        margin-bottom: 16px;
+                    }
+                    p {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 28px;
+                        margin: 8px 0;
+                        
+                        span{
+                            font-family: "HelveticaNeueLTProMdCn";
+                        }
+                        img {
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// responsive
+@media only screen and (max-width: 1199px) {
+    .agov_dao_lpStaking_wrp {
+        .agov_dao_lpStaking {
+            .agov_dao_wrp {
+                .agov_dao_inner {
+                    .agov_dao_inner_lft_wrp {
+                        .stacked_eth_agov_wrp {
+                            width: 45%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+    .agov_dao_lpStaking_wrp {
+        br {
+            display: none;
+        }
+        .agov_dao_lpStaking {
+            .agov_dao_wrp {
+                .agov_dao_inner {
+                    .agov_dao_inner_lft_wrp {
+                        .stacked_eth_agov_wrp {
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+            .agov_dao_lpStaking_footer {
+                .lpStaking_footer_wrp {
+                    .lpStaking_footer {
+                        margin: 48px 0;
+                    }
+                }
+            }
+        }
+    }
+} /* 980 */
+@media only screen and (max-width: 979px) {
+    .agov_dao_lpStaking_wrp {
+        .agov_dao_lpStaking {
+            margin-top: 0 !important;
+            .agov_dao_wrp {
+                padding: 25px 0 70px;
+                .agov_dao_inner {
+                    .agov_dao_inner_lft_wrp {
+                        flex: unset;
+                        max-width: 100%;
+                        .stacked_eth_agov_wrp {
+                            margin: 24px 0;
+                            width: 100%;
+                            .stacked_wrp {
+                                flex: unset;
+                                max-width: 100%;
+                                padding: 0;
+                                h6 {
+                                    margin-bottom: 16px;
+                                }
+                            }
+                            .stacked_eth_wrp {
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                    .agov_dao_inner_right_wrp {
+                        flex: unset;
+                        max-width: 100%;
+                        text-align: left;
+                        h2 {
+                            font-size: 12px;
+                            line-height: 15px;
+                            font-weight: 700;
+                        }
+                        .rewards_wrp {
+                            margin: 16px 0 24px;
+                            .rewards {
+                            }
+                        }
+                    }
+                }
+            }
+            .agov_dao_lpStaking_footer {
+                .lpStaking_footer_wrp {
+                    img.rewards {
+                        margin: 0 0 8px;
+                    }
+                    h1 {
+                        text-align: left;
+                    }
+                    .lpStaking_footer {
+                        margin: 0 0 32px;
+                        p {
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-weight: 500;
+                        }
+                        .lpStaking_footer_lft_wrp,
+                        .lpStaking_footer_right_wrp {
+                            flex: unset;
+                            max-width: 100%;
+                            margin-top: 32px;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} /* 768 */

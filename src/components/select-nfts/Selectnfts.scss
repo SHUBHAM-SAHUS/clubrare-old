@@ -1,0 +1,679 @@
+.Selectnfts_wrp {
+  h1 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #202020;
+  }
+  .Selectnfts_notlisted_wrp {
+    text-align: center;
+    img {
+      margin: 72px auto 8px;
+    }
+    span {
+      font-size: 14px;
+      line-height: 33px;
+      font-weight: 500;
+      color: #202020;
+    }
+    P {
+      font-size: 20px;
+      line-height: 33px;
+      font-weight: 700;
+      color: #202020;
+      text-align: center;
+    }
+  }
+  .Selectnfts_listed_wrp {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 21px;
+    .listed_list_wrp {
+      display: flex;
+      align-items: center;
+      margin-top: 24px;
+      .listed_list {
+        width: 100%;
+        word-break: break-word;
+        .new-WRAP {
+          margin: 0 0 10px 0;
+          img {
+            width: 10px;
+          }
+          .mpwr-icon-img {
+            width: 20px;
+          }
+        }
+        .res_text {
+          font-weight: 400;
+          font-size: 12.269px;
+          line-height: 14.72px;
+          color: #b2b3b0;
+          display: none;
+        }
+        h5 {
+          font-size: 14px;
+          line-height: 21px;
+          color: #202020;
+        }
+      }
+      .sale_nft_wrp input {
+        width: 100%;
+        position: relative;
+        padding: 0 15px;
+        border-bottom: 1px solid #d9d9d6 !important;
+      }
+      .sale_nft_wrp select {
+        position: absolute;
+        right: 0;
+      }
+    }
+
+    .listed_list_nft_wrp {
+      display: flex;
+      .coll_img_wrp {
+        max-width: 120px;
+        max-height: 120px;
+        width: 120px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        .card_img {
+          width: unset !important;
+          height: 100% !important;
+        }
+      }
+    }
+    .listed_creator_icon_wrp {
+      padding-left: 40px;
+    }
+    .Selectnfts_listed_inner {
+      height: 764px;
+      overflow: auto;
+      overflow-y: auto;
+      overflow-x: auto;
+      padding-bottom: 24px;
+      .listed_list_wrp {
+        display: flex;
+        align-items: center;
+        margin-top: 28px;
+        .listed_list {
+          width: 100%;
+          word-break: break-word;
+          h5 {
+            font-size: 14px;
+            line-height: 21px;
+            color: #202020;
+          }
+          label.custcheckwrp {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            position: relative;
+            margin-right: 15px;
+            //cursor: pointer;
+            input {
+              visibility: hidden;
+            }
+            span.tickmark {
+              img {
+              }
+            }
+          }
+          .card_img {
+            margin-left: 15%;
+            width: 120px;
+            height: 120px;
+          }
+        }
+        .listed_list_nft_wrp{
+          height: 120px;
+        }
+        .listed_creator_icon_wrp {
+          .description_inn {
+            .img_wrp {
+              img.card_img {
+                margin-left: 0;
+              }
+            }
+            .text_wrp {
+              display: block;
+              p {
+                p {
+                  font-size: 14px;
+                  line-height: 17px;
+                  font-weight: 500;
+                  color: #202020;
+                }
+              }
+            }
+          }
+        }
+        .listed_list_floor_wrp,
+        .listed_list_ptice_wrp {
+          h6.new-wrap_wrp {
+            font-size: 12px;
+            line-height: 14px;
+            font-weight: 400;
+            color: #b2b2b0;
+            text-align: left;
+            margin-top: 8px;
+            display: none;
+          }
+          p.new-WRAP {
+            span {
+              font-size: 14px;
+              line-height: 17px;
+              font-weight: 500;
+              text-align: center;
+            }
+          }
+          .novaluecurrprice {
+            .curr_price {
+              margin: 0 !important;
+            }
+          }
+        }
+        .listed_list_floor_wrp button {
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 25px;
+          box-shadow: none !important;
+          width: 144px;
+          margin: 0;
+          background: #effc52;
+          border-radius: 24px;
+          color: #202020;
+          padding: 12px 24px;
+        }
+        .listed_list_floor_wrp button.disablebtn {
+          background-color: #e1dddd;
+          pointer-events: none;
+        }
+      }
+    }
+    .Selectnfts_listed_inner::-webkit-scrollbar-thumb {
+      background: #d9d9d6;
+      border-radius: 8px;
+    }
+    .list_selected_btn_wrp {
+      padding: 20px 0 10px;
+      border-top: 1px solid #eff0ed;
+      .selected_btn_left_wrp {
+        .select_wrp {
+          label {
+            font-size: 12px;
+            line-height: 18px;
+            color: #202020;
+            border: 2px solid #eff0ed;
+            border-radius: 24px;
+            padding: 0px 8px;
+            input {
+              display: none;
+            }
+          }
+          label.active {
+            color: #fff;
+            background-color: #202020;
+            border-color: #202020;
+          }
+          label:nth-child(2) {
+            margin-left: 8px;
+          }
+        }
+        p {
+          font-size: 14px;
+          line-height: 21px;
+          color: #4c4d4c;
+          margin-top: 8px;
+        }
+      }
+      .selected_btn_right_wrp {
+        button {
+          background-color: #effc52;
+          padding: 12px 32px;
+          border-radius: 24px;
+        }
+        button:disabled {
+          opacity: 0.5;
+          pointer-events: none;
+        }
+        button:nth-child(2) {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}
+
+.custcheckwrp .tickmark img {
+  display: none;
+  width: 16px;
+}
+.custcheckwrp input:checked ~ .tickmark img,
+.custcheckwrp input:hover ~ .tickmark img {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2px;
+  cursor: pointer;
+}
+.custcheckwrp input:hover ~ .tickmark.disablebtn img {
+  display: none;
+}
+.tickmark {
+  display: inline-block;
+  border: 1px solid #b2b3b0;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  margin-right: 18px;
+  vertical-align: top;
+  text-align: center;
+  line-height: 11px;
+  position: absolute;
+}
+.tickmark img {
+  width: 13px;
+  margin: 0 auto;
+  background-color: #000;
+}
+.nonverifiedmoda_wrp .modal-content {
+  border: 0;
+  text-align: center;
+  border-radius: 20px;
+}
+.nonverifiedmoda_wrp .modal-body {
+  background-color: white;
+  padding: 10px 25px 25px;
+  min-height: unset;
+  min-width: unset;
+}
+.nonverified_inn p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+.nonverified_inn button.cmmnbtn {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  border-radius: 24px;
+  color: #202020;
+  padding: 8px 24px !important;
+  box-shadow: none !important;
+}
+.nonverified_inn button.confirmbtn {
+  background: #effc52;
+}
+.nonverified_inn button.cancel_button {
+  background-color: #fff !important;
+  color: #b2b2b0;
+  border: 2px solid #b2b2b0;
+}
+.nonverified_inn button.cancel_button:hover {
+  border-color: #000;
+  color: #000;
+}
+.nonverified_inn .allbtnwrp {
+  margin-top: 15px;
+}
+.nonverified_inn .allbtnwrp button {
+  margin-left: 10px;
+}
+.nonverifiedmoda_wrp .modal-header {
+  border: 0;
+  display: inline-block;
+  padding-bottom: 0;
+}
+
+span.cardtooltip.weth.weth_price {
+  padding-left: 50px;
+}
+.listed_list span.cardtooltip.eth.curr_price {
+  padding-left: 40px;
+}
+.club_card_price_wrp span.curr_price {
+  padding-left: unset;
+}
+.club_card_price_wrp .cardtooltip {
+  min-width: 200px;
+}
+
+.cardtooltip_wrp > div {
+  left: 0 !important;
+  transform: unset !important;
+  min-width: 140px;
+  text-align: center;
+}
+.cardtooltip_wrp > div > div {
+  padding: 4px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.coll_img_wrp {
+  position: relative;
+}
+.coll_img_wrp .checked_img {
+  width: 20px;
+  height: 20px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 5px;
+  right: -14px;
+}
+.listed_creator_icon_wrp .aprv_txt {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  word-break: break-word;
+  white-space: nowrap;
+  width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.sale_price_wrp input {
+  width: 100%;
+  text-align: center;
+}
+.sale_price_wrp input:focus {
+  text-align: left;
+}
+.sale_price_wrp input::placeholder:focus {
+  color: red !important;
+}
+
+.Selectnfts_listed_inner_new p.text-red {
+  font-size: 13px;
+  color: red;
+}
+.trass_vedio_wrp{
+  position: relative;
+  max-width: 120px;
+    max-height: 120px;
+    width: 120px;
+  .trass_vedio_btn{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #fcfcfc;
+    color: #000;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    padding: unset !important;
+  }
+}
+.trass_audio_wrp{
+  border: 1px solid #eee;
+  .trass_audio_btn{
+    background-color: #000;
+    color: #fcfcfc;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    padding: unset !important;
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+}
+// responsive
+@media only screen and (max-width: 1199px) {
+  .Selectnfts_wrp .Selectnfts_listed_wrp .Selectnfts_listed_inner .Selectnfts_listed_inner_new{
+    width: 800px;
+  }
+  .Selectnfts_wrp .Selectnfts_listed_wrp .listed_creator_icon_wrp {
+    padding-left: 10px;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .list_selected_btn_wrp
+    .selected_btn_right_wrp
+    button:nth-child(2) {
+    margin-top: 15px;
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .Selectnfts_wrp {
+    margin-top: 30px;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .coll_img_wrp .checked_img {
+    top: 5px;
+    right: 5px;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp {
+    display: block;
+    padding-left: 30%;
+    align-items: flex-start;
+    position: relative;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list.listed_list_nft_wrp {
+    position: absolute;
+    left: 0px;
+    width: 96%;
+  }
+
+  .club_card_price_wrp span.eth {
+    background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/images/ethIcon.png');
+  }
+  .club_card_price_wrp span.eth {
+    background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/images/ethIcon.png');
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp
+    .listed_creator_icon_wrp
+    .description_inn
+    .text_wrp
+    p {
+    display: block;
+  }
+  p.new-WRAP.cursor-pointer.d-flex.justify-content-center.align-items-center {
+    justify-content: flex-start !important;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .listed_list_wrp.listed_list_wrp_header {
+    display: none;
+  }
+  .Selectnfts_wrp .Selectnfts_listed_wrp {
+    margin-top: 0;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp
+    .listed_list_floor_wrp
+    h6.new-wrap_wrp,
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp
+    .listed_list_ptice_wrp
+    h6.new-wrap_wrp {
+    display: block;
+  }
+  .Selectnfts_wrp .Selectnfts_listed_wrp .Selectnfts_listed_inner {
+    height: unset;
+    max-height: 715px;
+  }
+  .listed_list .res_text {
+    display: block !important;
+    text-align: left !important;
+    margin: 3px 0;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp
+    .listed_list {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp
+    .listed_list
+    button {
+    padding: 5px 20px;
+  }
+  .Selectnfts_wrp .Selectnfts_listed_wrp .listed_creator_icon_wrp {
+    padding-left: unset;
+  }
+  .Price_unit_wrp,
+  .sale_price_wrp {
+    display: inline-block;
+    width: 50% !important;
+  }
+  .sale_price_wrp input {
+    text-align: left;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .list_selected_btn_wrp
+    .selected_btn_right_wrp
+    button:nth-child(2) {
+    margin-left: 0;
+  }
+  .Selectnfts_wrp .Selectnfts_listed_wrp .Selectnfts_listed_inner .Selectnfts_listed_inner_new{
+    width: unset;
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp {
+    padding-left: 40%;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .list_selected_btn_wrp
+    .selected_btn_left_wrp,
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .list_selected_btn_wrp
+    .selected_btn_right_wrp {
+    flex: unset;
+    max-width: 100%;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .list_selected_btn_wrp
+    .selected_btn_right_wrp {
+    margin-top: 24px;
+    button {
+      width: 100%;
+    }
+  }
+  .Selectnfts_wrp .Selectnfts_notlisted_wrp P {
+    padding: 0 10%;
+  }
+  .Selectnfts_wrp .Selectnfts_notlisted_wrp img {
+    width: 40px;
+    height: 40px;
+    margin: 32px auto 8px;
+  }
+  .transfferassets_wrp
+    .Selectnfts_wrp
+    .Selectnfts_listed_inner
+    .description_inn
+    .img_wrp
+    img {
+    max-width: 32px;
+    max-height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+  }
+  .transfferassets_wrp
+    .Selectnfts_wrp
+    .Selectnfts_listed_inner
+    .description_inn
+    .text_wrp
+    p {
+    margin: 0;
+  }
+  // .Selectnfts_wrp .Selectnfts_listed_wrp .Selectnfts_listed_inner{
+  //     height: 720px;
+  // }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp
+    .listed_list_floor_wrp
+    button {
+    width: unset;
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp {
+    padding-left: 50%;
+  }
+  .Price_unit_wrp .w-24 {
+    width: 100%;
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp {
+    padding-left: 40%;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp
+    .listed_list
+    .card_img {
+    width: 70px;
+    height: 70px;
+  }
+  .Selectnfts_wrp
+    .Selectnfts_listed_wrp
+    .Selectnfts_listed_inner
+    .listed_list_wrp
+    .listed_list_nft_wrp
+    .coll_img_wrp {
+    max-width: 70px;
+    max-height: 70px;
+    width: 70px;
+  }
+  .trass_vedio_wrp {
+    position: relative;
+    max-width: 70px;
+    max-height: 70px;
+    width: 70px;
+}
+.Selectnfts_wrp .Selectnfts_listed_wrp .Selectnfts_listed_inner .listed_list_wrp .listed_list_nft_wrp{
+  height: 70px;
+}
+  .Selectnfts_wrp .Selectnfts_listed_wrp .Selectnfts_listed_inner .listed_list_wrp .listed_list_floor_wrp button{
+    font-size: 11px;
+  }
+} /* 320 */

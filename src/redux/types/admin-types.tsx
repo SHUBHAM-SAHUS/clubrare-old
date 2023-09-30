@@ -1,0 +1,3 @@
+export const GET_ADMIN_DATA = 'GET_ADMIN_DATA';
+export const GET_START_LOADING = 'GET_START_LOADING';
+export const GET_STOP_LOADING = 'GET_STOP_LOADING';

@@ -1,0 +1,59 @@
+.metaverse_item_inn {
+    h1 {
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 900;
+        margin-bottom: 11px;
+        text-transform: uppercase;
+        font-family: "Helvetica Neue LT Pro 97 Black Condensed";
+    }
+    span {
+        display: block;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    button.metaverse-mint-btn {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        background-color: #202020;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        padding: 8px 24px;
+        border-radius: 24px;
+        text-decoration: none;
+        border: 1px solid #202020;
+        margin-bottom: 20px;
+    }
+    button.metaverse-mint-btn.disabled {
+        pointer-events: none;
+        opacity: 0.8;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .metaverse_items_wrp {
+        .container {
+            max-width: 95%;
+        }
+    }
+}
+@media only screen and (max-width: 979px) {
+    .metaverse_item_inn {
+        h1 {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+}
+@media only screen and (max-width: 979px) {
+    .metaverse_item_inn {
+        text-align: center;
+        h1 {
+            margin-top: 20px;
+        }
+    }
+}
+body:has(button.metaverse-mint-btn.disabled) {
+    pointer-events: none;
+}

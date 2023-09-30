@@ -1,0 +1,207 @@
+.viewall_btn_wrp button {
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 500;
+  color: #202020;
+  cursor: pointer;
+  text-align: center;
+  padding: 4px 35px 4px 16px !important;
+  border-radius: 24px;
+  text-decoration: none;
+  border: 2px solid #202020;
+  background-image: url(https://d1gqvtt7oelrdv.cloudfront.net/assets/images/smallrightarrow.svg);
+  background-position: right 14px center;
+  background-repeat: no-repeat;
+}
+.viewall_btn_wrp button:hover {
+  background-color: #202020;
+  color: #fff;
+  background-image: url(https://d1gqvtt7oelrdv.cloudfront.net/assets/images/whiteArrowRight.svg);
+}
+
+.live_auction_wrp {
+  padding: 0 15px;
+}
+// .mostview_wrp {
+//     margin: 0 15px;
+// }
+.live_auction_wrp h1,
+.mostview_wrp h1 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.slick-prev {
+  left: 45%;
+}
+.slick-next {
+  right: 45%;
+}
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  bottom: -40px;
+  top: unset;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: unset;
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.slick-prev:before,
+.slick-next:before {
+  background-image: url(https://d1gqvtt7oelrdv.cloudfront.net/assets/images/sliderrightarrow.svg);
+  background-repeat: no-repeat;
+  background-size: 10px 15px;
+  font-size: 20px;
+  line-height: 23px !important;
+  color: unset !important;
+  text-align: center;
+}
+button.slick-arrow.slick-prev,
+button.slick-arrow.slick-next {
+  background-color: #fafafa;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px 10px;
+}
+.slick-next:before {
+  background-image: url(https://d1gqvtt7oelrdv.cloudfront.net/assets/images/sliderleftarrow.svg);
+}
+ul.slick-dots {
+  display: none !important;
+}
+/* dropdown style */
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #1e2125;
+  background-color: #eff0ed;
+}
+.mostview_wrp .dropdown-menu {
+  width: 187px !important;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgb(0 0 0 / 8%);
+  border-radius: 16px;
+  border: unset;
+  padding: 8px 16px;
+}
+.mostview_wrp .dropdown-item {
+  padding: 10px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.mostview_wrp .show.dropdown .dropdown-toggle::after {
+  color: #ecf962;
+}
+.mostview_wrp .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.3em;
+  vertical-align: 1px;
+  content: '';
+  border-top: 7px solid;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-radius: 20px;
+}
+.mostview_wrp .mostview_right {
+  align-items: end !important;
+  justify-content: end;
+}
+.mostview_right button#dropdown-basic {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  padding-right: 15px;
+}
+.clubraredroplist_wrp .live_auction_slider.new_club_card_wrp {
+  box-shadow: unset;
+}
+// responsive
+@media only screen and (max-width: 1199px) {
+  .Latest_Drops_main
+    .flex.text-16.lg\:text-22.text-blue.font-semibold.Latest_Drops {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+  .newhome_page_wrp .live_auction_wrp {
+    padding: 0;
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+} /* 980 */
+@media only screen and (max-width: 979px) {
+} /* 768 */
+@media only screen and (max-width: 767px) {
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  // .newhome_page_wrp  .mostview_wrp .mostview_right {
+  //     justify-content: flex-start;
+  // }
+  .newhome_page_wrp .Latest_Drops,
+  .newhome_page_wrp .hot_bid_wrp {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+  .newhome_page_wrp .live_auction_wrp {
+    padding-left: 0;
+  }
+  .newhome_page_wrp .viewall_btn_wrp button {
+    border: 2px solid #d9d9d6;
+  }
+  .newhome_page_wrp .viewall_btn_wrp button:hover {
+    border: 2px solid #202020;
+  }
+  .newhome_page_wrp .leaderboard_slider {
+    padding: 0;
+  }
+  main.main-container.newhome_page_wrp {
+    margin-top: 50px !important;
+  }
+  .newhome_page_wrp .mostview_wrp .col-6 {
+    display: flex !important;
+    vertical-align: middle;
+  }
+  // .newhome_page_wrp .mostview_wrp .mostview_left{
+  //     max-width: 70%;
+  //  }
+  //  .newhome_page_wrp .mostview_wrp .mostview_right{
+  //     max-width: 30%;
+  //  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  // .newhome_page_wrp .live_auction_wrp > .col-6,.newhome_page_wrp .Latest_Drops_main .row > .col-6,.newhome_page_wrp .mostview_wrp > .col-6{
+  //     max-width: 100%;
+  //     flex: unset;
+  // }
+  .newhome_page_wrp .mostview_wrp .mostview_left {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  .newhome_page_wrp .mostview_wrp .mostview_right {
+    max-width: 30%;
+    flex: 0 0 30%;
+  }
+  .mostview_right button#dropdown-basic {
+    padding-right: unset;
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+  .newhome_page_wrp .club_card_bottom1 .new_club_profile img {
+    height: 28px;
+  }
+  .club_cmn_card_btn span.d-flex {
+    word-break: break-all;
+  }
+} /* 320 */

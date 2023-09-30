@@ -1,0 +1,1162 @@
+//comman class Modal
+.agov_dao_lpStaking_modal {
+  text-align: center;
+  margin: -48px auto 0;
+  border-radius: 32px;
+  width: 98%;
+
+  h1 {
+    font-family: 'HelveticaNeueLTProBd';
+    word-break: break-word;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'HelveticaNeueLTProCn';
+    word-break: break-word;
+  }
+
+  .club_createitem {
+    button.mintbtn {
+      width: 100%;
+      background-color: #eafb06;
+      border: 4px solid #eafb06;
+      color: #141414;
+      margin: 0;
+      box-shadow: unset;
+      padding: 8px 32px;
+
+      &:hover {
+        background-color: #f8ff99;
+        border-color: #f8ff99;
+      }
+
+      &:active,
+      &:focus {
+        background-color: #f8ff99;
+        border-color: #eafb06;
+      }
+
+      &.disabled {
+        color: gray;
+        opacity: 0.5;
+        pointer-events: none;
+      }
+    }
+  }
+
+  .agov_dao {
+    background-color: #ffffff;
+    box-shadow: 32px 73px 32px rgb(20 20 20 / 1%),
+      18px 41px 27px rgb(20 20 20 / 2%), 8px 18px 20px rgb(20 20 20 / 3%),
+      2px 5px 11px rgb(20 20 20 / 4%), 0px 0px 0px rgb(20 20 20 / 4%);
+    border-radius: 32px;
+    padding: 24px;
+    position: relative;
+    width: 94%;
+    margin: 0 auto;
+
+    h1 {
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 25px;
+      text-transform: uppercase;
+      width: 75%;
+      margin: 0 auto 4px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #141414;
+      font-family: 'HelveticaNeueLTProCn';
+      width: 75%;
+      margin: 0 auto;
+    }
+
+    .view_guidebtn_wrp {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+
+      p {
+        width: 100%;
+      }
+
+      a.view_guid_btn {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        border: 2px solid #141414;
+        border-radius: 24px;
+        padding: 6px 16px;
+        width: 105px;
+        text-decoration: none;
+
+        &:hover {
+          background-color: #141414;
+          color: #f6f6f6;
+        }
+
+        &:active,
+        &:focus {
+          background-color: #141414;
+          color: #f6f6f6;
+          border-color: #e2e2e1;
+          border-width: 4px;
+        }
+
+        &.disabled {
+          border-color: #e2e2e1;
+          color: #e2e2e1;
+          background-color: transparent;
+        }
+      }
+    }
+
+    .diposit_wrp {
+      width: 40%;
+      margin: 24px auto;
+      text-align: left;
+
+      p {
+        width: unset;
+        margin: 0;
+      }
+
+      .diposit_inner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+
+      h6,
+      span {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 21px;
+        font-family: 'HelveticaNeueLTProCn';
+      }
+
+      p {
+        font-weight: 600;
+      }
+
+      input {
+        border-radius: 40px;
+        border: 1px solid #141414;
+        padding: 10px 70px 4px 16px;
+        width: 100%;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #141414;
+        font-family: 'HelveticaNeueLTProCn';
+
+        &::placeholder {
+          color: #141414;
+        }
+
+        &:hover {
+          border: 2px solid #141414;
+        }
+
+        &:focus,
+        &:active {
+          background-color: #f6f6f6;
+          border: 2px solid #141414;
+        }
+
+        &.disabled,
+        &.disabled::placeholder {
+          background-color: #ffffff;
+          border-color: #e2e2e1;
+          color: gray;
+        }
+      }
+
+      .diposit_input_wrp {
+        position: relative;
+        margin: 16px 0 0;
+
+        .diposit_input_error {
+          margin: 8px 0;
+
+          span {
+            font-family: 'HelveticaNeueLTProCn';
+
+            &.error {
+              font-weight: 500;
+              font-size: 10px;
+              line-height: 12px;
+              color: #df2323;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.agov_lpstake_input_wrp {
+  position: relative;
+
+  .agov_conv_loader {
+    position: absolute;
+    right: -60px;
+    top: 0;
+
+    svg.anticon-spin {
+      width: 30px;
+    }
+  }
+}
+
+.agov_dao_lpStaking_alert_wrp {
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: #141414;
+  z-index: 99;
+
+  .agov_dao_lpStaking_alert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+
+    .alert_text {
+      display: flex;
+
+      p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: 'HelveticaNeueLTProMdCn';
+        color: #f6f6f6;
+        letter-spacing: -0.2px;
+        margin-left: 10px;
+        margin-top: 6px;
+        word-break: break-word;
+      }
+    }
+
+    .alert_dismis {
+      display: flex;
+
+      button {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #b4b4b4;
+        border: 2px solid #b4b4b4;
+        border-radius: 24px;
+        padding: 6px 16px;
+        margin-right: 24px;
+        word-break: break-word;
+      }
+
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// transections_wrp style
+.transections_wrp {
+  .transections_table_wrp {
+    overflow: auto;
+
+    button.claimbtn.mintbtn {
+      text-transform: uppercase;
+      font-family: 'HelveticaNeueLTProMdCn';
+      width: auto;
+      padding: 8px 24px 4px;
+      line-height: 18px;
+      font-size: 16px;
+    }
+
+    .transact_load_wrp {
+      .clubarare_loader {
+        padding: 0;
+      }
+    }
+
+    .resposive_table {
+      margin: 0 auto;
+      max-height: 300px;
+
+      .table {
+        width: 740px;
+        margin: 25px auto 0;
+        text-align: left;
+
+        th,
+        td {
+          width: 10%;
+          padding-left: 10px;
+          padding-right: 10px;
+
+          &:nth-child(2) {
+            width: 9%;
+          }
+
+          &:nth-child(3) {
+            width: 14%;
+            padding-left: 15px;
+          }
+
+          &:nth-child(6) {
+            width: 9%;
+          }
+
+          &:nth-child(5) {
+            width: 8%;
+          }
+
+          &:nth-child(1) {
+            width: 6%;
+          }
+        }
+
+        td.club_createitem {
+          text-align: right;
+
+          label {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            word-break: break-word;
+            color: #141414;
+            letter-spacing: -0.2px;
+            padding-bottom: 0;
+          }
+        }
+
+        thead th {
+          border: unset;
+          border-bottom: 1px solid #a7a7a7;
+          padding-bottom: unset;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 15px;
+          color: #a7a7a7;
+          font-family: 'HelveticaNeueLTProBlkCn';
+
+          &:first-child {
+            padding-left: unset;
+          }
+        }
+
+        tbody td {
+          border: unset;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 28px;
+          word-break: break-word;
+          color: #141414;
+          letter-spacing: -0.2px;
+          padding-bottom: 0;
+          font-family: 'HelveticaNeueLTProBdCn';
+
+          &:nth-child(1) {
+            padding-left: unset;
+          }
+
+          button.claimbtn.mintbtn {
+            font-family: unset;
+          }
+        }
+      }
+    }
+
+    // .responsive_claim{
+    //   display: none;
+    // }
+  }
+
+  .club_createitem {
+    margin-top: 30px;
+  }
+}
+
+.trans_tootlip_wrp span {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+// lockup_period_wrp style
+.lockup_period_wrp {
+  .lockup_period_inn {
+    // padding: 0 20px 20px;
+    .agovconnect_wallet_header {
+      .agov_modal_inn {
+        .mobile_text {
+          display: none;
+        }
+
+        p {
+          margin-top: 13px;
+          font-family: 'HelveticaNeueLTProMdCn';
+          color: #141414;
+        }
+
+        h3 {
+          font-size: 24px;
+          line-height: 29px;
+          font-weight: 700;
+          font-family: 'HelveticaNeueLTProCn';
+          color: #141414;
+        }
+      }
+    }
+
+    // .club_createitem {
+    //   .mintbtn {
+    //     width: 100%;
+    //   }
+    // }
+    .lockup_period_inn_content {
+      .reward_comm_box {
+        justify-content: center;
+
+        label {
+          margin: 40px 12px;
+        }
+
+        .reward_comm_left {
+          border: 2px solid #141414;
+          padding: 15px;
+          border-radius: 24px;
+          width: 280px;
+          // margin-left: 15px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #f6f6f6;
+          }
+
+          img {
+            width: 15px;
+            height: 15px;
+          }
+
+          h3 {
+            font-weight: 900;
+            font-size: 38px;
+            line-height: 35px;
+            margin: 15px 0 25px;
+            color: #141414;
+            font-family: 'HelveticaNeueLTProBlkCn';
+          }
+
+          h5 {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 5px;
+            color: #141414;
+            font-family: 'HelveticaNeueLTProMdCn';
+          }
+
+          .reward_wrp {
+            .flex {
+              margin-bottom: 4px;
+            }
+
+            h6 {
+              font-size: 12px;
+              line-height: 16px;
+              font-weight: 500;
+              padding-left: 4px;
+              font-family: 'HelveticaNeueLTProMdCn';
+            }
+          }
+
+          .checkbox_wrp {
+            // margin-top: -9px;
+            .checkbox {
+              span {
+                position: relative;
+                display: inline-block;
+                border-radius: 50%;
+                vertical-align: top;
+                width: 24px;
+                height: 24px;
+                border: 2px solid #000000;
+                border-radius: 50%;
+
+                &::before {
+                  content: '';
+                  position: absolute;
+                  left: 0px;
+                  right: 0px;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  background-color: #eafb06;
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 50%;
+                  display: none;
+                  margin: 0 auto;
+                  background-image: url('../../assets/images/checkbox_check.svg');
+                  background-repeat: no-repeat;
+                  background-position: center center;
+                }
+              }
+
+              input:checked ~ span::before {
+                display: block;
+              }
+            }
+          }
+
+          .agov_eth {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+
+    .agov_process_wrp {
+      margin-bottom: 24px;
+
+      .agov_process {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        .agov_wrp {
+          font-size: 12px;
+          line-height: 14px;
+          font-weight: 700;
+          color: #b4b4b4;
+          font-family: 'HelveticaNeueLTProBdCn';
+
+          .approving_agov {
+            position: relative;
+            display: inline-block;
+            border-radius: 50%;
+            vertical-align: top;
+            width: 18px;
+            height: 18px;
+            border: 2px solid #b4b4b4;
+            border-radius: 50%;
+            background-image: url('../../assets/images/approv_agov.svg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 8px;
+            display: block;
+            margin: 0 auto 8px;
+          }
+
+          &.start_approv {
+            color: #141414;
+
+            .approving_agov {
+              border-color: #141414;
+              background-image: url('../../assets/images/checkbox_check.svg');
+            }
+          }
+
+          &.aproved {
+            color: #141414;
+
+            .approving_agov {
+              border-color: #141414;
+              background-image: url('../../assets/images/checkbox_check.svg');
+              background-color: #eafb06;
+            }
+          }
+        }
+
+        hr.agov_hr {
+          width: 156px;
+          height: 1px;
+          background-color: #b4b4b4;
+          border-radius: 8px;
+          margin: 8px -15px 0;
+
+          &.start_approv {
+            background-color: #141414;
+          }
+        }
+      }
+    }
+  }
+}
+
+//claim rewards modal
+.claim_rewards_modal {
+  .modal-dialog {
+    max-width: 600px;
+    margin: auto;
+
+    .modal-content {
+      padding: 24px;
+      box-shadow: 0px 8px 30px 0px #0000001f;
+      border-radius: 16px;
+      text-align: left;
+      border: unset;
+
+      .modal-header {
+        padding: 0;
+        border-bottom: unset;
+
+        .modal-title {
+          font-weight: 900;
+          font-size: 28px;
+          line-height: 25px;
+          margin-bottom: 4px;
+          text-transform: uppercase;
+          color: #141414;
+          font-family: 'HelveticaNeueLTProBlkCn';
+        }
+      }
+
+      .modal-body {
+        min-height: unset;
+        min-width: unset;
+        padding: 20px 0;
+        text-align: left;
+
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 21px;
+          color: #141414;
+          font-family: 'HelveticaNeueLTProMdCn';
+          margin-bottom: 20px;
+        }
+
+        .rewards_wrp {
+          width: 55%;
+
+          h6 {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 14px;
+            color: #141414;
+            margin-bottom: 4px;
+            word-break: break-word;
+          }
+
+          span {
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 25px;
+            text-transform: uppercase;
+            font-family: 'HelveticaNeueLTProBlkCn';
+            word-break: break-word;
+          }
+        }
+      }
+
+      .modal-footer {
+        padding: 0;
+        border-top: unset;
+        display: block;
+      }
+    }
+  }
+}
+
+//agovconnect_wallet_wrp style
+.agovconnect_wallet_wrp {
+  text-align: center;
+  position: relative;
+  margin: -48px auto 0;
+  // background-color: #fff;
+  border-radius: 32px;
+  width: 94%;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'HelveticaNeueLTProBd';
+  }
+
+  .agovconnect_wallet_content {
+    // border: unset;
+    // box-shadow: 32px 73px 32px rgb(20 20 20 / 1%), 18px 41px 27px rgb(20 20 20 / 2%), 8px 18px 20px rgb(20 20 20 / 3%), 2px 5px 11px rgb(20 20 20 / 4%), 0px 0px 0px rgb(20 20 20 / 4%);
+    // border-radius: 32px;
+
+    .agovconnect_wallet_header {
+      border-bottom: unset;
+      margin: 0 auto;
+      padding: 0 0 0;
+      text-align: center;
+
+      // h2 {
+      //   font-size: 28px;
+      //   line-height: 25px;
+      //   font-weight: 900;
+
+      // }
+
+      p {
+        // font-weight: 500;
+        // font-size: 16px;
+        // line-height: 23px;
+        // font-family: "";
+        margin-top: 4px;
+
+        span {
+          font-family: HelveticaNeueLTProCn;
+        }
+      }
+
+      .view_guidebtn_wrp {
+        position: absolute;
+        right: 20px;
+        top: 16px;
+
+        .view_guid_btn {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 18px;
+          border: 2px solid #141414;
+          border-radius: 24px;
+          padding: 6px 16px;
+          text-decoration: none;
+          color: #000;
+        }
+      }
+    }
+
+    .agovconnect_wallet_body {
+      border-top: unset;
+      min-height: unset;
+      border-radius: 32px;
+
+      .kaikaslogo_left {
+        figure {
+          width: 218px;
+          height: 84px;
+          margin: 0 auto;
+        }
+      }
+
+      .metamasklogo_right {
+        figure {
+          width: 268px;
+          height: 84px;
+          margin: 0 auto;
+        }
+      }
+
+      .metamasklogo_right,
+      .kaikaslogo_left {
+        .club_createitem {
+          margin: 0 0 20px;
+
+          .mintbtn {
+            background-color: #141414;
+            color: #fff;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 8px 24px;
+            width: 80%;
+            border: 2px solid #141414;
+
+            &.disconnect {
+              background-color: transparent;
+              color: #141414;
+            }
+          }
+        }
+      }
+
+      .club_createitem {
+        .mintbtn {
+          width: 100%;
+          background-color: #eafb06;
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+}
+
+.stake_agov_next_btn {
+  button.mintbtn.disabled {
+    padding: 5px;
+  }
+
+  .icon-loading-style {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+
+    svg.anticon-spin {
+      color: black;
+    }
+  }
+}
+
+p.red-note-txt {
+  color: red !important;
+  font-size: 14px !important;
+  margin: 4px auto !important;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .agov_dao_lpStaking_modal {
+    .agov_dao {
+      .diposit_wrp {
+        width: 60%;
+      }
+    }
+  }
+}
+
+/*1024*/
+@media only screen and (max-width: 1023px) {
+}
+
+/* 980 */
+@media only screen and (max-width: 979px) {
+  // connect-wallet section responsive
+  .agovconnect_wallet_wrp {
+    .agovconnect_wallet_content {
+      .agovconnect_wallet_header {
+        .view_guidebtn_wrp {
+          position: unset;
+        }
+      }
+
+      .agovconnect_wallet_body {
+        .kaikaslogo_left,
+        .metamasklogo_right {
+          .club_createitem {
+            .mintbtn {
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // lockup_period_wrp style
+  .lockup_period_wrp {
+    .lockup_period_inn {
+      .reward_comm_box {
+        p {
+          margin: 0;
+        }
+      }
+
+      .agovconnect_wallet_header {
+        .agov_modal_inn {
+          .mobile_text {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .agov_dao_lpStaking_modal {
+    .agov_dao {
+      width: 100%;
+
+      h1,
+      h3,
+      p {
+        width: unset;
+      }
+
+      .view_guidebtn_wrp {
+        position: unset;
+        margin: 24px 0;
+
+        a {
+          width: unset;
+        }
+      }
+
+      .diposit_wrp {
+        width: 100%;
+      }
+    }
+  }
+
+  .transections_wrp {
+    .transections_table_wrp {
+      overflow: auto;
+
+      .resposive_table {
+        width: 980px;
+
+        .table {
+          width: 980px;
+          margin: unset;
+          margin-top: 25px;
+
+          thead {
+          }
+
+          tbody {
+          }
+        }
+      }
+
+      .responsive_claim {
+        display: block;
+
+        button.claimbtn.mintbtn {
+          width: 100%;
+        }
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #000;
+        border-radius: 8px;
+      }
+
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #d9d9d6;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  .agov_lpstake_input_wrp {
+    .agov_conv_loader {
+      position: unset;
+    }
+  }
+}
+
+/*768*/
+@media only screen and (max-width: 767px) {
+  .agov_dao_lpStaking_modal {
+    .container-fluid {
+      width: 100%;
+      padding: 0 !important;
+    }
+  }
+
+  .agovconnect_wallet_wrp {
+    width: 100%;
+
+    .agovconnect_wallet_content {
+      .agovconnect_wallet_body {
+        .metamasklogo_right {
+          figure {
+            width: 190px;
+            height: 59px;
+            margin: 10px auto 0;
+          }
+        }
+      }
+    }
+  }
+
+  .agov_dao_lpStaking_alert_wrp {
+    .agov_dao_lpStaking_alert {
+      .alert_text {
+        width: 80%;
+      }
+
+      .alert_dismis {
+        button {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/* 650 */
+@media only screen and (max-width: 649px) {
+  .agovconnect_wallet_wrp {
+    .agovconnect_wallet_content {
+      .agovconnect_wallet_body {
+        .metamasklogo_right,
+        .kaikaslogo_left {
+          .club_createitem {
+            .mintbtn {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .lockup_period_wrp {
+    .lockup_period_inn {
+      .lockup_period_inn_content {
+        .reward_comm_box {
+          label {
+            margin: 24px 0;
+            width: 92%;
+
+            .reward_comm_left {
+              width: 100%;
+            }
+          }
+
+          label[for='html'] {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      .agov_process_wrp {
+        .agov_process hr.agov_hr {
+          width: 70px;
+        }
+      }
+    }
+  }
+
+  .claim_rewards_modal {
+    .modal-dialog {
+      max-width: 90%;
+
+      .modal-content {
+        padding: 24px;
+
+        .modal-body {
+          p {
+            padding-right: 15%;
+          }
+
+          .rewards_wrp {
+            width: unset;
+
+            .rewards {
+              padding: 0 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // transections_wrp responsive
+  .transections_wrp {
+    .transections_table_wrp {
+      .resposive_table {
+        width: 480px;
+        margin: 0 auto;
+
+        .table {
+          width: 480px;
+          margin: 0 auto 10px;
+
+          td {
+            padding-left: 4px;
+            padding-right: 4px;
+          }
+
+          tbody {
+            padding-bottom: 10px;
+
+            td {
+              border: unset;
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    .transections_table_wrp::-webkit-scrollbar {
+      width: 7px;
+      height: 7px;
+    }
+
+    .transections_table_wrp::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px #d9d9d6;
+      border-radius: 8px;
+    }
+
+    .transections_table_wrp::-webkit-scrollbar-thumb {
+      background: #000;
+      border-radius: 8px;
+    }
+
+    .agov_dao {
+      padding: 16px;
+
+      .view_guidebtn_wrp {
+        position: unset;
+        margin: 12px 0 25px;
+      }
+    }
+  }
+}
+
+/* 480 */
+@media only screen and (max-width: 374px) {
+  .agov_dao_lpStaking_modal {
+    .club_createitem {
+      button.mintbtn {
+        padding: 8px 22px;
+      }
+    }
+  }
+
+  .claim_rewards_modal {
+    .modal-dialog {
+      .modal-content {
+        padding: 24px;
+
+        .modal-body {
+          p {
+            padding-right: unset;
+          }
+
+          .rewards_wrp {
+            width: unset;
+          }
+        }
+      }
+    }
+  }
+
+  .lockup_period_wrp {
+    .lockup_period_inn {
+      .lockup_period_inn_content {
+        .reward_comm_box {
+          .agov_modal_inn {
+            .reward_comm_left {
+              h3 {
+                font-size: 34px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* 320 */

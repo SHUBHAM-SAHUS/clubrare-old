@@ -1,0 +1,67 @@
+.lpstacking_modal {
+  .modal-content {
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    padding: 24px;
+    .modal-header {
+      padding: 0;
+    }
+    .modal-body {
+      padding: 24px 0;
+      .launch_proposal_wrp {
+        .coin_img {
+          margin-bottom: 12px;
+        }
+        .proposal_wrp {
+          margin: 4px 0;
+          .proposal_left_wrp {
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              color: #202020;
+              word-break: break-word;
+            }
+          }
+          .proposal_right_wrp {
+            text-align: right;
+            span {
+              font-size: 16px;
+              line-height: 24px;
+              color: #202020;
+              font-weight: 500;
+              word-break: break-word;
+            }
+          }
+        }
+        .reward_fig_wrp {
+          margin-top: 20px;
+        }
+      }
+    }
+    .modal-footer {
+      padding: 0;
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      .ready_btn {
+        padding: 8px 24px;
+        background-color: #202020 !important;
+        border-radius: 24px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #ffffff !important;
+        font-weight: 500;
+        border: none;
+        width: 45%;
+        height: 40.97px;
+        word-break: break-word;
+        white-space: unset;
+      }
+      .ready_btn.claim_btn {
+        background-color: transparent !important;
+        color: #202020 !important;
+        border: 2px solid #202020;
+      }
+    }
+  }
+}

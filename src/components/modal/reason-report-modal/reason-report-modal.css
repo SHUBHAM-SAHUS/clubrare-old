@@ -1,0 +1,37 @@
+.reports-modal-style 
+{
+    
+}
+.redeem-modal-inner {
+    border-radius: 50px;
+  }
+  .reports-modal .modal-content {
+    padding: 35px 44px;
+  }
+  .reports-modal h2 {
+    font-size: 22px;
+    padding: 25px 0px;
+  }
+  .reports-modal .button-black,
+  .reports-modal .button-white {
+    width: 180px;
+    background: #1b3142;
+    border-radius: 8px 8px 25px 25px;
+    box-shadow: 30px 70px 120px rgba(27, 49, 66, 0.13) !important;
+    margin-bottom: 48px;
+    margin-top: 10px;
+  }
+  .reports-modal button.cross_btn {
+    background: unset;
+    opacity: 1;
+    color: #000 !important;
+    width: unset;
+    height: unset;
+    padding: unset;
+    position: absolute;
+    top: 25px;
+    right: 27px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }

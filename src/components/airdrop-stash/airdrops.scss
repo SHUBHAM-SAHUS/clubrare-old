@@ -1,0 +1,192 @@
+.Airdrops_wrp {
+  background-color: #fffae5;
+  padding: 32px;
+  border-radius: 16px;
+  text-align: center;
+  font-family: 'Rubik';
+  margin-bottom: 23px;
+  .Airdrops_heading {
+    display: flex;
+    justify-content: center;
+    h1 {
+      font-size: 32px;
+      line-height: 38px;
+      font-weight: 700;
+      margin: 0 8px;
+      font-family: 'Rubik';
+    }
+  }
+  .Airdrops_volume_wrp {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    .Airdrops_volume {
+      width: 100%;
+      h5 {
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: 500;
+        color: #202020;
+        font-family: 'Rubik';
+        word-break: break-word;
+      }
+      .Airdrops_volume_wallet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        figure {
+          width: 20px;
+          height: 20px;
+          img {
+          }
+        }
+        span {
+          background-repeat: no-repeat;
+          background-position: center left;
+          padding-left: 4px;
+          font-size: 14px;
+          line-height: 21px;
+          font-weight: 500;
+          color: #202020;
+          font-family: 'Rubik';
+          word-break: break-word;
+        }
+      }
+      p {
+        font-size: 14px;
+        line-height: 21px;
+        color: #4c4d4c;
+        font-family: 'Rubik';
+        word-break: break-word;
+      }
+    }
+  }
+  .claim_airdrop_wrp {
+    .claim_airdrop {
+      margin-top: 32px;
+      .claim_airdrop_header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          margin-right: 10px;
+        }
+        h5 {
+          font-size: 14px;
+          line-height: 21px;
+          font-weight: 500;
+          font-family: 'Rubik';
+        }
+      }
+    }
+    .claim_airdrop_nft_wrp {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      .claim_nft {
+        width: 100%;
+        h5 {
+          font-size: 22px;
+          line-height: 33px;
+          font-weight: 500;
+          color: #202020;
+          font-family: 'Rubik';
+          word-break: break-word;
+        }
+        .Airdrops_volume_wrp {
+          display: flex;
+          justify-content: space-between;
+          .Airdrops_volume_wallet {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            figure {
+              width: 20px;
+              height: 20px;
+              img {
+              }
+            }
+            span {
+              background-repeat: no-repeat;
+              background-position: center left;
+              padding-left: 4px;
+              font-size: 14px;
+              line-height: 21px;
+              font-weight: 500;
+              color: #202020;
+              font-family: 'Rubik';
+              word-break: break-word;
+            }
+          }
+        }
+        p {
+          font-size: 12px;
+          line-height: 18px;
+          font-weight: 500;
+          color: #202020;
+          font-family: 'Rubik';
+          word-break: break-word;
+        }
+      }
+    }
+  }
+  .claim_airdrop_button_wrp {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    width: 100%;
+    margin: 0;
+    background: transparent;
+    border-radius: 24px;
+    color: #202020;
+    padding: 8px 24px !important;
+    box-shadow: none !important;
+    border: 2px solid #202020;
+    margin-top: 32px;
+    word-break: break-word;
+  }
+  .claim_airdrop_button_wrp:disabled {
+    color: #a6a396;
+    pointer-events: none;
+    border-color: #a6a396;
+  }
+}
+
+// responsive
+@media only screen and (max-width: 1199px) {
+  .Airdrops_wrp .Airdrops_heading h1 {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0;
+  }
+  .approval_filter_wrp_responsive {
+    display: block;
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+  .Airdrops_wrp .Airdrops_heading h1 {
+    font-size: 22px;
+  }
+} /* 980 */
+@media only screen and (max-width: 979px) {
+} /* 768 */
+@media only screen and (max-width: 767px) {
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .Airdrops_wrp .Airdrops_heading h1 {
+    margin: 0 8px;
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .Airdrops_wrp .Airdrops_heading h1 {
+    font-size: 24px;
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+  .Airdrops_wrp .Airdrops_heading h1 {
+    font-size: 20px;
+    margin: 0 4px;
+  }
+} /* 320 */

@@ -1,0 +1,27 @@
+.delete-seller-modal {
+  #contained-modal-title-vcenter {
+    line-height: 25px;
+    padding-right: 30px;
+  }
+  .modal-header {
+    margin-bottom: 20px;
+  }
+  .modal-body button.disablebtn {
+    background-color: grey !important;
+    pointer-events: none;
+  }
+  .modal-content {
+    width: 390px;
+    margin: 0 auto;
+  }
+}
+/* Responsive */
+@media only screen and (max-width: 479px) {
+  .delete-seller-modal #contained-modal-title-vcenter {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .delete-seller-modal .modal-content {
+    width: 100%;
+  }
+}

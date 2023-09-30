@@ -1,0 +1,80 @@
+.clubarare_loader .lds-ellipsis div {
+  background-color: black;
+}
+.header_main_wrp .searchinput input::placeholder {
+  color: #747070 !important;
+}
+.container {
+  padding: 0 15px !important;
+}
+.read-more-less--more,
+.read-more-less--less {
+  color: #999;
+}
+/* .react-toast-notifications__container {
+  top: 11% !important;
+} */
+main.main-container {
+  margin-top: 75px !important;
+  overflow: hidden;
+}
+/* main.club_expl_page_wrp {
+  margin-top: 76px !important;
+} */
+.react-toast-notifications__container {
+  z-index: 999999 !important;
+}
+.modal-backdrop,
+.modal {
+  z-index: 999 !important;
+}
+.blkfull_btn {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  background-color: #202020;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  padding: 8px 24px;
+  border-radius: 24px;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+}
+.not_avail {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+}
+.note_txt {
+  font-size: 12px !important;
+  color: red;
+  font-style: italic;
+}
+.container-fluid,
+.club_viewprofile_inn_wrp,
+.club_expl_filt_main_head {
+  max-width: 1440px;
+  margin: 0 auto !important;
+}
+.header .container-fluid {
+  max-width: 100%;
+}
+.policy_notes {
+  font-size: 11px;
+  font-weight: 600;
+  font-style: italic;
+}
+.react-toast-notifications__toast__content {
+  word-break: break-word;
+}
+
+@media only screen and (max-width: 1199px) {
+  main.main-container {
+    margin-top: 0 !important;
+  }
+} /* 980 */

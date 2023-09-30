@@ -1,0 +1,35 @@
+.pending_approval_create_wrp .pending_approval_create_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+}
+.pending_approval_create_wrp .pending_approval_create_inner .pending_approval_create img{
+    margin:0 auto;
+    width:45px;
+    height:45px;
+}
+.pending_approval_create_wrp .pending_approval_create_inner .pending_approval_create p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202020;
+    margin:24px 0;
+}
+.pending_approval_create_wrp .pending_approval_create_inner .pending_approval_create_btn_wrp a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding:8px 24px;
+    border: 2px solid #4C4D4C;
+    border-radius: 24px;
+    margin:0 8px;
+    display:inline-block;
+    text-decoration:unset;
+    background-color:#202020;
+}
+.pending_approval_create_wrp .pending_approval_create_inner .pending_approval_create_btn_wrp a.createnft-pending-btn{
+    background-color: transparent;
+    color: #4C4D4C;
+}

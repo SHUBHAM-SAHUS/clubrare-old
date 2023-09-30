@@ -1,0 +1,300 @@
+.reports-modal .redeem-modal-inner {
+  border-radius: 50px;
+}
+.reports-modal .modal-content {
+  padding: 35px 44px;
+}
+.reports-modal h2 {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 25px 0px;
+}
+.reports-modal button {
+  background: #000;
+  opacity: 1;
+  color: #fff;
+  width: 111px;
+  height: 40px;
+  padding: 8px 20px 8px 20px;
+  margin-bottom: 15px;
+}
+
+.reports-modal .comm_follow_btn {
+  margin-right: 10px;
+}
+.dotImg {
+  cursor: pointer;
+}
+.item-approval_admin img {
+  margin: 0 auto;
+}
+.approve_btn {
+  border: 1px solid #1b3142;
+  box-sizing: border-box;
+  border-radius: 25px;
+  width: 102px;
+  height: 30px;
+}
+.button-container {
+  margin: 10px;
+  float: right;
+}
+.pagi-btn {
+  margin-left: 10px;
+  background-color: #1b3142;
+  box-sizing: border-box;
+  border-radius: 7px;
+  width: 70px;
+  color: #fff;
+  height: 25px;
+}
+.pagi-btn:disabled {
+  opacity: 0.7;
+}
+
+.user_list_tabel td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.user_list_tabel td.status_dropdown {
+  overflow: unset;
+}
+.border-none {
+  border: none;
+}
+
+.button-black {
+  background: #000;
+  border-radius: 10px 50px 10px 10px !important;
+  opacity: 1;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  padding: 8px 20px 8px 20px;
+}
+
+.item-approve-table-style .button-black-btn {
+  background: #000;
+  /* border-radius: 10px 50px 10px 10px !important; */
+  border-radius: 12px !important;
+  opacity: 1;
+  color: #fff;
+  /* width: 150px; */
+  /* height: 40px; */
+  font-weight: bold;
+  /* padding: 8px 20px 8px 20px; */
+}
+
+.card_approve_btn {
+  border-radius: 24px;
+  padding: 8px 24px;
+  background-color: #202020;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 15px;
+  line-height: 21px;
+  border: 2px solid #202020;
+}
+
+.nft-reject-btn-style {
+  background-color: #d75061 !important;
+  color: #ffffff;
+  border-color: #d75061;
+  border-radius: 24px;
+  padding: 8px 24px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 15px;
+  line-height: 21px;
+}
+
+.nft-approve-btn-style {
+  background-color: #7fc008 !important;
+  color: #ffffff;
+  border-color: #7fc008;
+  border-radius: 24px;
+  padding: 8px 24px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 15px;
+  line-height: 21px;
+}
+
+.button-white {
+  background: #fff !important;
+  border-radius: 10px 10px 10px 50px !important;
+  opacity: 1;
+  color: #000 !important;
+  border: 1px solid #80878d;
+  height: 40px;
+  font-weight: bold;
+  padding: 8px 20px 8px 20px;
+}
+
+.close-btn-approve {
+  top: 20px;
+  right: 30px;
+}
+.popup-textarea {
+  width: 90%;
+  margin: 0 auto;
+}
+.popup-textarea:focus {
+  width: 90%;
+}
+th.Action {
+  width: 430px;
+}
+.item-approve-table-style td.Action img {
+  display:inline-block;
+  vertical-align:middle;
+  width: 35px;
+  margin-right:8px;
+}
+.item-approve-table-style td.Action .reject_btn, .item-approve-table-style td.Action  .approve{
+  display:inline-block;
+  vertical-align:middle;
+  width: 65px;
+  margin-right:8px;
+}
+.item-approve-table-style td.Action .make_user_whit_btn{
+  display:inline-block;
+  vertical-align:middle;
+  width: 100px;
+}
+.item-approve-table-style td.Action button {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b3b0;
+  background-color: transparent;
+  border: 1px solid #b2b3b0;
+  border-radius: 24px;
+  padding: 2px 8px;
+}
+
+.item-approve-table-style td.Action button.reject-btn-disply {
+  line-height: 19px;
+}
+.item-approve-table-style td.Action button.reject_btn {
+  background-color: #d75061;
+  color: #ffffff;
+  border-color: #d75061;
+}
+.item-approve-table-style td.Action button.apprpve_btn {
+  background-color: #7fc008;
+  color: #ffffff;
+  border-color: #7fc008;
+}
+.item-approve-table-style td.Action:hover {
+  cursor: pointer;
+}
+
+.item-approve-table-style {
+  background-color: transparent;
+}
+
+.item-approve-table-style th {
+  background-color: transparent !important;
+}
+.item-approve-table-style td {
+  background-color: transparent !important;
+}
+.item-approve-table-style tr:nth-child(even) {
+  /* background-color: #dddddd !important; */
+
+  background-color: #fafafa !important;
+}
+
+.item-approve-table-style .text-style {
+  color: #202020 !important;
+}
+
+.item-approve-table-style-img {
+  margin: 0 auto !important;
+}
+
+.shipping button,
+.Status button {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b0;
+  border: none;
+}
+
+.reject-style-status {
+  color: #db303f !important;
+}
+/* .shipping button:after,
+.Status button:after {
+  display: inline-block;
+  margin-left: 0.3em;
+  vertical-align: 1px;
+  content: "";
+  border-top: 7px solid;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-radius: 20px;
+} */
+
+.reject-disablebtn-style {
+  pointer-events: none !important;
+  opacity: 0.5;
+  background-color: transparent !important;
+  color: #b2b2b0 !important;
+  border: 1px solid #b2b3b0 !important;
+}
+
+.next-back-btn-style {
+  pointer-events: none !important;
+  opacity: 0.5;
+  background-color: transparent !important;
+  color: #b2b2b0 !important;
+}
+
+.next-btn-style {
+  margin-right: 12px;
+}
+
+.h-page-style {
+  width: 31px;
+  height: 14px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  text-align: start;
+}
+
+.select-dropdown-style-option {
+  background-color: #fafafa;
+  width: 69px;
+  height: 26px;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 9px;
+  grid-gap: 2px;
+  gap: 2px;
+  border: 1.5px solid #202020;
+  border-radius: 65px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin-left: 14px;
+  margin-top: 3px;
+}
+
+.select-dropdown-style-option:hover {
+  cursor: pointer;
+}
+
+.csv_style_approve {
+  display: inline-block;
+}

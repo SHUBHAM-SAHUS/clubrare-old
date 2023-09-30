@@ -1,0 +1,36 @@
+.input-container {
+  border: 1px solid;
+  border-color: #c9c8c7;
+  border-radius: 15px;
+  padding: 5px 5px 10px;
+  margin: 0px 5px 0 5px;
+}
+.height-div {
+  height: 200px;
+}
+/* input{
+     padding-top: 20px;   
+     padding-bottom: 10px;   
+} */
+.item-link {
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+}
+.item-link input {
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 30px;
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.remove-item {
+  background: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-top: 5px;
+}

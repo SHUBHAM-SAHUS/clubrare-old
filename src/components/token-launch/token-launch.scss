@@ -1,0 +1,82 @@
+.token_launch_wrp {
+  background-color: #fffae5;
+  padding: 32px;
+  border-radius: 16px;
+  font-family: 'Rubik';
+  .token_launch_heading_wrp {
+    display: flex;
+    img {
+      align-self: flex-start;
+      margin-right: 8px;
+    }
+    h1 {
+      font-size: 32px;
+      line-height: 38px;
+      font-weight: 700;
+    }
+  }
+  .launch_proposal_wrp {
+    margin-top: 32px;
+    .launch_proposal_heading {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      img {
+        margin-right: 8px;
+      }
+      h5 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+      }
+    }
+    .proposal_wrp {
+      margin: 4px 0;
+      .proposal_left_wrp {
+        p {
+          font-size: 16px;
+          line-height: 24px;
+          color: #202020;
+          word-break: break-word;
+        }
+      }
+      .proposal_right_wrp {
+        text-align: right;
+        span {
+          font-size: 16px;
+          line-height: 24px;
+          color: #202020;
+          font-weight: 500;
+          word-break: break-word;
+        }
+      }
+    }
+    .reward_fig_wrp {
+      margin-top: 20px;
+    }
+  }
+  .thankyou_parti_wrp {
+    margin-top: 35px;
+    span,
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 15px;
+      margin: 2px 0;
+    }
+    .thank_eth_wrp img {
+      margin: 0 5px 1px 0;
+    }
+  }
+}
+@media only screen and (max-width: 374px) {
+  .token_launch_wrp .thankyou_parti_wrp span,
+  .token_launch_wrp .thankyou_parti_wrp p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

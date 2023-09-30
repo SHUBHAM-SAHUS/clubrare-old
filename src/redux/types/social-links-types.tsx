@@ -1,0 +1,1 @@
+export const GET_SOCIAL_LINKS = 'GET_SOCIAL_LINKS';

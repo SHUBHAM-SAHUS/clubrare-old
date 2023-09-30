@@ -1,0 +1,58 @@
+.details_offer {
+  margin: 10px 0 0 !important;
+  tr {
+    margin: 4px 0;
+  }
+  table,
+  thead,
+  tbody,
+  tr {
+    display: block;
+    th,
+    td {
+      display: inline-block;
+      vertical-align: middle;
+      word-break: break-word;
+      padding: 4px;
+      font-size: 14px;
+      line-height: 20px;
+      background-color: transparent;
+    }
+    .firstclmn {
+      width: 30%;
+    }
+    .secnclmn {
+      width: 20%;
+    }
+    .thirdclmn {
+      width: 30%;
+      text-align: center;
+    }
+    .fourthclmn {
+      width: 20%;
+      text-align: center;
+      button {
+        background-color: #7fc008;
+        color: #ffffff;
+        border-color: #7fc008;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        border-radius: 24px;
+        padding: 2px 8px;
+      }
+      button.disablebtn {
+        background-color: #a5a1a1;
+        border-color: #a5a1a1;
+        pointer-events: none;
+      }
+    }
+  }
+}
+.details_offer.detail_offer_tab span.noofferitem {
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 20px;
+  display: block;
+}

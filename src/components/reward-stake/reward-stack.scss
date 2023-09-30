@@ -1,0 +1,436 @@
+.ilo_page_wrp .reward_col_inner {
+  width: 425px;
+  margin: 0 auto;
+}
+.disablebtn {
+  pointer-events: none !important;
+  opacity: 0.5;
+}
+.reward_coll_inn {
+  margin-bottom: 24px !important;
+}
+.reward_stack_wrp {
+  h3,
+  h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #202020;
+  }
+  p.earn_text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  hr {
+    background: #d9d9d6;
+    margin: 16px 0;
+  }
+  .reward_col_inner {
+    background-color: #fafafa;
+    border-radius: 16px;
+    padding: 24px;
+  }
+  .row_collreward_btn_wrp {
+    padding: 0 60px;
+    .collreward_btn_wrp {
+      text-align: center;
+      .Rewards_mpwr {
+        p.rew_text {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 18px;
+          color: #4c4d4c;
+        }
+        h4 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: #202020;
+          margin: 4px 0;
+        }
+      }
+      .collreward_btn {
+        button.disablebtn {
+          pointer-events: none;
+          background-color: gray;
+        }
+        button {
+          font-size: 14px;
+          line-height: 21px;
+          font-weight: 500;
+          background-color: #202020;
+          color: #fff;
+          cursor: pointer;
+          text-align: center;
+          padding: 8px 15px;
+          border-radius: 24px;
+          text-decoration: none;
+          border: none;
+          width: 100%;
+        }
+        p.tred_text {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          color: #b2b3b0;
+          text-align: left;
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+}
+.earn_lp_pool_staking {
+  .reward_col_inner {
+    .reward_col_inner {
+      margin: 0;
+    }
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 17px;
+      color: #202020;
+      text-align: center;
+      margin-top: 4px;
+    }
+    h6 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: #202020;
+      text-align: center;
+    }
+    .text-danger {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #202020;
+      text-align: right;
+    }
+    .reward_liquidity_wrp {
+      margin-top: 16px;
+      .col-4 {
+        text-align: right;
+      }
+      .col-8,
+      .col-4 {
+        a {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 18px;
+          color: #202020;
+          padding: 4px 12px;
+          border: 2px solid #202020;
+          border-radius: 24px;
+          display: inline-flex;
+          word-break: break-word;
+          text-decoration: none;
+          background-color: transparent;
+          width: auto;
+          img {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .reward_stack_inn,
+    .select_nft_wrp {
+      display: flex !important;
+      justify-content: space-between;
+      margin-top: 16px;
+      align-items: center;
+      label,
+      .select_nft_lft h3,
+      .select_nft_lft {
+        width: 50%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #4c4d4c;
+        word-break: break-word;
+      }
+      .reward_input_wrp,
+      .select_nft_right {
+        width: 50%;
+        text-align: right;
+        input {
+          padding: 8px 16px;
+          background: #ffffff;
+          border: 1px solid #b2b3b0;
+          border-radius: 40px;
+          width: 100%;
+          text-align: right;
+        }
+        span {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          color: #b2b3b0;
+          word-break: break-word;
+        }
+        .select-nft-dropdown-menu-align-right {
+          button {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: #202020;
+            background-color: transparent !important;
+            padding: 0;
+            border: none !important;
+          }
+          button:after {
+            display: inline-block;
+            margin-left: 0.3em;
+            vertical-align: 1px;
+            content: '';
+            border-top: 7px solid;
+            border-right: 6px solid transparent;
+            border-left: 6px solid transparent;
+            border-radius: 20px;
+          }
+          .dropdown-menu.show {
+            transform: translate(0px, 25px) !important;
+          }
+        }
+      }
+    }
+    .tvl_wrp,
+    .reedemable-section {
+      p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #202020;
+        text-align: center;
+      }
+      h6 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 38px;
+        color: #202020;
+        text-align: center;
+        word-break: break-word;
+      }
+    }
+    .reedemable-section {
+      display: block;
+      margin: 16px 0 0;
+      h3 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        width: 100%;
+        text-align: left;
+      }
+      span.custradiowrp {
+        width: 100%;
+        display: block;
+        border: none;
+        label {
+          margin: 14px 0;
+          display: flex;
+          user-select: none;
+          span.radiomark {
+            margin: 0 16px 0 0;
+            cursor: pointer;
+            min-width: 18px;
+          }
+          .radio_label_month,
+          .radio_label_apr {
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 20px;
+            color: #202020;
+            cursor: pointer;
+            border: none;
+            margin: 0;
+          }
+          .radio_label_apr {
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .reward_stack_inn.stack_btn_wrp {
+      margin-bottom: 0;
+      .reward_btn_wrp {
+        width: 100%;
+        button.disablebtn {
+          pointer-events: none;
+          background-color: gray;
+        }
+        button {
+          font-size: 14px;
+          line-height: 21px;
+          font-weight: 500;
+          background-color: #202020;
+          color: #fff;
+          cursor: pointer;
+          text-align: center;
+          padding: 8px 15px;
+          border-radius: 24px;
+          text-decoration: none;
+          border: none;
+          width: 100%;
+          word-break: break-word;
+        }
+      }
+    }
+  }
+}
+.polling_stack_wrp .reward_col_inner .reward_stack_inn .reward_input_wrp,
+.earn_lp_pool_staking .reward_col_inner .select_nft_wrp .reward_input_wrp {
+  display: flex !important;
+  width: 100%;
+}
+.polling_stack_wrp .reward_col_inner .select_nft_wrp .select_nft_lft h3 {
+  width: 100%;
+}
+.polling_stack_wrp .reward_col_inner .reward_stack_inn,
+.earn_lp_pool_staking .reward_col_inner .select_nft_wrp {
+  display: block !important;
+}
+
+.custradiowrp input {
+  display: none;
+}
+.custradiowrp .radiomark {
+  background-color: #ffffff;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-right: 1px;
+  border: 1px solid #b2b3b0;
+}
+.custradiowrp .radiomark::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #202020;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: none;
+  margin: 0 auto;
+}
+.custradiowrp input:checked ~ .radiomark::before {
+  display: block;
+}
+.reward_stack_inn {
+  text-align: left;
+}
+.reward_stack_wrp .reward_stack_inn .reward_input_wrp {
+  display: inline-block;
+  vertical-align: middle;
+  width: 67%;
+  position: relative;
+}
+.reward_stack_wrp .reward_stack_inn {
+  margin-top: 20px;
+}
+// responsive
+@media only screen and (max-width: 1199px) {
+  .reward_stack_wrp .row_collreward_btn_wrp {
+    padding: 0;
+  }
+  .Polltoken_stack_wrp {
+    .polltoken_stack_inn,
+    .earn_lp_pool_staking {
+      flex: unset;
+      max-width: 100%;
+    }
+    .polltoken_stack_inn {
+      margin-bottom: 24px;
+    }
+  }
+  .stake_reward_page_wrp .stack_main_wrp .claim_rewards_wrp,
+  .stake_reward_page_wrp .stack_right .reward_coll_inn,
+  .stake_reward_page_wrp .Polltoken_stack_wrp {
+    width: 80%;
+    margin: auto;
+  }
+  .stake_reward_page_wrp .Polltoken_stack_wrp .polltoken_stack_inn,
+  .stake_reward_page_wrp .Polltoken_stack_wrp .earn_lp_pool_staking {
+    padding: 0;
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .stack_left,
+  .stack_right {
+    max-width: 100%;
+    flex: unset;
+  }
+  .stack_right {
+    margin-top: 24px;
+  }
+  .stake_reward_page_wrp .stack_main_wrp .claim_rewards_wrp,
+  .stake_reward_page_wrp .stack_right .reward_coll_inn,
+  .stake_reward_page_wrp .Polltoken_stack_wrp {
+    width: 100%;
+    margin: auto;
+  }
+  .stake_reward_page_wrp .lpstack_table_wrp {
+    overflow: auto;
+  }
+  .stake_reward_page_wrp .lpstack_table_wrp table.table tbody {
+    height: unset;
+    max-height: 250px;
+  }
+  .stake_reward_page_wrp .lpstack_table_wrp table.table {
+    max-width: 950px;
+    width: 950px;
+    margin: 0;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .polltoken_stack_inn {
+    margin-top: 24px;
+  }
+  .polltoken_stack_inn {
+    margin-bottom: unset;
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .collreward_btn_wrp {
+    max-width: 100%;
+    flex: unset;
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .reward_liquidity_wrp {
+    .col-8,
+    .col-4 {
+      max-width: 100%;
+      flex: unset;
+    }
+  }
+  .earn_lp_pool_staking .reward_col_inner .reward_liquidity_wrp .col-4 {
+    text-align: left;
+    margin-top: 5px;
+  }
+  .earn_lp_pool_staking .reward_col_inner .reward_stack_inn,
+  .earn_lp_pool_staking .reward_col_inner .select_nft_wrp,
+  .polling_stack_wrp .reward_col_inner .reward_stack_inn .reward_input_wrp,
+  .earn_lp_pool_staking .reward_col_inner .select_nft_wrp .reward_input_wrp {
+    display: block !important;
+    label,
+    .reward_input_wrp,
+    .select_nft_right {
+      width: 100%;
+      text-align: left;
+    }
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+} /* 320 */

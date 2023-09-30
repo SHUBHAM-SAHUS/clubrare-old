@@ -1,0 +1,137 @@
+.ilo_page_wrp {
+  padding-top: 0;
+  .witelisted_notice_wrp {
+    background-color: #ecf962;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    .witelisted_notice {
+      display: flex;
+      justify-content: space-between;
+      img {
+        margin-right: 10px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 500;
+        color: #202020;
+      }
+    }
+  }
+  .notify_wrp p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .notify_wrp {
+    background-color: #ecf962;
+    padding: 8px 45px;
+    border-radius: 8px;
+    background-image: url('../../assets/images/ThumbsUp.svg');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: left 10px center;
+    position: relative;
+    margin: 14px 0;
+    .closenotewrp {
+      position: absolute;
+      right: 15px;
+      top: 8px;
+    }
+  }
+  .notify_wrp.notwhitelistnote {
+    background-image: url('../../assets/images/Info.svg');
+  }
+  .notify_wrp.hidenote {
+    display: none;
+  }
+}
+// responsive
+@media only screen and (max-width: 1199px) {
+  .token_launch_wrp .token_launch_heading_wrp h1 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+  .ilo_page_wrp {
+    .reward_col_inner {
+      width: unset;
+    }
+  }
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .ilo_page_wrp .ilo_page_left_wrp,
+  .ilo_page_wrp .ilo_page_rightt_wrp {
+    flex: unset;
+    max-width: 100%;
+  }
+  .ilo_page_rightt_wrp {
+    margin-top: 24px;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .buytoken_wrp .but_token_input_btn_wrp .btn_token_input_wrp .btn_token_input {
+    width: 100%;
+  }
+  .buytoken_wrp .but_token_input_btn_wrp .btn_token_input_wrp p {
+    right: 10%;
+  }
+  .buytoken_wrp .but_token_input_btn_wrp .btn_token_input_wrp {
+    width: 65%;
+  }
+  .buytoken_wrp .but_token_input_btn_wrp button {
+    padding: 8px 40px 8px;
+  }
+  .token_launch_wrp {
+    padding: 20px;
+  }
+  .buytoken_wrp .but_token_input_btn_wrp .btn_token_input_wrp span {
+    font-size: 12px;
+    line-height: 15px;
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .buytoken_wrp .but_token_input_btn_wrp button {
+    padding: 8px 23px 8px;
+  }
+  .buytoken_wrp .but_token_input_btn_wrp .btn_token_input_wrp {
+    width: 65%;
+  }
+  .token_launch_wrp .token_launch_heading_wrp h1 {
+    font-size: 21px;
+  }
+  .token_launch_wrp .launch_proposal_wrp .proposal_wrp .proposal_right_wrp span,
+  .token_launch_wrp .launch_proposal_wrp .proposal_wrp .proposal_left_wrp p {
+    font-size: 15px;
+  }
+  .faq_wrp
+    .faq_accordian
+    .accordion
+    .accordion-item
+    .accordion-collapse
+    .accordion-body {
+    padding-right: 23%;
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+  .buytoken_wrp .but_token_input_btn_wrp button {
+    margin-left: 8px;
+  }
+  .faq_wrp
+    .faq_accordian
+    .accordion
+    .accordion-item
+    .accordion-collapse
+    .accordion-body {
+    padding-right: 21%;
+  }
+  .buytoken_wrp .but_token_input_btn_wrp button {
+    padding: 8px 18px 8px;
+  }
+} /* 320 */

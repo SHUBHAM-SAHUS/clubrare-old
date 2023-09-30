@@ -1,0 +1,312 @@
+.polling_stack_wrp {
+  margin-top: 30px;
+}
+.claimable_rewards_wrp {
+  margin-top: 20px;
+  .rew_text {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #4c4d4c;
+  }
+  h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 3px;
+  }
+}
+.collreward_btn {
+  margin-bottom: 20px;
+  .crtbtn {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    background-color: #202020;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 24px;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+  }
+}
+.reward_stack_wrp {
+  .reedemable-section {
+    margin: 20px 0;
+  }
+  .switch {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .comtext {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #4c4d4c;
+    padding-left: 10px;
+  }
+  h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .dropdown {
+    margin: 20px 0 10px;
+  }
+  // .lockedopt_wrp .dropdown-menu.show {
+  //   transform: translate(139px, 38px) !important;
+  // }
+  .reward_stack_inn .reward_btn_wrp button {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    background-color: #202020;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 24px;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    word-break: break-word;
+  }
+  .reward_stack_inn .reward_btn_wrp button.crtbtn {
+    background-color: #202020;
+  }
+  .reward_stack_inn .reward_input_wrp .dropdown {
+    margin: 0;
+  }
+  .reward_stack_inn .reward_input_wrp button#dropdown-menu-align-right:after {
+    display: inline-block;
+    margin-left: 0.3em;
+    vertical-align: 1px;
+    content: '';
+    border-top: 7px solid;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-radius: 20px;
+  }
+}
+
+.lockedopt_wrp button#dropdown-menu-align-right,
+.reward_stack_inn .reward_input_wrp button#dropdown-menu-align-right {
+  background-color: transparent !important;
+  color: #202020;
+  border: unset;
+}
+.lockedopt_wrp button#dropdown-menu-align-right:hover,
+.lockedopt_wrp button#dropdown-menu-align-right:focus,
+.reward_stack_inn .reward_input_wrp button#dropdown-menu-align-right:hover,
+.reward_stack_inn .reward_input_wrp button#dropdown-menu-align-right:focus {
+  color: #202020 !important;
+}
+.lockedopt_wrp .show > .btn-primary.dropdown-toggle,
+.reward_stack_inn .reward_input_wrp button#dropdown-menu-align-right {
+  color: #000;
+}
+
+.disablebtn {
+  pointer-events: none !important;
+  opacity: 0.5;
+}
+.reward_input_wrp .select_dropdwnnft {
+  max-height: 200px;
+  overflow: auto;
+}
+/* width */
+.lpstack_table_wrp::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+/* Track */
+.lpstack_table_wrp::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+.lpstack_table_wrp::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+.single_switch_wrp.locked-option-month .dropdown {
+  margin: 0;
+}
+.locked-option-month button#dropdown-menu-align-right {
+  white-space: unset !important;
+  padding: 0;
+}
+.locked-option-month .dropdown {
+  margin: 0;
+}
+.reward_stack_wrp .stack_club_token .text-danger {
+  color: #dc3545 !important;
+  font-size: 12px;
+  line-height: 14px;
+}
+.lpstakelearnmore a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #007bff !important;
+  text-decoration: underline;
+}
+.reward_liquidity_wrp {
+  margin-top: 20px;
+  .col-4 {
+    text-align: right;
+  }
+  a {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    background-color: #202020;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    padding: 4px 16px;
+    border-radius: 24px;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+  }
+}
+.single_switch_wrp,
+.reward_input_wrp,
+.reedemable-section {
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin: 4px 0 0;
+    color: #202020;
+  }
+  h2 {
+    color: #b2b3b0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.reward_input_wrp {
+  .select-nft-dropdown-menu-align-right {
+    button {
+      font-size: 16px;
+      line-height: 18px;
+      border: 1px solid #202020 !important;
+      padding: 1px 6px;
+    }
+  }
+}
+.reedemable-section {
+  display: block;
+  h3 {
+    text-align: left;
+  }
+  span {
+    display: block;
+    /* font-size: 14px; */
+    border: 1px solid #202020;
+    border-radius: 16px;
+    margin: 5px 0;
+    text-align: center;
+    label {
+      margin: 0;
+      width: 100%;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+}
+// responsive
+@media only screen and (max-width: 1199px) {
+  .polling_stack_wrp {
+    .col-6.claimable_left,
+    .col-6.claimable_right {
+      width: 50%;
+    }
+  }
+  .reedemable-section {
+    .single_switch_wrp.col-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  .earn_lp_pool_staking {
+    h2 {
+      font-weight: 500 !important;
+      font-size: 16px !important;
+      line-height: 30px !important;
+    }
+  }
+  .lpstack_table_wrp .table tbody,
+  .lpstack_table_wrp .table thead {
+    width: 800px;
+  }
+  .lpstack_table_wrp {
+    overflow: auto;
+    overflow-x: auto;
+  }
+  .reward_stack_wrp .reward_col_inner .single_switch_wrp.liqpooltxt h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+  }
+} /* 1024 */
+@media only screen and (max-width: 979px) {
+  .claimable_rewards_wrp {
+    .claimable_left {
+      margin-bottom: unset !important;
+      width: 100%;
+    }
+    .col-6.claimable_right.text-right {
+      margin-bottom: 5px;
+      text-align: left !important;
+      width: 100%;
+    }
+  }
+  .polling_stack_wrp {
+    .col-6.claimable_left,
+    .col-6.claimable_right {
+      width: 100%;
+    }
+  }
+
+  .disablebtn {
+    pointer-events: none !important;
+    opacity: 0.5;
+  }
+  .reedemable-section .single_switch_wrp.col-lg-6 {
+    text-align: left !important;
+    margin-top: 5px;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .claimable_rewards_wrp .rew_text,
+  .claimable_rewards_wrp h4 {
+    text-align: center;
+  }
+  .earn_lp_pool_staking .reward_col_inner {
+    min-height: unset !important;
+  }
+} /* 650 */
+
+.errfnt {
+  font-size: 14px;
+}
+
+.fnt_size_lbl {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.img_height {
+  height: 246px !important;
+}

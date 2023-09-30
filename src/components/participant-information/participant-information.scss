@@ -1,0 +1,37 @@
+.participant_table_wrp {
+  margin-top: 50px;
+  h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #202020;
+    text-align: center;
+    margin: 0 0 15px;
+  }
+  .no_item_wrp p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+  }
+  .uploaded_csv_wrp {
+    button {
+      margin-left: 10px;
+      background-color: #1b3142;
+      box-sizing: border-box;
+      border-radius: 7px;
+      color: #fff;
+      padding: 5px 10px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .participant_table_wrp .button-container-part {
+    margin-top: 20px;
+  }
+} /* 650 */
+@media only screen and (max-width: 374px) {
+  .participant_table_wrp .button-container-part span {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

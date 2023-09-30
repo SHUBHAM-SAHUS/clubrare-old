@@ -1,0 +1,58 @@
+.all_items_wrp {
+  .sells_repost_sec {
+    .table_striped_wrp {
+      .table-striped {
+        thead,
+        tbody {
+          td {
+            word-break: break-word;
+            width: 8%;
+            .item_view,
+            .item_edit {
+              cursor: pointer;
+              text-decoration: none;
+              display: inline-block;
+              vertical-align: middle;
+              width: 40%;
+              margin: 0 2px;
+            }
+
+            &:nth-child(1) {
+              width: 15%;
+            }
+            &:nth-child(4),
+            &:nth-child(5),
+            &:nth-child(6) {
+              .cardtooltip_wrp {
+                > div {
+                  width: 360px;
+                  left: -170% !important;
+                }
+              }
+            }
+            //   &:nth-child(2){
+            //     width: 15%;
+            //   }
+            //   &:nth-child(3){
+            //     width: 15%;
+            //   }
+            //   &:nth-child(4){
+            //     width: 10%;
+            //   }
+          }
+        }
+      }
+    }
+  }
+}
+
+.action_btn {
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  background-color: gray;
+  color: aliceblue;
+}
+
+.table-striped .css-f5brtt-BaseToolTop {
+  width: 320px !important;
+}

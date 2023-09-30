@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="12" viewBox="0 0 15 12">
+  <defs>
+    <clipPath id="clip-Check_mark_green">
+      <rect width="15" height="12"/>
+    </clipPath>
+  </defs>
+  <g id="Check_mark_green" data-name="Check mark_green" clip-path="url(#clip-Check_mark_green)">
+    <path id="Path_84" data-name="Path 84" d="M162.167,139.862a1.041,1.041,0,0,0-.716.312l-7.683,7.683-3.851-2.98h0a1.041,1.041,0,1,0-1.275,1.646l4.58,3.539a1.041,1.041,0,0,0,1.373-.085l8.327-8.327a1.041,1.041,0,0,0-.755-1.789Z" transform="translate(-148.239 -138.86)" fill="#79c316"/>
+  </g>
+</svg>

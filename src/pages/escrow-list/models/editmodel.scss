@@ -1,0 +1,83 @@
+.editdetailitem_modal {
+  button.btn-close {
+    background-image: url(https://d1gqvtt7oelrdv.cloudfront.net/assets/images/Close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+  }
+  .modal-content {
+    padding: 20px 30px;
+    width: 450px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 10px;
+  }
+  .modal-header,
+  .modal-footer {
+    border: 0;
+    padding: 0;
+  }
+  .modal-body {
+    min-width: unset;
+    min-height: unset;
+    padding: 0;
+  }
+  .modal-body label {
+    font-size: 15px;
+    line-height: 20px;
+    display: block;
+    margin: 15px 0 6px;
+  }
+  .modal-body textarea,
+  .modal-body input {
+    border-bottom: 1px solid #d7d7d7;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .modal-body textarea {
+    min-height: 28px !important;
+  }
+  .fieldwrp {
+    margin: 15px 0;
+  }
+  .modal-footer button {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 25px;
+    border-radius: 20px;
+    margin: 0;
+    font-weight: 500;
+  }
+  .modal-footer button.cancelbtn {
+    border: 2px solid #000;
+    margin-left: 10px;
+  }
+  .modal-footer button.updatebtn {
+    background-color: #000;
+    color: #fff;
+  }
+  .modal-footer button.disablebtn {
+    background-color: grey;
+    pointer-events: none;
+  }
+}
+
+/* Responsive */
+@media only screen and (max-width: 649px) {
+  .editdetailitem_modal .modal-content {
+    width: 95%;
+  }
+  .editdetailitem_modal .modal-footer button {
+    padding: 6px 20px;
+  }
+}
+
+.keyheading {
+  font-size: 16px;
+  font-weight: 500;
+}
+.title_heading {
+  text-align: center !important;
+}

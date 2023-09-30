@@ -1,0 +1,17 @@
+.addimgrules_modal .modal-body {
+  padding: 10px 0;
+  .fieldwrp {
+    padding: 10px 0;
+  }
+  .fieldwrp:nth-child(3) {
+    label {
+      display: unset;
+    }
+    input {
+      display: inline-block !important;
+      vertical-align: middle;
+      width: 5%;
+      margin-left: 3%;
+    }
+  }
+}

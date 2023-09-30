@@ -1,0 +1,356 @@
+@font-face {
+  font-family: 'Helvetica Neue LT Pro 97 Black Condensed';
+  src: url('../../assets/fonts/620491a9813db417e6c08825173c562b.eot'); /* IE9*/
+  src: url('../../assets/fonts/620491a9813db417e6c08825173c562b.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.woff2')
+      format('woff2'),
+    /* chrome、firefox */
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.woff')
+      format('woff'),
+    /* chrome、firefox */
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.ttf')
+      format('truetype'),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url('../../assets/fonts/620491a9813db417e6c08825173c562b.svg#Helvetica Neue LT Pro 97 Black Condensed')
+      format('svg'); /* iOS 4.1- */
+}
+.club_about_main_page {
+  main.main-container {
+    margin-top: unset !important;
+    overflow: hidden;
+  }
+  .header.header {
+    background-color: #f6f6f6;
+    .main_drop_noti .bck_clr svg {
+      background-color: unset;
+    }
+  }
+  .footer_wrp {
+    margin: 50px 0 50px;
+  }
+}
+
+.club_about_wrp {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Helvetica Neue LT Pro 97 Black Condensed' !important;
+  }
+  .phygital_world_wrp {
+    padding-top: 30px;
+    background-color: #f6f6f6;
+    text-align: center;
+    .collectimg_res {
+      display: none;
+    }
+    .phygital_world_inn {
+      background-image: url('../../assets/images/starSubtract.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 488.58px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      background-color: #f6f6f6;
+      h1 {
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 57px;
+      }
+      p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin: 20px 0 20px 0;
+      }
+    }
+  }
+  .re_centeringsec_wrp {
+    background-color: #141414;
+    background-image: url(../../assets/images/yellowimg.svg),
+      url(../../assets/images/watchimg.svg),
+      url(../../assets/images/walletimg.svg),
+      url(../../assets/images/whiteshoe.svg);
+    background-repeat: no-repeat;
+    background-position: left top, right top, bottom left, bottom right;
+    background-size: 388px 310px;
+    .re_centeringsec_inn {
+      width: 65%;
+      margin: 0 auto;
+      padding: 140px 0;
+      h1 {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 55px;
+        color: #fff;
+      }
+      p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #fff;
+        margin-top: 30px;
+      }
+    }
+  }
+  .phygital_marketplace_wrp {
+    padding: 60px 0 0;
+    .container {
+      .phygital_marketplace_inn {
+        h1 {
+          font-weight: 900;
+          font-size: 48px;
+          line-height: 48px;
+          text-align: center;
+          margin: 0 auto;
+          color: #141414;
+          span {
+            color: #eba134;
+          }
+        }
+      }
+      .phygital_blocks {
+        .col-lg-4.col-md-4.col-sm-12.comm_col {
+          padding: 0 39px;
+        }
+        margin-top: 78px;
+        h3 {
+          font-weight: 900;
+          font-size: 28px;
+          line-height: 33.6px;
+          color: #202020;
+          margin-bottom: 25px;
+        }
+        p {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 28px;
+          color: #000;
+        }
+      }
+    }
+    .phygital_marketplace_base {
+      background-color: #141414;
+      padding: 20px 0 25px;
+      margin-top: 60px;
+      h1 {
+        color: #eeff05;
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 100%;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+// responsive
+@media only screen and (max-width: 1199px) {
+  .club_about_wrp {
+    padding-top: 30px;
+    .phygital_world_wrp {
+      padding-top: unset;
+    }
+    p br {
+      display: none;
+    }
+    h1 br {
+      display: none;
+    }
+
+    .re_centeringsec_wrp {
+      .re_centeringsec_inn {
+        width: 59%;
+        margin: 0 auto;
+        padding: 140px 0;
+      }
+    }
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+  .club_about_wrp {
+    .phygital_world_wrp {
+      .phygital_world_inn {
+        height: 488.58px;
+        text-align: center;
+        img {
+          display: none;
+        }
+        p {
+          font-size: 18px;
+          line-height: 25px;
+          margin: 20px 0 20px 0;
+        }
+        h1 {
+          font-size: 50px;
+          line-height: 55px;
+        }
+      }
+    }
+  }
+  .club_about_wrp {
+    .re_centeringsec_wrp {
+      background-image: none;
+      .re_centeringsec_inn {
+        width: unset;
+        margin: 0 auto;
+        padding: 50px 0;
+      }
+    }
+  }
+  .phygital_marketplace_wrp .container {
+    max-width: 98%;
+  }
+  .club_about_wrp
+    .phygital_marketplace_wrp
+    .container
+    .phygital_blocks
+    .col-lg-4.col-md-4.col-sm-12.comm_col {
+    margin-bottom: 35px;
+    padding: 15px !important;
+  }
+  .club_about_wrp .phygital_marketplace_wrp .container .phygital_blocks h3 {
+    margin-bottom: 15px;
+  }
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .club_about_wrp {
+    padding-top: unset;
+  }
+}
+@media only screen and (max-width: 979px) {
+  .club_about_wrp {
+    .phygital_world_wrp {
+      text-align: left;
+      .phygital_world_inn {
+      }
+    }
+    .container {
+      max-width: 98%;
+    }
+
+    .phygital_marketplace_wrp {
+      .phygital_marketplace_base {
+        h1 {
+          text-align: left;
+          padding: 0 15px;
+        }
+      }
+    }
+  }
+  .club_about_wrp {
+    .re_centeringsec_wrp {
+      background-image: none;
+      .re_centeringsec_inn {
+        width: unset;
+        padding: 50px 0;
+      }
+    }
+  }
+  .club_about_wrp
+    .phygital_marketplace_wrp
+    .container
+    .phygital_marketplace_inn
+    h1 {
+    text-align: left;
+  }
+  .club_about_wrp .phygital_marketplace_wrp .container .phygital_blocks {
+    margin-top: 40px;
+  }
+  .club_about_wrp .phygital_marketplace_wrp .phygital_marketplace_base {
+    margin-top: 30px;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .club_about_wrp {
+    .phygital_world_wrp {
+      text-align: start;
+      .phygital_world_inn {
+        background-size: 220.22px 327.78px;
+        height: 300px;
+        padding: 10px 0;
+        align-items: start;
+        text-align: left;
+        h1 {
+          font-weight: 900;
+          font-size: 38px;
+          line-height: 34px;
+        }
+      }
+    }
+    .re_centeringsec_wrp {
+      .re_centeringsec_inn {
+        h1 {
+          font-size: 28px;
+          line-height: 28px;
+        }
+        p {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 22.4px;
+        }
+      }
+    }
+    .phygital_marketplace_wrp {
+      .container {
+        .phygital_marketplace_inn {
+          h1 {
+            font-size: 38px;
+            line-height: 38px;
+          }
+        }
+      }
+    }
+    .phygital_marketplace_wrp {
+      .container {
+        .phygital_blocks {
+          h3 {
+            margin-bottom: 12px;
+            font-size: 20px;
+            line-height: 24px;
+          }
+          p {
+            font-size: 16px;
+            line-height: 22.4px;
+          }
+          .col-lg-4.col-md-12 {
+            margin-bottom: 20px;
+          }
+        }
+      }
+      .phygital_marketplace_base {
+        margin-top: unset;
+        h1 {
+          font-size: 28px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .club_about_wrp .phygital_world_wrp .phygital_world_inn {
+    height: 300px;
+  }
+
+  .club_about_wrp .phygital_world_wrp .collectimg_res {
+    display: block;
+  }
+  .club_about_wrp .phygital_world_wrp .collect_desk {
+    display: none;
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .club_about_wrp .phygital_world_wrp .phygital_world_inn {
+    height: 340px;
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+} /* 320 */

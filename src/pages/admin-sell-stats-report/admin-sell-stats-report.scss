@@ -1,0 +1,214 @@
+.admin_stats_wrp{
+    .admin_stats__heading{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+        h1{
+            font-size: 32px;
+            line-height: 33px;
+            font-weight: 700;
+            color: #202020;
+            margin-bottom: unset;
+        }
+         .search_box_wrp {
+            text-align: right;
+            input {
+                width: 40%;
+                border-radius: 40px;
+                padding: 4px 50px 4px 16px!important;
+                border: 2px solid #b2b3b0;
+                outline: none;
+                background-image: url("https://d1gqvtt7oelrdv.cloudfront.net/assets/images/search.svg");
+                background-position: right 25px center;
+                background-repeat: no-repeat;
+                background-size: 17px 17px;
+                font-weight: 400;
+                &:hover {
+                    border: 2px solid #202020;
+                  }
+                  &:focus {
+                    background-color: #eff0ed;
+                    color: #000;
+                  }
+                  &:focus::placeholder {
+                    color: transparent !important;
+                  }
+              }
+         }
+         
+        
+    }
+    .starting_date_wrp, .starting_date_lft_wrp,.starting_date_rignt_wrp{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 5px;
+      .create_lab {
+        width: 100%;
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: unset !important;
+      }
+    }
+    .starting_date_lft_wrp{
+      margin-right: 25px;
+    }
+    .user_list_sec {
+        .table-striped {
+          thead ,tbody {
+            td{
+              word-break: break-word;
+              &:nth-child(1){
+                width: 60%;
+              }
+              &:nth-child(2){
+                width: 15%;
+              }
+              &:nth-child(3){
+                width: 15%;
+              }
+              &:nth-child(4){
+                width: 10%;
+              }
+            }
+          }
+          tbody {
+            th {
+              font-weight: 400;
+             
+              }
+            }
+          }
+        }
+    }
+    .admin_list_sec{
+      .table_striped_wrp{
+        .table-striped {
+          display: block;
+          empty-cells: show;
+          // tbody{
+          //   display: block;
+          //   position: relative;
+          //   width: 100%;
+          //   overflow: auto;
+          //   overflow-y: auto;
+          //   height: 500px;
+          //  }
+         thead ,tbody {
+           td{
+             word-break: break-word;
+          
+            //  width: 7%;
+             &:nth-child(1){
+               width: 10%;
+           
+           }
+         }
+       }
+     }
+      }
+  
+    }
+  
+.table_striped_wrp{
+  overflow: auto;
+  overflow-y: auto;
+  max-height: 570px;
+   table {
+      border-collapse: collapse;
+      width: 100%;
+      thead{
+        position:sticky;
+        top: -3px;
+      }
+       td {
+          padding: 8px 16px;
+          border: 1px solid #ccc;
+        }
+        th {
+          background: #eee;
+          border: 1px solid #ccc;
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .user_list_sec,.admin_list_sec {
+      
+      .table_striped_wrp{
+        .table-striped {
+          width: 995px;
+          thead ,tbody {
+            td{
+              word-break: unset;
+            }
+          }
+        }
+        &::-webkit-scrollbar {
+          width: 5px;
+          height: 5px;
+        }
+    
+        &::-webkit-scrollbar-thumb {
+          background-color: #1b3142;
+          border-radius: 5px;
+        }
+    
+        &::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px #e9e9e9;
+          border-radius: 5px;
+        }
+      }
+      
+    }
+   
+  } /* 980 */
+  @media only screen and (max-width: 979px) {
+    .admin_stats_wrp{
+      .admin_stats__heading{
+        display: block;
+           .search_box_wrp {
+            max-width: unset;
+            margin-top: 16px;
+             
+           }
+      } 
+  }
+  }
+  @media only screen and (max-width: 649px) {
+    .starting_date_wrp{
+      display: block !important;
+      .starting_date_lft_wrp,.starting_date_rignt_wrp{
+        margin-bottom:unset ;
+        margin-right: unset
+      }
+    }
+    .admin_stats_wrp{
+      .admin_stats__heading{
+           .search_box_wrp {
+             input{
+              width: 100%;
+             }
+           }
+      } 
+  }
+  }
+
+  .redeem_notfound_wrp {
+    left: 0;
+    right: 0;
+    position: absolute;
+    .spinner-style-table-redeem{
+      .clubarare_loader{
+        padding: unset;
+      }
+    }
+  }
+
+.redeem_notfound_wrp,.Data_not_found{
+  font-weight: bold;
+  padding-top: 25px;
+  font-size: 20px;
+}

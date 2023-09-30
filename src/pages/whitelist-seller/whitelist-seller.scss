@@ -1,0 +1,130 @@
+.whitelist-seller-inn {
+  width: 90%;
+  margin: 0 auto;
+  h1 {
+    font-size: 32px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #202020;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  button.sellmodalshowbtn,
+  .fourthclmn button {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #202020;
+    padding: 8px 25px;
+    border-radius: 24px;
+    word-break: break-word;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  .whitelist-sell-table {
+    margin-top: 30px;
+    table,
+    thead,
+    tbody,
+    tr {
+      display: block;
+    }
+    td,
+    th {
+      display: inline-block;
+      vertical-align: middle;
+      background-color: transparent;
+    }
+    thead {
+      border-bottom: 1px solid #b2b2b0;
+      padding-bottom: 10px;
+    }
+    .firstclmn {
+      width: 40%;
+    }
+    .secndclmn {
+      width: 20%;
+    }
+    .thirdclmn {
+      width: 20%;
+      select {
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 15px;
+        padding: 5px;
+      }
+    }
+    .fourthclmn {
+      width: 20%;
+      button.deletebtn {
+        background-color: #d75061;
+        color: #ffffff;
+        border-color: #d75061;
+      }
+    }
+    tbody {
+      tr {
+        padding: 15px 0;
+      }
+      tr:nth-child(even) {
+        background-color: #fafafa;
+      }
+      tr td {
+        font-size: 14px;
+      }
+    }
+  }
+  .whitelist_pagination_wrp span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-right: 10px;
+  }
+  .whitelist_pagination_wrp select {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  button.next-back-btn-style[disabled] {
+    pointer-events: none;
+  }
+  .whitelist_pagination_wrp {
+    margin-top: 40px;
+  }
+  .whitelist_pagination_wrp .noofpageelm {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .whitelist-seller-wrp .container {
+    max-width: 96%;
+  }
+  .whitelist-seller-inn {
+    width: 100%;
+  }
+  .whitelist-sell-table .wh_table_wrp {
+    overflow: auto;
+    overflow-x: auto;
+  }
+  .whitelist-sell-table table {
+    width: 995px;
+  }
+  .whitelist-sell-table .wh_table_wrp::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+  }
+  .whitelist-sell-table .wh_table_wrp::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #e9e9e9;
+    border-radius: 5px;
+  }
+  .whitelist-sell-table .wh_table_wrp::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 5px;
+  }
+  .whitelist-seller-inn .whitelist_pagination_wrp {
+    margin-bottom: 30px;
+  }
+}

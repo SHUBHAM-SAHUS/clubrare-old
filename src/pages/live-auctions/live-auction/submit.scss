@@ -1,0 +1,71 @@
+.btn_dropdown {
+  width: 100% !important;
+  display: unset;
+  vertical-align: unset;
+  min-height: unset;
+  border-radius: unset;
+  margin: 0;
+  padding: 10px 0;
+  text-align: left;
+  background-color: transparent !important;
+  border: 0 !important;
+  border: 2px solid #d9d9d6 !important;
+  border-radius: 8px;
+  color: #d9d9d6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background-image: url(https://d1gqvtt7oelrdv.cloudfront.net/assets/images/dropdown.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 12px 8px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  box-shadow: unset !important;
+  padding-left: 10px;
+}
+
+.placebid_input_wrp .btn-success:hover {
+  color: #202020;
+}
+.placebid_input_wrp.comn_site_dropdown .dropdown button {
+  color: #202020;
+  padding: 6px 16px;
+  background-position: right 10px center !important;
+  border: 2px solid #b2b3b0 !important;
+  border-radius: 8px;
+}
+.typetext {
+  font-size: 20px;
+  font-weight: 500;
+  color: #202020;
+  text-align: center;
+}
+.transfer_modal_style .tracking_number {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin-right: 3px;
+  max-height: 200px;
+  overflow: auto;
+  overflow-y: auto;
+  word-break: break-word;
+}
+.transfer_modal_style_inner {
+  // vertical-align: middle;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .tracking_number {
+    word-break: break-word;
+    max-width: 100%;
+  }
+  .hasidwrp {
+    // display: inline-block;
+    // vertical-align: middle;
+    // width: 15%;
+    min-width: 30px;
+  }
+}

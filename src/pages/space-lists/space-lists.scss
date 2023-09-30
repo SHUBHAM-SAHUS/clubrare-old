@@ -1,0 +1,193 @@
+.space-wrapper {
+  .sellsreport_heading {
+    margin-bottom: 16px;
+    h1 {
+      font-size: 34px;
+      line-height: 33px;
+      font-weight: 700;
+      color: #202020;
+
+      text-align: center;
+      margin-bottom: 42px;
+    }
+    .sellsreport_filter_wrp {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .sellsreport_filter_inner {
+        label {
+          &:nth-child(2) {
+            margin: 0 20px;
+          }
+          input {
+            border-bottom: 1px solid #d9d9d6;
+            padding: 0 7px;
+            color: #000;
+            font-size: 18px;
+            line-height: 20px;
+            &:focus {
+              width: unset;
+            }
+          }
+          select {
+            border: 1px solid #d9d9d6;
+            padding: 0 7px;
+            color: #000;
+            font-size: 18px;
+            line-height: 20px;
+            border-radius: 50px;
+            margin-left: 5px;
+          }
+        }
+        button {
+          margin: 0 20px;
+          border: 50px;
+          color: #141414;
+          background-color: #eeff05;
+          border-color: #eeff05;
+          border-radius: 2px solid;
+          border: 1px solid #d9d9d6 !important;
+        }
+      }
+    }
+    .search_box_wrp {
+      text-align: right;
+      max-width: unset;
+      width: 20%;
+      input {
+        width: 100%;
+        border-radius: 40px;
+        padding: 4px 50px 4px 16px !important;
+        border: 2px solid #b2b3b0;
+        outline: none;
+        background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/images/search.svg');
+        background-position: right 25px center;
+        background-repeat: no-repeat;
+        background-size: 17px 17px;
+        font-weight: 400;
+        &:hover {
+          border: 2px solid #202020;
+        }
+        &:focus {
+          background-color: #eff0ed;
+          color: #000;
+        }
+        &:focus::placeholder {
+          color: transparent !important;
+        }
+      }
+    }
+  }
+  .sells_repost_sec {
+    .table_striped_wrp {
+      overflow: auto;
+      overflow-y: auto;
+      max-height: 570px;
+      .table-striped {
+        text-align: center;
+        thead {
+          position: sticky;
+          top: -3px;
+          z-index: 1;
+          th {
+            background: #eee;
+          }
+        }
+        td,
+        th {
+          word-break: break-word;
+          width: 10%;          
+          &:nth-child(2),
+          &:nth-child(3){
+            width: 40%;
+          }          
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .space-wrapper {
+    .sellsreport_heading {
+      .sellsreport_filter_wrp {
+        .sellsreport_filter_inner {
+          label {
+            width: 100%;
+            margin: 0;
+            &:nth-child(2) {
+              margin: 10px 0;
+            }
+          }
+        }
+        .search_box_wrp {
+          width: 80%;
+          margin: 0 0 0 auto;
+          margin-top: 16px;
+        }
+      }
+    }
+  }
+  .sells_repost_sec {
+    overflow: auto;
+    overflow-x: auto;
+    .table_striped_wrp {
+      width: 1500px;
+      .table-striped {
+        thead,
+        tbody {
+        }
+      }
+      &::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #1b3142;
+        border-radius: 5px;
+      }
+
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #e9e9e9;
+        border-radius: 5px;
+      }
+    }
+  }
+} 
+
+@media only screen and (max-width: 649px) {
+  .space-wrapper {
+    .sellsreport_heading {
+      .sellsreport_filter_wrp {
+        display: unset;
+        .sellsreport_filter_inner {
+          label {
+            &:nth-child(2) {
+            }
+          }
+        }
+        .search_box_wrp {
+          width: 100%;
+          margin: 0 0 0 auto;
+          margin-top: 16px;
+        }
+      }
+    }
+  }
+  .space-wrapper
+    .sellsreport_heading
+    .sellsreport_filter_wrp
+    .sellsreport_filter_inner
+    label
+    input {
+    padding: 0 0 0 2px;
+  }
+}
+.styles-module_wrapper__1I_qj {
+  background-color: rgb(246 246 246/var(--tw-bg-opacity)) !important;
+  box-sizing: border-box !important;
+  --tw-backdrop-blur: blur(12px) !important;
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia) !important;
+  --tw-bg-opacity: 0.6 !important;
+  cursor: pointer;
+}

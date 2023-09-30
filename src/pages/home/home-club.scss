@@ -1,0 +1,609 @@
+@font-face {
+  font-family: "Helvetica Neue LT Pro 97 Black Condensed";
+  src: url("../../assets/fonts/620491a9813db417e6c08825173c562b.eot"); /* IE9*/
+  src: url("../../assets/fonts/620491a9813db417e6c08825173c562b.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../../assets/fonts/620491a9813db417e6c08825173c562b.woff2") format("woff2"),
+    /* chrome、firefox */ url("../../assets/fonts/620491a9813db417e6c08825173c562b.woff") format("woff"),
+    /* chrome、firefox */ url("../../assets/fonts/620491a9813db417e6c08825173c562b.ttf") format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("../../assets/fonts/620491a9813db417e6c08825173c562b.svg#Helvetica Neue LT Pro 97 Black Condensed")
+      format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTProBlkCn";
+  src: url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBlkCn.eot");
+  src: url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBlkCn.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBlkCn.woff2") format("woff2"),
+    url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBlkCn.woff") format("woff"),
+    url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-BlkCn.ttf") format("truetype"),
+    url("../../assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-BlkCn.svg#Helvetica Neue LT Pro")
+      format("svg");
+}
+.homenew header.header {
+  background-color: #f6f6f6;
+}
+.club_landingpage_wrp {
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 0;
+    font-family: "Rubik", sans-serif;
+  }
+  .club_landingpage_inn {
+    // background: #f6f6f6;
+
+    .container-fluid {
+      .row {
+        padding: 45px 0;
+        .club_landingpage_left {
+          padding-left: 70px;
+          h1 {
+            font-size: 64px;
+            line-height: 58px;
+            font-weight: 900;
+            margin-bottom: 11px;
+            text-transform: uppercase;
+            font-family: "Helvetica Neue LT Pro 97 Black Condensed";
+          }
+          p {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 35px;
+            span {
+              color: #eba013;
+            }
+          }
+          .clubbtn_wrp {
+            .culbbtn {
+              font-size: 14px;
+              line-height: 20px;
+              font-weight: 500;
+              background-color: #202020;
+              color: #fff;
+              cursor: pointer;
+              text-align: center;
+              padding: 8px 24px;
+              border-radius: 24px;
+              text-decoration: none;
+              border: 1px solid #202020;
+              margin-right: 15px;
+            }
+            .club_expbtn {
+              background-color: #fff;
+              color: #000;
+              &:hover {
+                background-color: #202020;
+                color: #fff;
+              }
+            }
+          }
+        }
+        .club_landingpage_right {
+          padding-right: 70px;
+        }
+      }
+    }
+  }
+}
+.eth_provider_wrp {
+  position: relative;
+  z-index: 1;
+  &::before {
+    content: "";
+    background-color: #f6f6f6;
+    background-image: url('https://d1gqvtt7oelrdv.cloudfront.net/assets/images/ethProviderStar.svg');
+    background-size: 396px 263px;
+    background-position: top -40px center;
+    background-repeat: no-repeat;
+    width: 396px;
+    height: 263px;
+    position: absolute;
+    top: -98px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: transparent;
+    z-index: -2;
+  }
+  .eth_provider_img_wrp {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    img {
+      margin: auto;
+      width: 215px;
+    }
+  }
+  .eth_provider_inner {
+    background-color: #000;
+    color: #fff;
+    // position: relative;
+    .close_img {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+    .eth_provider {
+      padding: 15px 0;
+      background-image: url("https://d1gqvtt7oelrdv.cloudfront.net/assets/images/eth_provider_back.svg");
+      background-size: contain;
+      background-position: top center;
+      background-repeat: no-repeat;
+      text-align: center;
+
+      .eth_provider_lft_wrp {
+        h1 {
+          font-weight: 900;
+          font-size: 24px;
+          line-height: 30px;
+          text-transform: uppercase;
+          font-family: "HelveticaNeueLTProBlkCn";
+        }
+      }
+      .eth_provider_right_wrp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-left: 8%;
+        h1 {
+          font-weight: 900;
+          font-size: 24px;
+          line-height: 30px;
+          font-family: "HelveticaNeueLTProBlkCn";
+          text-transform: uppercase;
+
+          color: #eeff05;
+        }
+        a {
+          font-weight: 900;
+          font-size: 14px;
+          line-height: 20px;
+          font-family: "HelveticaNeueLTProBlkCn";
+          text-transform: uppercase;
+          color: #000000;
+          background: #eeff05;
+          border-radius: 35px;
+          padding: 14px 28px;
+        }
+      }
+    }
+  }
+}
+.OpenSea_live_wrp {
+  position: relative;
+  z-index: 2;
+  .OpenSea_live_inner {
+    margin: 0;
+    h1 {
+      font-weight: 900;
+      font-size: 38px;
+      line-height: 35px;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+      font-family: "Helvetica Neue LT Pro 97 Black Condensed";
+    }
+    p {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      padding: 8px 0 0;
+    }
+    a {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 500;
+      cursor: pointer;
+      text-align: center;
+      padding: 8px 24px;
+      border-radius: 24px;
+      text-decoration: none;
+      border: 2px solid;
+      margin: 8px 8px 0 0;
+      display: inline-block;
+    }
+    .container-fluid {
+      max-width: 720px;
+      padding: 0 32px;
+    }
+    .OpenSea_live_lft_wrp {
+      background-image: url("../../assets/images/home_latest_drops.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 32px 0;
+      .container-fluid {
+        margin-right: 0 !important;
+        h1,
+        p {
+          color: #ffffff;
+        }
+        a.elegiblity {
+          color: #141414;
+          background-color: #eeff05;
+          border-color: #eeff05;
+        }
+        a.discord {
+          color: #f6f6f6;
+          background-color: transparent;
+          border-color: #f6f6f6;
+        }
+      }
+    }
+    .OpenSea_live_right_wrp {
+      background-color: #eeff05;
+      padding: 32px 0;
+      .container-fluid {
+        margin-left: 0 !important;
+        h1,
+        p {
+          color: #141414;
+        }
+        a {
+          color: #141414;
+          background-color: transparent;
+          border-color: #141414;
+        }
+      }
+    }
+  }
+}
+.club_landingpage_left.club_landingpage_left_responsive {
+  display: none;
+}
+.clubbtn_wrp.clubbtn_wrp_responsive {
+  display: none;
+}
+.newhome_page_wrp .topcollection_head .dropdown-menu,
+.newhome_page_wrp .mostview_wrp .dropdown-menu {
+  right: 0 !important;
+  left: unset !important;
+  transform: unset !important;
+  top: 100% !important;
+  bottom: unset !important;
+}
+
+// responsive
+@media only screen and (max-width: 1200px) {
+  .OpenSea_live_wrp .OpenSea_live_inner a {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 8px 18px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  // .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left{
+  //     padding-left: 15px;
+  // }
+  .club_landingpage_wrp {
+    .club_landingpage_inn {
+      br {
+        display: none;
+      }
+      .container-fluid {
+        .row {
+          .club_landingpage_left {
+            padding: 30px 0 50px 36px !important;
+            padding-left: unset;
+            margin-top: 20px;
+            h1 {
+            }
+          }
+        }
+      }
+    }
+  }
+  .OpenSea_live_wrp {
+    .OpenSea_live_inner {
+      .container-fluid {
+        padding: 0 15px;
+      }
+      .OpenSea_live_right_wrp {
+        margin-left: unset !important;
+      }
+      .OpenSea_live_lft_wrp {
+        margin-right: unset !important;
+      }
+    }
+  }
+  .newhome_page_wrp .topcollection_head .dropdown-menu {
+    right: unset !important;
+  }
+
+  .OpenSea_live_wrp .container-fluid {
+    padding: 0 36px;
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+  .club_landingpage_wrp {
+    .club_landingpage_inn {
+      .container-fluid {
+        .row {
+          .club_landingpage_right {
+            padding: 0 15px;
+            img {
+              width: 70% !important;
+              margin: 0 auto;
+              height: auto !important;
+            }
+          }
+          .club_landingpage_left {
+            padding: 0 15px !important;
+            padding-left: unset;
+          }
+        }
+      }
+    }
+  }
+  .OpenSea_live_wrp {
+    .OpenSea_live_inner {
+      .OpenSea_live_right_wrp {
+        max-width: 100%;
+        flex: unset;
+        .container-fluid {
+          max-width: 96%;
+          margin-left: auto !important;
+        }
+      }
+      .OpenSea_live_lft_wrp {
+        max-width: 100%;
+        flex: unset;
+        .container-fluid {
+          margin-right: auto !important;
+          max-width: 96%;
+        }
+      }
+    }
+  }
+} /* 980 */
+@media only screen and (max-width: 991px) {
+  .eth_provider_wrp {
+    &::before {
+      content: unset;
+    }
+    .eth_provider_img_wrp {
+      display: none;
+    }
+    .eth_provider_inner {
+        background-image: url("https://d1gqvtt7oelrdv.cloudfront.net/assets/images/ethProviderImg.svg"), url("https://d1gqvtt7oelrdv.cloudfront.net/assets/images/ethProviderStar.svg"),
+        url("https://d1gqvtt7oelrdv.cloudfront.net/assets/images/eth_provider_mobile_back.svg");
+      background-repeat: no-repeat;
+      background-position: right -3% bottom, right -32% bottom 68%, right bottom;
+      background-size: 20%, 43%, 100%;
+      background-repeat: no-repeat;
+      padding: 15px 0;
+
+      .close_img {
+      }
+      .eth_provider {
+        background-image: unset;
+        text-align: left;
+        .eth_provider_lft_wrp {
+          h1 {
+          }
+        }
+        .eth_provider_right_wrp {
+          justify-content: flex-start;
+          padding-left: 15px;
+          h1 {
+          }
+          a {
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 979px) {
+  .OpenSea_live_wrp .container-fluid .opensea_imgwrp p br {
+    display: block;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .OpenSea_live_wrp {
+    margin-top: unset;
+  }
+  .landing_pg_mobile {
+    padding: unset !important;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left {
+    margin-top: unset;
+  }
+  .landingpg_col_inn .Community_own p br {
+    display: none;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left h1 {
+    font-size: 58px;
+    line-height: 58px;
+    padding-right: 16%;
+  }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .club_landingpage_wrp .col-lg-5.club_landingpage_left {
+    background-color: #202020;
+    border-radius: 16px;
+    width: 94%;
+    top: 16%;
+    padding: 15px !important;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left h1 {
+    font-size: 45px;
+    line-height: 45px;
+    padding-right: 10%;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding-right: 27%;
+  }
+  .club_landingpage_left.club_landingpage_left_responsive {
+    display: block;
+  }
+  .club_landingpage_right .clubbtn_wrp.clubbtn_wrp_responsive {
+    display: block;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_right {
+    display: block;
+    padding: 0;
+    max-width: 100%;
+  }
+  .club_landingpage_left.club_landingpage_left_responsive {
+    width: 100%;
+    padding: 0 15px;
+    padding-top: 0 !important;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left .clubbtn_wrp .culbbtn {
+    width: 100%;
+    margin: 16px 0;
+  }
+  button.culbbtn {
+    margin: 6px 0;
+  }
+  .OpenSea_live_wrp .container-fluid .opensea_imgwrp figure {
+    width: 7%;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_right img {
+    width: 90% !important;
+    margin: 0 auto;
+    height: auto !important;
+  }
+  .club_landingpage_left .clubbtn_wrp .culbbtn {
+    width: 100%;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left .Community_own img {
+    width: 9%;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left .Community_own p {
+    width: 91%;
+  }
+  .club_landingpage_left .landingpg_col_inn .clubbtn_wrp .club_crtbtn {
+    display: none;
+    margin: unset;
+  }
+  .club_landingpage_left .landingpg_col_inn .Community_own p {
+    padding-right: unset;
+  }
+  .opensea_imgwrp .opensea_btnwrp button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .OpenSea_live_wrp .container-fluid .col-lg-6.text-right img {
+    display: none;
+  }
+  .club_landingpage_inn .container-fluid .row .club_landingpage_left .Community_own p {
+    padding-right: 0;
+  }
+  .OpenSea_live_wrp {
+    background-color: #fadf64;
+    margin-top: unset;
+  }
+  .OpenSea_live_wrp .container-fluid .opensea_imgwrp {
+    padding: 15px 0 15px;
+  }
+  .OpenSea_live_wrp .container-fluid .opensea_imgwrp p br {
+    display: none;
+  }
+  .club_landingpage_wrp .club_landingpage_inn {
+    padding-top: 10px;
+  }
+  .newhome_page_wrp .slick-slide.slick-active.slick-current {
+    margin-left: 75px;
+  }
+  .live_auction_main .slick-slide.slick-active.slick-current {
+    margin-left: 0;
+  }
+  .Latest_Drops_main .flex .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row {
+    padding: 25px 0;
+  }
+  .eth_provider_wrp {
+    .eth_provider_img_wrp {
+    }
+    .eth_provider_inner {
+      // background-size:43% 51%, 55% 98%, 100%;
+      background-size: 51% 56%, 57% 100%, 100%;
+      background-position: right -14% bottom, right -49% bottom 67%, right bottom;
+      .close_img {
+      }
+      .eth_provider {
+        .eth_provider_lft_wrp {
+          h1 {
+            font-size: 22px;
+            line-height: 28px;
+          }
+        }
+        .eth_provider_right_wrp {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 15px;
+          h1 {
+            font-size: 24px;
+            line-height: 30px;
+          }
+          a {
+          }
+        }
+      }
+    }
+  }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left p,
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left h1 {
+    padding-right: 0;
+  }
+  .club_landingpage_wrp .col-lg-5.club_landingpage_left {
+    width: 92%;
+  }
+  .newhome_page_wrp .slick-slide.slick-active.slick-current {
+    margin-left: 60px;
+  }
+  .live_auction_main .slick-slide.slick-active.slick-current {
+    margin-left: 0;
+  }
+  .OpenSea_live_wrp .OpenSea_live_inner h1 {
+  }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left h1 {
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .club_landingpage_wrp .club_landingpage_inn .container-fluid .row .club_landingpage_left p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .club_landingpage_wrp .col-lg-5.club_landingpage_left {
+    width: 90%;
+  }
+  .OpenSea_live_wrp .container-fluid .opensea_imgwrp h2 {
+    width: 87%;
+  }
+  .OpenSea_live_wrp .container-fluid .opensea_imgwrp figure {
+    width: 10%;
+  }
+  .newhome_page_wrp .slick-slide.slick-active.slick-current {
+    margin-left: 50px;
+  }
+  .live_auction_main .slick-slide.slick-active.slick-current {
+    margin-left: 0;
+  }
+  .OpenSea_live_wrp .OpenSea_live_inner a {
+    margin: 15px 5px 0 0;
+  }
+} /* 320 */
